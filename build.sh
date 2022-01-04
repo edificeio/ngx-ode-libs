@@ -1,16 +1,18 @@
 #!/bin/bash
 
-if [ "$#" -gt 2 ]; then
+if [ "$#" -gt 3 ]; then
   echo "Usage: $0 <clean|init|build|publish> <lib>"
   echo "Example: $0 clean"
   echo "Example: $0 init"
   echo "Example: $0 build ngx-ode-core"
+  echo "Example: $0 buildAndCopy ngx-ode-core ../entcore/admin/src/main/ts/node_modules"
   echo "Example: $0 publish ngx-ode-core"
   exit 1
 fi
 
-action=$1
-lib=$2
+ACTION=$1
+LIB=$2
+COPY_DEST=$3
 
 if [ ! -e node_modules ]
 then
@@ -32,15 +34,19 @@ init () {
 }
 
 build () {
-  docker-compose run --rm -u "$USER_UID:$GROUP_GID" node sh -c "npm run build-$lib"
+  docker-compose run --rm -u "$USER_UID:$GROUP_GID" node sh -c "npm run build-$LIB"
+}
+
+buildAndCopy () {
+  docker-compose run --rm -u "$USER_UID:$GROUP_GID" node sh -c "npm run build-$LIB && cp -r dist/$LIB $COPY_DEST"
 }
 
 publish () {
   LOCAL_BRANCH=`echo $GIT_BRANCH | sed -e "s|origin/||g"`
-  docker-compose run --rm -u "$USER_UID:$GROUP_GID" node sh -c "cd dist/$lib && npm publish --tag $LOCAL_BRANCH"
+  docker-compose run --rm -u "$USER_UID:$GROUP_GID" node sh -c "cd dist/$LIB && npm publish --tag $LOCAL_BRANCH"
 }
 
-case $action in
+case $ACTION in
   clean)
     clean
     ;;
@@ -50,9 +56,12 @@ case $action in
   build)
     build
     ;;
+  buildAndCopy)
+    buildAndCopy
+    ;;
   publish)
     publish
     ;;
   *)
-    echo "Invalid argument : $action"
+    echo "Invalid argument : $ACTION"
 esac

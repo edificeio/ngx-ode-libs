@@ -5,5 +5,7 @@ node:
   volumes:
     - ./:/home/node/app
     - ~/.npm:/.npm
+    - ../entcore:/home/node/entcore
+    - ../crm:/home/node/crm
   environment:
     - NG_CLI_ANALYTICS=false
