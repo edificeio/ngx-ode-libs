@@ -15,6 +15,7 @@ export * from './lib/components/item-tree/item-tree.component';
 export * from './lib/components/lightbox/lightbox.component';
 export * from './lib/components/lightbox-confirm/lightbox-confirm.component';
 export * from './lib/components/list/list.component';
+export * from './lib/components/list-checkable/list-checkable.component';
 export * from './lib/components/message-box/message-box.component';
 export * from './lib/components/message-sticker/message-sticker.component';
 export * from './lib/components/mono-select/mono-select.component';

@@ -11,6 +11,7 @@ import { ItemTreeComponent } from './components/item-tree/item-tree.component';
 import { LightBoxComponent } from './components/lightbox/lightbox.component';
 import { LightboxConfirmComponent } from './components/lightbox-confirm/lightbox-confirm.component';
 import { ListComponent } from './components/list/list.component';
+import { ListCheckableComponent } from './components/list-checkable/list-checkable.component';
 import { MonoSelectComponent } from './components/mono-select/mono-select.component';
 import { MultiSelectComponent } from './components/multi-select/multi-select.component';
 import { MultiComboComponent } from './components/multi-combo/multi-combo.component';
@@ -56,6 +57,7 @@ import { LengthPipe } from './pipes/length.pipe';
     LightBoxComponent,
     LightboxConfirmComponent,
     ListComponent,
+    ListCheckableComponent,
     MonoSelectComponent,
     MultiSelectComponent,
     MultiComboComponent,
@@ -107,6 +109,7 @@ import { LengthPipe } from './pipes/length.pipe';
     LightBoxComponent,
     LightboxConfirmComponent,
     ListComponent,
+    ListCheckableComponent,
     MonoSelectComponent,
     MultiSelectComponent,
     MultiComboComponent,

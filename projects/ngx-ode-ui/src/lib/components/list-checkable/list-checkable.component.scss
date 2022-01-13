@@ -1,0 +1,47 @@
+ul {
+  margin: 0;
+  padding: 0px;
+  font-size: 0.9em;
+}
+
+ul li {
+  border-top: 1px solid #ddd;
+  width: -webkit-fill-available;
+  width: -moz-available;
+  display: flex;
+}
+
+ul li:not(.checked) {
+  color: #939393;
+}
+
+ul li.disabled {
+  pointer-events: none;
+}
+
+ul li.select-all {
+  background-color: #ff83520a;
+  color: #5b6472;
+}
+ul li.select-all span {
+  text-align: right;
+}
+
+ul li label {
+  cursor: pointer;
+  width: 100%;
+  display: flex;
+}
+ul li label:hover {
+  background-color: #eaedf2;
+}
+
+ul li label span {
+  padding: 7px 15px;
+  width: 100%;
+}
+
+ul li label input[type=checkbox] {
+    margin-right: 15px;
+    align-self: center;                
+}

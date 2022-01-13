@@ -1,0 +1,38 @@
+<div class="list-checkable-wrapper"
+     infiniteScroll
+     [scrollWindow]="false"
+     (scrolled)="scrolledDown.emit()"
+     [infiniteScrollThrottle]="50">
+
+  <ul *ngIf="storedElements && storedElements.length === 0">
+    <li class="no-results"><span>{{ noResultsLabel | translate }}</span></li>
+  </ul>
+  
+  <ul>
+    <li class="select-all" 
+        [class.checked]="areAllChecked()"
+        *ngIf="!readOnly">
+      <label>
+        <span>{{(areAllChecked() ? 'ux.multiselect.deselect-all' : 'ux.multiselect.select-all') | translate}}</span>
+        <input type="checkbox" [checked]="areAllChecked()" (change)="toggleAll($event.target.checked)" />
+      </label>
+    </li>
+
+    <li class="lct-list-checkable-item" 
+        [class.checked]="isChecked(item)"
+        [class.disabled]="isDisabled(item)"
+        [ngClass]="ngClass(item)"
+        *ngFor="let item of model | filter: filters | store:self:'storedElements' | orderBy: sort | slice: 0:limit">
+      <label>
+        <span>
+          <ng-template [ngTemplateOutlet]="templateRef" [ngTemplateOutletContext]="{$implicit: item}"></ng-template>        
+        </span>
+        <input *ngIf="!readOnly" type="checkbox" 
+              [disabled]="isDisabled(item)"
+              [checked]="isChecked(item)"
+              (change)="onCheck.emit({item:item, checked:$event.target.checked})"/>
+      </label>
+    </li>
+  </ul>
+
+</div>
