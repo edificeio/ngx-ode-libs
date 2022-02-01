@@ -1,0 +1,20 @@
+:host .search {
+  &-container {
+    margin: 0;
+    display: flex;
+  }
+
+  &-input {
+    border: 1px solid rgba(0, 0, 0, 0.1);
+  }
+
+  &-icon {
+    padding-left: 0;
+  }
+
+  &-button {
+    margin: 0;
+    background: #ff8352;
+    color: white;
+  }
+}

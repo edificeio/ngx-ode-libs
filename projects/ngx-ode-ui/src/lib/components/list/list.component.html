@@ -1,4 +1,8 @@
-<ode-search-input *ngIf="searchInput" [attr.placeholder]="searchPlaceholder | translate" (onChange)="inputChange.emit($event)"></ode-search-input>
+<ode-search-input
+  [searchInput]="searchInput"
+  [onSearchSubmit]="onSearchSubmit"
+  [attr.placeholder]="searchPlaceholder | translate"
+  (onChange)="inputChange.emit($event)"></ode-search-input>
 <div class="toolbar">
   <ng-content select="[toolbar]"></ng-content>
 </div>

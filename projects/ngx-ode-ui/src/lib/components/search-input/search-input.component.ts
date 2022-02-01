@@ -6,7 +6,8 @@ import {debounceTime, distinctUntilChanged} from 'rxjs/operators';
 
 @Component({
     selector: 'ode-search-input',
-    templateUrl: './search-input.component.html'
+    templateUrl: './search-input.component.html',
+    styleUrls: ['./search-input.component.scss']
 })
 export class SearchInputComponent extends OdeComponent implements OnInit, OnDestroy {
 
@@ -17,7 +18,8 @@ export class SearchInputComponent extends OdeComponent implements OnInit, OnDest
     }
 
     /* Inputs / Outputs / View */
-
+    @Input() searchInput: boolean = false;
+    @Input() onSearchSubmit: () => void;
     @Input() set delay(d: number) {
         this._delay = d;
         this.observable = this.$searchTerms.pipe(debounceTime(this.delay), distinctUntilChanged());
