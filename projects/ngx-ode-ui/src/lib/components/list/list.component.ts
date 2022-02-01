@@ -29,7 +29,7 @@ export class ListComponent extends OdeComponent {
     @Input() searchPlaceholder = 'search';
     @Input() noResultsLabel = 'list.results.no.items';
     @Input() searchInput: boolean = false;
-    @Input() onSearchSubmit: () => void;
+    @Input() searchSubmit: () => void;
 
     @Output() inputChange: EventEmitter<string> = new EventEmitter<string>();
     @Output() onSelect: EventEmitter<any> = new EventEmitter();

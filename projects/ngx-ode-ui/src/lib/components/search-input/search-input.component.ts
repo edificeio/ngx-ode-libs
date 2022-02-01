@@ -19,7 +19,7 @@ export class SearchInputComponent extends OdeComponent implements OnInit, OnDest
 
     /* Inputs / Outputs / View */
     @Input() searchInput: boolean = false;
-    @Input() onSearchSubmit: () => void;
+    @Input() searchSubmit: () => void;
     @Input() set delay(d: number) {
         this._delay = d;
         this.observable = this.$searchTerms.pipe(debounceTime(this.delay), distinctUntilChanged());
