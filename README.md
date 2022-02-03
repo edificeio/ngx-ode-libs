@@ -36,4 +36,4 @@ ng serve is not working for the lib. To build and deploy your modifications to y
 
 Example:
 - ng build ngx-ode-ui
-- cp -r dist/ngx-ode-ui ../entcore/admin/src/main/ts/node_modules/ngx-ode-ui
+- cp -r dist/ngx-ode-ui ../entcore/admin/src/main/ts/node_modules
