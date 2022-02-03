@@ -28,6 +28,7 @@ export class ListComponent extends OdeComponent {
     @Input() limit: number;
     @Input() searchPlaceholder = 'search';
     @Input() noResultsLabel = 'list.results.no.items';
+    @Input() isSearchActive = true;
     @Input() searchInput: boolean = false;
     @Input() searchSubmit: () => void;
 

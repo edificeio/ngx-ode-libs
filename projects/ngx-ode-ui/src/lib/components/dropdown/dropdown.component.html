@@ -1,0 +1,8 @@
+<div class="dropdown" [ngClass]="isDropdownOpened ? 'open' : ''">
+  <button (click)="onDropdown.emit()" class="dropdown-trigger">
+    <span class="cell-ellipsis">{{ name }}</span> <i class="fonticon arrow-select"></i>
+  </button>
+  <div class="dropdown-list">
+    <ng-content></ng-content>
+  </div>
+</div>

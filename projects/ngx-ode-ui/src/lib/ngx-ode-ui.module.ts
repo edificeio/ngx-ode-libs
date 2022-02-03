@@ -46,6 +46,7 @@ import { EllipsisComponent } from './components/ellipsis/ellipsis.component';
 import { KeysPipe } from './pipes/keys.pipe';
 import { ObjectURLDirective } from './directives/object-url.directive';
 import { LengthPipe } from './pipes/length.pipe';
+import { DropdownComponent } from './components/dropdown/dropdown.component';
 
 @NgModule({
   declarations: [
@@ -92,7 +93,8 @@ import { LengthPipe } from './pipes/length.pipe';
     LocalizedDatePipe,
     BytesPipe,
     KeysPipe,
-    LengthPipe
+    LengthPipe,
+    DropdownComponent
   ],
   imports: [
     CommonModule,
@@ -129,6 +131,7 @@ import { LengthPipe } from './pipes/length.pipe';
     SpinnerCubeComponent,
     PagerComponent,
     EllipsisComponent,
+    DropdownComponent,
     // directives
     AnchorDirective,
     DynamicTemplateDirective,
