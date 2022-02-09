@@ -1,16 +1,15 @@
 <form
-    *ngIf="searchInput"
     class="search-container"
-    (ngSubmit)="searchSubmit()">
+    (ngSubmit)="searchInput && searchSubmit()">
     <input
         #searchBox
         class="search-input"
         name="searchTerm"
         type="search"
         (input)="search(searchBox.value)" />
-    <button class="search-button">
+    <button class="search-button" *ngIf="searchInput">
         <i class="fa fa-search is-size-4 search-icon"></i>
     </button>
 </form>
 
-<input *ngIf="!searchInput" type="search" #searchBox (input)="search(searchBox.value)"/>
+<!-- <input *ngIf="!searchInput" type="search" #searchBox (input)="search(searchBox.value)"/> -->
