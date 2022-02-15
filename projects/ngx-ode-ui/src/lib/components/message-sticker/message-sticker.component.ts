@@ -14,7 +14,7 @@ export class MessageStickerComponent extends OdeComponent implements OnInit {
     @Input() header: string;
     @Input() messages: (string | [string, {}])[];
     @Input() gravity: 'left' | 'right' = 'left';
-    @ViewChild(DynamicComponentDirective, { static: false }) dComponent: DynamicComponentDirective;
+    @ViewChild(DynamicComponentDirective) dComponent: DynamicComponentDirective;
 
     readonly icons = icons;
 

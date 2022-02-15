@@ -153,7 +153,7 @@ import { DropdownComponent } from './components/dropdown/dropdown.component';
   entryComponents: [SimpleSelectComponent, MessageBoxComponent]
 })
 export class NgxOdeUiModule {
-  static forRoot(labelsProvider: Provider): ModuleWithProviders {
+  static forRoot(labelsProvider: Provider): ModuleWithProviders<NgxOdeUiModule> {
     return {
       ngModule: NgxOdeUiModule,
       providers: [
@@ -163,7 +163,7 @@ export class NgxOdeUiModule {
     };
   }
 
-  static forChild(): ModuleWithProviders {
+  static forChild(): ModuleWithProviders<NgxOdeUiModule> {
     return {
         ngModule: NgxOdeUiModule,
         providers: []

@@ -13,7 +13,7 @@ export class S5lComponent implements AfterViewInit, DoCheck {
 
     constructor(private bundlesService: BundlesService) {}
 
-    @ViewChild('wrapper', { static: false }) wrapperRef: ElementRef;
+    @ViewChild('wrapper') wrapperRef: ElementRef;
 
     private value: string;
     private loaded: boolean;

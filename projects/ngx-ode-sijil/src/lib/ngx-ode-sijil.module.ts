@@ -15,7 +15,7 @@ import { FragmentsParser } from './services/parser/fragments.parser';
   exports: [S5lComponent, TranslatePipe]
 })
 export class NgxOdeSijilModule {
-  static forRoot(require?: Type<RequireService>, parser?: Type<Parser>, options?: SijilOpts): ModuleWithProviders {
+  static forRoot(require?: Type<RequireService>, parser?: Type<Parser>, options?: SijilOpts): ModuleWithProviders<NgxOdeSijilModule> {
     return {
         ngModule: NgxOdeSijilModule,
         providers: [
@@ -27,7 +27,7 @@ export class NgxOdeSijilModule {
     };
   }
 
-  static forChild(): ModuleWithProviders {
+  static forChild(): ModuleWithProviders<NgxOdeSijilModule> {
     return {
         ngModule: NgxOdeSijilModule,
         providers: []

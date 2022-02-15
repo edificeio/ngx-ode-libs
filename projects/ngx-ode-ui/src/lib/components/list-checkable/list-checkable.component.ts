@@ -48,7 +48,7 @@ export class ListCheckableComponent extends OdeComponent {
     @Output() listChange: EventEmitter<any> = new EventEmitter();
     @Output() scrolledDown: EventEmitter<void> = new EventEmitter();
 
-    @ContentChild(TemplateRef, {static: false}) templateRef: TemplateRef<any>;
+    @ContentChild(TemplateRef) templateRef: TemplateRef<any>;
 
     @Input() areAllChecked = () => false;
     @Input() isChecked = (arg?: any) => false;
