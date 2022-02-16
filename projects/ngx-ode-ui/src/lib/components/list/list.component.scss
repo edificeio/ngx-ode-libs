@@ -1,15 +1,60 @@
 ul {
+  list-style: none;
   margin: 0;
-  padding: 0px;
-  font-size: 0.9em;
+  padding: 0;
+  font-size: 14px;
+  background-color: #fff;
+
+  li {
+    cursor: pointer;
+    border-top: 1px solid #ddd;
+    padding: 10px;
+
+    &.disabled {
+      pointer-events: none;
+    }
+  }
 }
 
-ul li {
-  cursor: pointer;
-  border-top: 1px solid #ddd;
-  padding: 10px 10px;
+.loading-item {
+  height: 3rem;
+  width: 100%;
+  background: white;
+  display: flex;
+  align-items: center;
+  line-height: 1rem;
+  padding-left: 16px;
 }
-
-ul li.disabled {
-  pointer-events: none;
+.loading-item .glow-checkbox,
+.loading-item .glow-text span {
+  animation: glow 1.5s ease-in-out infinite;
+  background: #eee;
+  color: transparent;
+  cursor: progress;
+  display: inline-block;
+}
+.loading-item .glow-checkbox {
+  margin-right: 16px;
+  width: 12px;
+  height: 12px;
+}
+.loading-item + .loading-item {
+  border-top: 1px solid #f0f9fb;
+}
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(359deg);
+  }
+}
+@keyframes glow {
+  0%,
+  100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.5;
+  }
 }

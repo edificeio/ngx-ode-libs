@@ -1,5 +1,5 @@
 <div class="dropdown" [ngClass]="isDropdownOpened ? 'open' : ''">
-  <button (click)="onDropdown.emit()" class="dropdown-trigger">
+  <button (click)="onToggleDropdown()" class="dropdown-trigger">
     <span class="cell-ellipsis">{{ name }}</span>
     <i class="fonticon arrow-select"></i>
   </button>
