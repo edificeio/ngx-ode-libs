@@ -5068,7 +5068,7 @@
         },
         {
             "name": "DropdownComponent",
-            "id": "component-DropdownComponent-1843b7b8bd142e3958605eb929fe363702565d7bf6899ffc554740b5df03850c1f45e54e762ed4685f250dcb3144cb16a8ca25aacb8bbc59b122a92dea063741-1",
+            "id": "component-DropdownComponent-ac7a80b31316df1f28b2886a7c05d7e2ac3deabd4dc8768fad1ac520efdb918b84e21b86517613657cea49d32d714bab0b56fe4689fdfce05bb8f499ddb163f1-1",
             "file": "projects/ngx-ode-ui/src/lib/components/dropdown/dropdown.component.ts",
             "encapsulation": [],
             "entryComponents": [],
@@ -5090,8 +5090,17 @@
                     "defaultValue": "false",
                     "deprecated": false,
                     "deprecationMessage": "",
-                    "line": 49,
+                    "line": 50,
                     "type": "boolean",
+                    "decorators": []
+                },
+                {
+                    "name": "model",
+                    "defaultValue": "[]",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "line": 49,
+                    "type": "{}",
                     "decorators": []
                 },
                 {
@@ -5110,7 +5119,7 @@
                     "defaultValue": "new EventEmitter<void>()",
                     "deprecated": false,
                     "deprecationMessage": "",
-                    "line": 51,
+                    "line": 52,
                     "type": "EventEmitter<void>"
                 }
             ],
@@ -5123,7 +5132,7 @@
             "description": "",
             "rawdescription": "\n",
             "type": "component",
-            "sourceCode": "import {\n  Component,\n  OnInit,\n  Input,\n  Output,\n  EventEmitter,\n  Injector,\n} from \"@angular/core\";\nimport { OdeComponent } from \"ngx-ode-core\";\n\n@Component({\n  selector: \"ode-dropdown\",\n  templateUrl: \"./dropdown.component.html\",\n  styleUrls: [\"./dropdown.component.scss\"],\n})\nexport class DropdownComponent {\n  @Input() name: string = \"\";\n  @Input() isDropdownOpened: boolean = false;\n\n  @Output() onDropdown: EventEmitter<void> = new EventEmitter<void>();\n}\n",
+            "sourceCode": "import {\n  Component,\n  OnInit,\n  Input,\n  Output,\n  EventEmitter,\n  Injector,\n} from \"@angular/core\";\nimport { OdeComponent } from \"ngx-ode-core\";\n\n@Component({\n  selector: \"ode-dropdown\",\n  templateUrl: \"./dropdown.component.html\",\n  styleUrls: [\"./dropdown.component.scss\"],\n})\nexport class DropdownComponent {\n  @Input() name: string = \"\";\n  @Input() model = [];\n  @Input() isDropdownOpened: boolean = false;\n\n  @Output() onDropdown: EventEmitter<void> = new EventEmitter<void>();\n}\n",
             "assetsDirs": [],
             "styleUrlsData": [
                 {
@@ -21290,7 +21299,7 @@
                 "name": "context",
                 "ctype": "miscellaneous",
                 "subtype": "variable",
-                "file": "projects/ngx-ode-ui/src/test.ts",
+                "file": "projects/ngx-ode-sijil/src/test.ts",
                 "deprecated": false,
                 "deprecationMessage": "",
                 "type": "",
@@ -21300,7 +21309,7 @@
                 "name": "context",
                 "ctype": "miscellaneous",
                 "subtype": "variable",
-                "file": "projects/ngx-ode-sijil/src/test.ts",
+                "file": "projects/ngx-ode-ui/src/test.ts",
                 "deprecated": false,
                 "deprecationMessage": "",
                 "type": "",
@@ -21324,7 +21333,7 @@
                 "deprecated": false,
                 "deprecationMessage": "",
                 "type": "Story<DropdownComponent>",
-                "defaultValue": "(args: DropdownComponent) => ({\n  props: { ...args },\n  template: `\n  <ode-dropdown \n  name=\"${args.name}\"\n  [isDropdownOpened]=\"${args.isDropdownOpened}\">\n    <ng-container *ngIf=\"isDropdownOpened\">Contenu ouvert!</ng-container>\n  </ode-dropdown>\n  `,\n})"
+                "defaultValue": "(args: DropdownComponent) => ({\n  props: { ...args },\n  template: `\n  <ode-dropdown \n  name=\"${args.name}\"\n  [isDropdownOpened]=\"${args.isDropdownOpened}\">\n    <ode-list\n      [model]=\"model\">\n      <ng-template let-item>\n        <div>{{ item.title }}</div>\n      </ng-template>\n    </ode-list>\n  </ode-dropdown>\n  `,\n})"
             },
             {
                 "name": "defaultDiacriticsRemovalMap",
@@ -21344,7 +21353,7 @@
                 "deprecated": false,
                 "deprecationMessage": "",
                 "type": "Story<ListComponent>",
-                "defaultValue": "(args: ListComponent) => ({\n  props: { ...args },\n  template: `\n    <ode-list\n    [model]=\"${args.model}\">\n      <ng-template let-item>\n        <div>{{ item.title }}</div>\n      </ng-template>\n    </ode-list>`,\n})"
+                "defaultValue": "(args: ListComponent) => ({\n  props: { ...args },\n  template: `\n    <ode-list\n    [model]=\"model\">\n      <ng-template let-item>\n        <div>{{ item.title }}</div>\n      </ng-template>\n    </ode-list>`,\n})"
             },
             {
                 "name": "defaultSijilOpts",
@@ -21364,7 +21373,7 @@
                 "deprecated": false,
                 "deprecationMessage": "",
                 "type": "Story<ListComponent>",
-                "defaultValue": "(args: ListComponent) => ({\n  props: { ...args },\n  template: `\n    <ode-list\n    [model]=\"${args.model}\">\n      <ng-template let-item>\n        <div>{{ item.title }}</div>\n      </ng-template>\n    </ode-list>`,\n})"
+                "defaultValue": "(args: ListComponent) => ({\n  props: { ...args },\n  template: `\n    <ode-list\n    [model]=\"model\">\n      <ng-template let-item>\n        <div>{{ item.title }}</div>\n      </ng-template>\n    </ode-list>`,\n})"
             },
             {
                 "name": "icons",
@@ -21394,7 +21403,7 @@
                 "deprecated": false,
                 "deprecationMessage": "",
                 "type": "Story<ListComponent>",
-                "defaultValue": "(args: ListComponent) => ({\n  props: { ...args },\n  template: `\n    <ode-list\n      [model]=\"${args.model}\"\n      [loading]=\"${args.loading}\">\n      <ng-template let-item>\n        <div>{{ item.title }}</div>\n      </ng-template>\n    </ode-list>`,\n})"
+                "defaultValue": "(args: ListComponent) => ({\n  props: { ...args },\n  template: `\n    <ode-list\n      [model]=\"model\"\n      [loading]=\"${args.loading}\">\n      <ng-template let-item>\n        <div>{{ item.title }}</div>\n      </ng-template>\n    </ode-list>`,\n})"
             },
             {
                 "name": "LoggedIn",
@@ -21454,7 +21463,7 @@
                 "deprecated": false,
                 "deprecationMessage": "",
                 "type": "Story<DropdownComponent>",
-                "defaultValue": "(args: DropdownComponent) => ({\n  props: args,\n  template: `\n    <ode-dropdown \n      name=\"${args.name}\"\n      [isDropdownOpened]=\"${args.isDropdownOpened}\">\n        <ng-container *ngIf=\"isDropdownOpened\">Contenu ouvert!</ng-container>\n      </ode-dropdown>\n  `,\n})"
+                "defaultValue": "(args: DropdownComponent) => ({\n  props: args,\n  template: `\n    <ode-dropdown \n      name=\"${args.name}\"\n      [isDropdownOpened]=\"${args.isDropdownOpened}\">\n        <ode-list\n          [model]=\"model\">\n          <ng-template let-item>\n            <div>{{ item.title }}</div>\n          </ng-template>\n        </ode-list>\n      </ode-dropdown>\n  `,\n})"
             },
             {
                 "name": "Primary",
@@ -21499,7 +21508,7 @@
                 "name": "require",
                 "ctype": "miscellaneous",
                 "subtype": "variable",
-                "file": "projects/ngx-ode-ui/src/test.ts",
+                "file": "projects/ngx-ode-sijil/src/test.ts",
                 "deprecated": false,
                 "deprecationMessage": "",
                 "type": "any"
@@ -21508,7 +21517,7 @@
                 "name": "require",
                 "ctype": "miscellaneous",
                 "subtype": "variable",
-                "file": "projects/ngx-ode-sijil/src/test.ts",
+                "file": "projects/ngx-ode-ui/src/test.ts",
                 "deprecated": false,
                 "deprecationMessage": "",
                 "type": "any"
@@ -21537,21 +21546,21 @@
                 "name": "Template",
                 "ctype": "miscellaneous",
                 "subtype": "variable",
-                "file": "stories/Button.stories.ts",
-                "deprecated": false,
-                "deprecationMessage": "",
-                "type": "Story<Button>",
-                "defaultValue": "(args: Button) => ({\n  props: args,\n})"
-            },
-            {
-                "name": "Template",
-                "ctype": "miscellaneous",
-                "subtype": "variable",
                 "file": "stories/Header.stories.ts",
                 "deprecated": false,
                 "deprecationMessage": "",
                 "type": "Story<Header>",
                 "defaultValue": "(args: Header) => ({\n  props: args,\n})"
+            },
+            {
+                "name": "Template",
+                "ctype": "miscellaneous",
+                "subtype": "variable",
+                "file": "stories/Button.stories.ts",
+                "deprecated": false,
+                "deprecationMessage": "",
+                "type": "Story<Button>",
+                "defaultValue": "(args: Button) => ({\n  props: args,\n})"
             },
             {
                 "name": "Template",
@@ -21846,27 +21855,6 @@
                     "type": "any"
                 }
             ],
-            "projects/ngx-ode-ui/src/test.ts": [
-                {
-                    "name": "context",
-                    "ctype": "miscellaneous",
-                    "subtype": "variable",
-                    "file": "projects/ngx-ode-ui/src/test.ts",
-                    "deprecated": false,
-                    "deprecationMessage": "",
-                    "type": "",
-                    "defaultValue": "require.context('./', true, /\\.spec\\.ts$/)"
-                },
-                {
-                    "name": "require",
-                    "ctype": "miscellaneous",
-                    "subtype": "variable",
-                    "file": "projects/ngx-ode-ui/src/test.ts",
-                    "deprecated": false,
-                    "deprecationMessage": "",
-                    "type": "any"
-                }
-            ],
             "projects/ngx-ode-sijil/src/test.ts": [
                 {
                     "name": "context",
@@ -21883,6 +21871,27 @@
                     "ctype": "miscellaneous",
                     "subtype": "variable",
                     "file": "projects/ngx-ode-sijil/src/test.ts",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "type": "any"
+                }
+            ],
+            "projects/ngx-ode-ui/src/test.ts": [
+                {
+                    "name": "context",
+                    "ctype": "miscellaneous",
+                    "subtype": "variable",
+                    "file": "projects/ngx-ode-ui/src/test.ts",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "type": "",
+                    "defaultValue": "require.context('./', true, /\\.spec\\.ts$/)"
+                },
+                {
+                    "name": "require",
+                    "ctype": "miscellaneous",
+                    "subtype": "variable",
+                    "file": "projects/ngx-ode-ui/src/test.ts",
                     "deprecated": false,
                     "deprecationMessage": "",
                     "type": "any"
@@ -21919,7 +21928,7 @@
                     "deprecated": false,
                     "deprecationMessage": "",
                     "type": "Story<DropdownComponent>",
-                    "defaultValue": "(args: DropdownComponent) => ({\n  props: { ...args },\n  template: `\n  <ode-dropdown \n  name=\"${args.name}\"\n  [isDropdownOpened]=\"${args.isDropdownOpened}\">\n    <ng-container *ngIf=\"isDropdownOpened\">Contenu ouvert!</ng-container>\n  </ode-dropdown>\n  `,\n})"
+                    "defaultValue": "(args: DropdownComponent) => ({\n  props: { ...args },\n  template: `\n  <ode-dropdown \n  name=\"${args.name}\"\n  [isDropdownOpened]=\"${args.isDropdownOpened}\">\n    <ode-list\n      [model]=\"model\">\n      <ng-template let-item>\n        <div>{{ item.title }}</div>\n      </ng-template>\n    </ode-list>\n  </ode-dropdown>\n  `,\n})"
                 },
                 {
                     "name": "Open",
@@ -21929,7 +21938,7 @@
                     "deprecated": false,
                     "deprecationMessage": "",
                     "type": "Story<DropdownComponent>",
-                    "defaultValue": "(args: DropdownComponent) => ({\n  props: args,\n  template: `\n    <ode-dropdown \n      name=\"${args.name}\"\n      [isDropdownOpened]=\"${args.isDropdownOpened}\">\n        <ng-container *ngIf=\"isDropdownOpened\">Contenu ouvert!</ng-container>\n      </ode-dropdown>\n  `,\n})"
+                    "defaultValue": "(args: DropdownComponent) => ({\n  props: args,\n  template: `\n    <ode-dropdown \n      name=\"${args.name}\"\n      [isDropdownOpened]=\"${args.isDropdownOpened}\">\n        <ode-list\n          [model]=\"model\">\n          <ng-template let-item>\n            <div>{{ item.title }}</div>\n          </ng-template>\n        </ode-list>\n      </ode-dropdown>\n  `,\n})"
                 }
             ],
             "projects/ngx-ode-ui/src/lib/helpers/accents.helper.ts": [
@@ -21963,7 +21972,7 @@
                     "deprecated": false,
                     "deprecationMessage": "",
                     "type": "Story<ListComponent>",
-                    "defaultValue": "(args: ListComponent) => ({\n  props: { ...args },\n  template: `\n    <ode-list\n    [model]=\"${args.model}\">\n      <ng-template let-item>\n        <div>{{ item.title }}</div>\n      </ng-template>\n    </ode-list>`,\n})"
+                    "defaultValue": "(args: ListComponent) => ({\n  props: { ...args },\n  template: `\n    <ode-list\n    [model]=\"model\">\n      <ng-template let-item>\n        <div>{{ item.title }}</div>\n      </ng-template>\n    </ode-list>`,\n})"
                 },
                 {
                     "name": "EmptyList",
@@ -21973,7 +21982,7 @@
                     "deprecated": false,
                     "deprecationMessage": "",
                     "type": "Story<ListComponent>",
-                    "defaultValue": "(args: ListComponent) => ({\n  props: { ...args },\n  template: `\n    <ode-list\n    [model]=\"${args.model}\">\n      <ng-template let-item>\n        <div>{{ item.title }}</div>\n      </ng-template>\n    </ode-list>`,\n})"
+                    "defaultValue": "(args: ListComponent) => ({\n  props: { ...args },\n  template: `\n    <ode-list\n    [model]=\"model\">\n      <ng-template let-item>\n        <div>{{ item.title }}</div>\n      </ng-template>\n    </ode-list>`,\n})"
                 },
                 {
                     "name": "LoadingList",
@@ -21983,7 +21992,7 @@
                     "deprecated": false,
                     "deprecationMessage": "",
                     "type": "Story<ListComponent>",
-                    "defaultValue": "(args: ListComponent) => ({\n  props: { ...args },\n  template: `\n    <ode-list\n      [model]=\"${args.model}\"\n      [loading]=\"${args.loading}\">\n      <ng-template let-item>\n        <div>{{ item.title }}</div>\n      </ng-template>\n    </ode-list>`,\n})"
+                    "defaultValue": "(args: ListComponent) => ({\n  props: { ...args },\n  template: `\n    <ode-list\n      [model]=\"model\"\n      [loading]=\"${args.loading}\">\n      <ng-template let-item>\n        <div>{{ item.title }}</div>\n      </ng-template>\n    </ode-list>`,\n})"
                 }
             ],
             "projects/ngx-ode-sijil/src/lib/services/sijil.opts.ts": [
@@ -22612,7 +22621,7 @@
                 "linktype": "component",
                 "name": "DropdownComponent",
                 "coveragePercent": 0,
-                "coverageCount": "0/4",
+                "coverageCount": "0/5",
                 "status": "low"
             },
             {
