@@ -37,7 +37,7 @@ import {
   EventEmitter,
   Injector,
 } from "@angular/core";
-import { OdeComponent } from "ngx-ode-core";
+import { OdeComponent } from "projects/ngx-ode-core/src/lib/component/ode.component";
 
 @Component({
   selector: "ode-dropdown",
@@ -45,9 +45,21 @@ import { OdeComponent } from "ngx-ode-core";
   styleUrls: ["./dropdown.component.scss"],
 })
 export class DropdownComponent {
-  @Input() name: string = "";
-  @Input() model = [];
-  @Input() isDropdownOpened: boolean = false;
+  @Input()
+  name: string = "";
 
-  @Output() onDropdown: EventEmitter<void> = new EventEmitter<void>();
+  @Input()
+  model = [];
+
+  @Input()
+  isDropdownOpened: boolean = false;
+
+  @Output()
+  onDropdown: EventEmitter<void> = new EventEmitter<void>();
+
+  onToggle() {
+    alert("click");
+    this.isDropdownOpened = !this.isDropdownOpened;
+    this.onDropdown.emit();
+  }
 }

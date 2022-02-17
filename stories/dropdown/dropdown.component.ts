@@ -27,8 +27,8 @@ export class DropdownComponent {
   @Output()
   onDropdown: EventEmitter<void> = new EventEmitter<void>();
 
-  onToggleDropdown() {
+  /* onToggle() {
     this.isDropdownOpened = !this.isDropdownOpened;
     this.onDropdown.emit();
-  }
+  } */
 }

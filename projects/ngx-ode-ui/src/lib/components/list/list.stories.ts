@@ -28,6 +28,9 @@ export default {
       (story) => `<div style="margin: 3em;">${story}</div>`
     ),
   ],
+  args: {
+    loading: false,
+  },
   excludeStories: /.*Data$/,
 } as Meta;
 
@@ -36,7 +39,8 @@ export const DefaultList: Story<ListComponent> = (args: ListComponent) => ({
   props: { ...args },
   template: `
     <ode-list
-    [model]="model">
+    [model]="model"
+    [loading]="${args.loading}">
       <ng-template let-item>
         <div>{{ item.title }}</div>
       </ng-template>
@@ -58,7 +62,8 @@ export const EmptyList: Story<ListComponent> = (args: ListComponent) => ({
   props: { ...args },
   template: `
     <ode-list
-    [model]="model">
+    [model]="model"
+    [loading]="${args.loading}">
       <ng-template let-item>
         <div>{{ item.title }}</div>
       </ng-template>

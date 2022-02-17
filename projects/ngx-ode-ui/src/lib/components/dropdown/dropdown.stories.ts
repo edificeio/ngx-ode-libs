@@ -5,6 +5,7 @@ import {
   moduleMetadata,
   componentWrapperDecorator,
 } from "@storybook/angular";
+import { action } from "@storybook/addon-actions";
 import { CommonModule } from "@angular/common";
 import { DropdownComponent } from "./dropdown.component";
 import { ListComponent } from "../list/list.component";
@@ -36,13 +37,26 @@ export default {
   excludeStories: /.*Data$/,
 } as Meta;
 
+export const actionsData = {
+  onDropdown: action("onDropdown"),
+};
+
 // More on component templates: https://storybook.js.org/docs/angular/writing-stories/introduction#using-args
 export const Default: Story<DropdownComponent> = (args: DropdownComponent) => ({
-  props: { ...args },
+  props: {
+    ...args,
+    onDropdown: () => {
+      alert("ok");
+      alert(args.isDropdownOpened);
+      args.isDropdownOpened = true;
+      alert(args.isDropdownOpened);
+    },
+  } /* 
   template: `
   <ode-dropdown 
   name="${args.name}"
-  [isDropdownOpened]="${args.isDropdownOpened}">
+  [isDropdownOpened]="${args.isDropdownOpened}"
+  (onDropdown)="onToggle()">
     <ode-list
       [model]="model">
       <ng-template let-item>
@@ -50,9 +64,9 @@ export const Default: Story<DropdownComponent> = (args: DropdownComponent) => ({
       </ng-template>
     </ode-list>
   </ode-dropdown>
-  `,
+  `, */,
 });
-Default.args = {
+/* Default.args = {
   model: [
     { id: "1", title: "Task 1" },
     { id: "2", title: "Task 2" },
@@ -61,7 +75,8 @@ Default.args = {
     { id: "5", title: "Task 5" },
     { id: "6", title: "Task 6" },
   ],
-};
+  // isDropdownOpened: false,
+}; */
 
 export const Open: Story<DropdownComponent> = (args: DropdownComponent) => ({
   props: args,

@@ -4365,7 +4365,7 @@
                     "type": "ChangeDetectorRef",
                     "optional": false,
                     "description": "",
-                    "line": 16,
+                    "line": 30,
                     "modifierKind": [
                         122
                     ],
@@ -4380,7 +4380,7 @@
                     "type": "number",
                     "optional": false,
                     "description": "",
-                    "line": 18,
+                    "line": 32,
                     "modifierKind": [
                         121
                     ],
@@ -4395,7 +4395,7 @@
                     "type": "Injector",
                     "optional": false,
                     "description": "",
-                    "line": 20,
+                    "line": 34,
                     "modifierKind": [
                         123
                     ],
@@ -4410,7 +4410,7 @@
                     "type": "Logger",
                     "optional": false,
                     "description": "",
-                    "line": 13,
+                    "line": 27,
                     "modifierKind": [
                         121
                     ],
@@ -4425,7 +4425,7 @@
                     "type": "ActivatedRoute",
                     "optional": false,
                     "description": "",
-                    "line": 14,
+                    "line": 28,
                     "inheritance": {
                         "file": "OdeComponent"
                     }
@@ -4437,7 +4437,7 @@
                     "type": "Router",
                     "optional": false,
                     "description": "",
-                    "line": 15,
+                    "line": 29,
                     "inheritance": {
                         "file": "OdeComponent"
                     }
@@ -4450,7 +4450,7 @@
                     "type": "Subscription",
                     "optional": false,
                     "description": "",
-                    "line": 17,
+                    "line": 31,
                     "modifierKind": [
                         122
                     ],
@@ -4618,7 +4618,7 @@
                     "optional": false,
                     "returnType": "void",
                     "typeParameters": [],
-                    "line": 56,
+                    "line": 73,
                     "deprecated": false,
                     "deprecationMessage": "",
                     "jsdoctags": [
@@ -4666,7 +4666,7 @@
                     "optional": false,
                     "returnType": "void",
                     "typeParameters": [],
-                    "line": 68,
+                    "line": 85,
                     "deprecated": false,
                     "deprecationMessage": "",
                     "jsdoctags": [
@@ -4714,7 +4714,7 @@
                     "optional": false,
                     "returnType": "void",
                     "typeParameters": [],
-                    "line": 60,
+                    "line": 77,
                     "deprecated": false,
                     "deprecationMessage": "",
                     "jsdoctags": [
@@ -4748,7 +4748,7 @@
                     "optional": false,
                     "returnType": "void",
                     "typeParameters": [],
-                    "line": 50,
+                    "line": 67,
                     "deprecated": false,
                     "deprecationMessage": "",
                     "inheritance": {
@@ -4768,7 +4768,7 @@
                     "optional": false,
                     "returnType": "void",
                     "typeParameters": [],
-                    "line": 47,
+                    "line": 65,
                     "deprecated": false,
                     "deprecationMessage": "",
                     "jsdoctags": [
@@ -4792,7 +4792,7 @@
                     "optional": false,
                     "returnType": "void",
                     "typeParameters": [],
-                    "line": 28,
+                    "line": 46,
                     "deprecated": false,
                     "deprecationMessage": "",
                     "inheritance": {
@@ -4819,7 +4819,7 @@
                     "optional": false,
                     "returnType": "void",
                     "typeParameters": [],
-                    "line": 64,
+                    "line": 81,
                     "deprecated": false,
                     "deprecationMessage": "",
                     "jsdoctags": [
@@ -4963,7 +4963,7 @@
         },
         {
             "name": "DropdownComponent",
-            "id": "component-DropdownComponent-da40059dc9a5c2ee77f2d0da0c1c670e2d225345f4750fe01a87cd33b393dd9d4107c7d6ca8465172f9de84b6839364806dd975160da7f6f596e107c8fc6d289",
+            "id": "component-DropdownComponent-63c61feb8015df22ae1f774c9af2263230e31706fa950ff7797102a59181caee747cc155e40047837f6b2995734b4e15400fb22376adf73e791b3e689c7436e5",
             "file": "stories/dropdown/dropdown.component.ts",
             "encapsulation": [],
             "entryComponents": [],
@@ -5012,7 +5012,7 @@
             "propertiesClass": [],
             "methodsClass": [
                 {
-                    "name": "onToggleDropdown",
+                    "name": "onToggle",
                     "args": [],
                     "optional": false,
                     "returnType": "void",
@@ -5029,7 +5029,7 @@
             "description": "",
             "rawdescription": "\n",
             "type": "component",
-            "sourceCode": "import {\n  Component,\n  OnInit,\n  Input,\n  Output,\n  EventEmitter,\n  Injector,\n} from \"@angular/core\";\nimport { OdeComponent } from \"ngx-ode-core\";\n\n@Component({\n  selector: \"ode-dropdown\",\n  templateUrl: \"./dropdown.component.html\",\n  styleUrls: [\"./dropdown.component.scss\"],\n})\nexport class DropdownComponent {\n  constructor(injector: Injector) {\n    //super(injector);\n  }\n\n  @Input()\n  name: string = \"\";\n\n  @Input()\n  isDropdownOpened: boolean = false;\n\n  @Output()\n  onDropdown: EventEmitter<void> = new EventEmitter<void>();\n\n  onToggleDropdown() {\n    this.isDropdownOpened = !this.isDropdownOpened;\n    this.onDropdown.emit();\n  }\n}\n",
+            "sourceCode": "import {\n  Component,\n  OnInit,\n  Input,\n  Output,\n  EventEmitter,\n  Injector,\n} from \"@angular/core\";\nimport { OdeComponent } from \"ngx-ode-core\";\n\n@Component({\n  selector: \"ode-dropdown\",\n  templateUrl: \"./dropdown.component.html\",\n  styleUrls: [\"./dropdown.component.scss\"],\n})\nexport class DropdownComponent {\n  constructor(injector: Injector) {\n    //super(injector);\n  }\n\n  @Input()\n  name: string = \"\";\n\n  @Input()\n  isDropdownOpened: boolean = false;\n\n  @Output()\n  onDropdown: EventEmitter<void> = new EventEmitter<void>();\n\n  onToggle() {\n    this.isDropdownOpened = !this.isDropdownOpened;\n    this.onDropdown.emit();\n  }\n}\n",
             "assetsDirs": [],
             "styleUrlsData": [
                 {
@@ -5068,7 +5068,7 @@
         },
         {
             "name": "DropdownComponent",
-            "id": "component-DropdownComponent-ac7a80b31316df1f28b2886a7c05d7e2ac3deabd4dc8768fad1ac520efdb918b84e21b86517613657cea49d32d714bab0b56fe4689fdfce05bb8f499ddb163f1-1",
+            "id": "component-DropdownComponent-5bb9f0bb2c772ce8564607cdf35365fbead17ed251216b00142a3abaa74532d97a4f6a5c0cd97fbbf02f5cbee9b2556a5692baf0c5e551dd5e71226f317c7f65-1",
             "file": "projects/ngx-ode-ui/src/lib/components/dropdown/dropdown.component.ts",
             "encapsulation": [],
             "entryComponents": [],
@@ -5090,7 +5090,7 @@
                     "defaultValue": "false",
                     "deprecated": false,
                     "deprecationMessage": "",
-                    "line": 50,
+                    "line": 55,
                     "type": "boolean",
                     "decorators": []
                 },
@@ -5099,7 +5099,7 @@
                     "defaultValue": "[]",
                     "deprecated": false,
                     "deprecationMessage": "",
-                    "line": 49,
+                    "line": 52,
                     "type": "{}",
                     "decorators": []
                 },
@@ -5108,7 +5108,7 @@
                     "defaultValue": "\"\"",
                     "deprecated": false,
                     "deprecationMessage": "",
-                    "line": 48,
+                    "line": 49,
                     "type": "string",
                     "decorators": []
                 }
@@ -5119,12 +5119,23 @@
                     "defaultValue": "new EventEmitter<void>()",
                     "deprecated": false,
                     "deprecationMessage": "",
-                    "line": 52,
+                    "line": 58,
                     "type": "EventEmitter<void>"
                 }
             ],
             "propertiesClass": [],
-            "methodsClass": [],
+            "methodsClass": [
+                {
+                    "name": "onToggle",
+                    "args": [],
+                    "optional": false,
+                    "returnType": "void",
+                    "typeParameters": [],
+                    "line": 60,
+                    "deprecated": false,
+                    "deprecationMessage": ""
+                }
+            ],
             "deprecated": false,
             "deprecationMessage": "",
             "hostBindings": [],
@@ -5132,7 +5143,7 @@
             "description": "",
             "rawdescription": "\n",
             "type": "component",
-            "sourceCode": "import {\n  Component,\n  OnInit,\n  Input,\n  Output,\n  EventEmitter,\n  Injector,\n} from \"@angular/core\";\nimport { OdeComponent } from \"ngx-ode-core\";\n\n@Component({\n  selector: \"ode-dropdown\",\n  templateUrl: \"./dropdown.component.html\",\n  styleUrls: [\"./dropdown.component.scss\"],\n})\nexport class DropdownComponent {\n  @Input() name: string = \"\";\n  @Input() model = [];\n  @Input() isDropdownOpened: boolean = false;\n\n  @Output() onDropdown: EventEmitter<void> = new EventEmitter<void>();\n}\n",
+            "sourceCode": "import {\n  Component,\n  OnInit,\n  Input,\n  Output,\n  EventEmitter,\n  Injector,\n} from \"@angular/core\";\nimport { OdeComponent } from \"projects/ngx-ode-core/src/lib/component/ode.component\";\n\n@Component({\n  selector: \"ode-dropdown\",\n  templateUrl: \"./dropdown.component.html\",\n  styleUrls: [\"./dropdown.component.scss\"],\n})\nexport class DropdownComponent {\n  @Input()\n  name: string = \"\";\n\n  @Input()\n  model = [];\n\n  @Input()\n  isDropdownOpened: boolean = false;\n\n  @Output()\n  onDropdown: EventEmitter<void> = new EventEmitter<void>();\n\n  onToggle() {\n    alert(\"click\");\n    this.isDropdownOpened = !this.isDropdownOpened;\n    this.onDropdown.emit();\n  }\n}\n",
             "assetsDirs": [],
             "styleUrlsData": [
                 {
@@ -5222,7 +5233,7 @@
                     "type": "ChangeDetectorRef",
                     "optional": false,
                     "description": "",
-                    "line": 16,
+                    "line": 30,
                     "modifierKind": [
                         122
                     ],
@@ -5237,7 +5248,7 @@
                     "type": "number",
                     "optional": false,
                     "description": "",
-                    "line": 18,
+                    "line": 32,
                     "modifierKind": [
                         121
                     ],
@@ -5252,7 +5263,7 @@
                     "type": "Injector",
                     "optional": false,
                     "description": "",
-                    "line": 20,
+                    "line": 34,
                     "modifierKind": [
                         123
                     ],
@@ -5267,7 +5278,7 @@
                     "type": "Logger",
                     "optional": false,
                     "description": "",
-                    "line": 13,
+                    "line": 27,
                     "modifierKind": [
                         121
                     ],
@@ -5282,7 +5293,7 @@
                     "type": "ActivatedRoute",
                     "optional": false,
                     "description": "",
-                    "line": 14,
+                    "line": 28,
                     "inheritance": {
                         "file": "OdeComponent"
                     }
@@ -5294,7 +5305,7 @@
                     "type": "Router",
                     "optional": false,
                     "description": "",
-                    "line": 15,
+                    "line": 29,
                     "inheritance": {
                         "file": "OdeComponent"
                     }
@@ -5307,7 +5318,7 @@
                     "type": "Subscription",
                     "optional": false,
                     "description": "",
-                    "line": 17,
+                    "line": 31,
                     "modifierKind": [
                         122
                     ],
@@ -5347,7 +5358,7 @@
                     "optional": false,
                     "returnType": "void",
                     "typeParameters": [],
-                    "line": 56,
+                    "line": 73,
                     "deprecated": false,
                     "deprecationMessage": "",
                     "jsdoctags": [
@@ -5395,7 +5406,7 @@
                     "optional": false,
                     "returnType": "void",
                     "typeParameters": [],
-                    "line": 68,
+                    "line": 85,
                     "deprecated": false,
                     "deprecationMessage": "",
                     "jsdoctags": [
@@ -5443,7 +5454,7 @@
                     "optional": false,
                     "returnType": "void",
                     "typeParameters": [],
-                    "line": 60,
+                    "line": 77,
                     "deprecated": false,
                     "deprecationMessage": "",
                     "jsdoctags": [
@@ -5477,7 +5488,7 @@
                     "optional": false,
                     "returnType": "void",
                     "typeParameters": [],
-                    "line": 50,
+                    "line": 67,
                     "deprecated": false,
                     "deprecationMessage": "",
                     "inheritance": {
@@ -5490,7 +5501,7 @@
                     "optional": false,
                     "returnType": "void",
                     "typeParameters": [],
-                    "line": 41,
+                    "line": 59,
                     "deprecated": false,
                     "deprecationMessage": "",
                     "inheritance": {
@@ -5510,7 +5521,7 @@
                     "optional": false,
                     "returnType": "void",
                     "typeParameters": [],
-                    "line": 47,
+                    "line": 65,
                     "deprecated": false,
                     "deprecationMessage": "",
                     "jsdoctags": [
@@ -5534,7 +5545,7 @@
                     "optional": false,
                     "returnType": "void",
                     "typeParameters": [],
-                    "line": 34,
+                    "line": 52,
                     "deprecated": false,
                     "deprecationMessage": "",
                     "inheritance": {
@@ -5547,7 +5558,7 @@
                     "optional": false,
                     "returnType": "void",
                     "typeParameters": [],
-                    "line": 28,
+                    "line": 46,
                     "deprecated": false,
                     "deprecationMessage": "",
                     "inheritance": {
@@ -5574,7 +5585,7 @@
                     "optional": false,
                     "returnType": "void",
                     "typeParameters": [],
-                    "line": 64,
+                    "line": 81,
                     "deprecated": false,
                     "deprecationMessage": "",
                     "jsdoctags": [
@@ -5739,7 +5750,7 @@
                     "type": "ChangeDetectorRef",
                     "optional": false,
                     "description": "",
-                    "line": 16,
+                    "line": 30,
                     "modifierKind": [
                         122
                     ],
@@ -5754,7 +5765,7 @@
                     "type": "number",
                     "optional": false,
                     "description": "",
-                    "line": 18,
+                    "line": 32,
                     "modifierKind": [
                         121
                     ],
@@ -5769,7 +5780,7 @@
                     "type": "Injector",
                     "optional": false,
                     "description": "",
-                    "line": 20,
+                    "line": 34,
                     "modifierKind": [
                         123
                     ],
@@ -5784,7 +5795,7 @@
                     "type": "Logger",
                     "optional": false,
                     "description": "",
-                    "line": 13,
+                    "line": 27,
                     "modifierKind": [
                         121
                     ],
@@ -5799,7 +5810,7 @@
                     "type": "ActivatedRoute",
                     "optional": false,
                     "description": "",
-                    "line": 14,
+                    "line": 28,
                     "inheritance": {
                         "file": "OdeComponent"
                     }
@@ -5811,7 +5822,7 @@
                     "type": "Router",
                     "optional": false,
                     "description": "",
-                    "line": 15,
+                    "line": 29,
                     "inheritance": {
                         "file": "OdeComponent"
                     }
@@ -5824,7 +5835,7 @@
                     "type": "Subscription",
                     "optional": false,
                     "description": "",
-                    "line": 17,
+                    "line": 31,
                     "modifierKind": [
                         122
                     ],
@@ -5892,7 +5903,7 @@
                     "optional": false,
                     "returnType": "void",
                     "typeParameters": [],
-                    "line": 56,
+                    "line": 73,
                     "deprecated": false,
                     "deprecationMessage": "",
                     "jsdoctags": [
@@ -5940,7 +5951,7 @@
                     "optional": false,
                     "returnType": "void",
                     "typeParameters": [],
-                    "line": 68,
+                    "line": 85,
                     "deprecated": false,
                     "deprecationMessage": "",
                     "jsdoctags": [
@@ -5988,7 +5999,7 @@
                     "optional": false,
                     "returnType": "void",
                     "typeParameters": [],
-                    "line": 60,
+                    "line": 77,
                     "deprecated": false,
                     "deprecationMessage": "",
                     "jsdoctags": [
@@ -6022,7 +6033,7 @@
                     "optional": false,
                     "returnType": "void",
                     "typeParameters": [],
-                    "line": 50,
+                    "line": 67,
                     "deprecated": false,
                     "deprecationMessage": "",
                     "inheritance": {
@@ -6035,7 +6046,7 @@
                     "optional": false,
                     "returnType": "void",
                     "typeParameters": [],
-                    "line": 41,
+                    "line": 59,
                     "deprecated": false,
                     "deprecationMessage": "",
                     "inheritance": {
@@ -6055,7 +6066,7 @@
                     "optional": false,
                     "returnType": "void",
                     "typeParameters": [],
-                    "line": 47,
+                    "line": 65,
                     "deprecated": false,
                     "deprecationMessage": "",
                     "jsdoctags": [
@@ -6079,7 +6090,7 @@
                     "optional": false,
                     "returnType": "void",
                     "typeParameters": [],
-                    "line": 34,
+                    "line": 52,
                     "deprecated": false,
                     "deprecationMessage": "",
                     "inheritance": {
@@ -6092,7 +6103,7 @@
                     "optional": false,
                     "returnType": "void",
                     "typeParameters": [],
-                    "line": 28,
+                    "line": 46,
                     "deprecated": false,
                     "deprecationMessage": "",
                     "inheritance": {
@@ -6119,7 +6130,7 @@
                     "optional": false,
                     "returnType": "void",
                     "typeParameters": [],
-                    "line": 64,
+                    "line": 81,
                     "deprecated": false,
                     "deprecationMessage": "",
                     "jsdoctags": [
@@ -6261,7 +6272,7 @@
                     "type": "ChangeDetectorRef",
                     "optional": false,
                     "description": "",
-                    "line": 16,
+                    "line": 30,
                     "modifierKind": [
                         122
                     ],
@@ -6276,7 +6287,7 @@
                     "type": "number",
                     "optional": false,
                     "description": "",
-                    "line": 18,
+                    "line": 32,
                     "modifierKind": [
                         121
                     ],
@@ -6291,7 +6302,7 @@
                     "type": "Injector",
                     "optional": false,
                     "description": "",
-                    "line": 20,
+                    "line": 34,
                     "modifierKind": [
                         123
                     ],
@@ -6306,7 +6317,7 @@
                     "type": "Logger",
                     "optional": false,
                     "description": "",
-                    "line": 13,
+                    "line": 27,
                     "modifierKind": [
                         121
                     ],
@@ -6321,7 +6332,7 @@
                     "type": "ActivatedRoute",
                     "optional": false,
                     "description": "",
-                    "line": 14,
+                    "line": 28,
                     "inheritance": {
                         "file": "OdeComponent"
                     }
@@ -6333,7 +6344,7 @@
                     "type": "Router",
                     "optional": false,
                     "description": "",
-                    "line": 15,
+                    "line": 29,
                     "inheritance": {
                         "file": "OdeComponent"
                     }
@@ -6346,7 +6357,7 @@
                     "type": "Subscription",
                     "optional": false,
                     "description": "",
-                    "line": 17,
+                    "line": 31,
                     "modifierKind": [
                         122
                     ],
@@ -6376,7 +6387,7 @@
                     "optional": false,
                     "returnType": "void",
                     "typeParameters": [],
-                    "line": 56,
+                    "line": 73,
                     "deprecated": false,
                     "deprecationMessage": "",
                     "jsdoctags": [
@@ -6424,7 +6435,7 @@
                     "optional": false,
                     "returnType": "void",
                     "typeParameters": [],
-                    "line": 68,
+                    "line": 85,
                     "deprecated": false,
                     "deprecationMessage": "",
                     "jsdoctags": [
@@ -6472,7 +6483,7 @@
                     "optional": false,
                     "returnType": "void",
                     "typeParameters": [],
-                    "line": 60,
+                    "line": 77,
                     "deprecated": false,
                     "deprecationMessage": "",
                     "jsdoctags": [
@@ -6506,7 +6517,7 @@
                     "optional": false,
                     "returnType": "void",
                     "typeParameters": [],
-                    "line": 50,
+                    "line": 67,
                     "deprecated": false,
                     "deprecationMessage": "",
                     "inheritance": {
@@ -6519,7 +6530,7 @@
                     "optional": false,
                     "returnType": "void",
                     "typeParameters": [],
-                    "line": 41,
+                    "line": 59,
                     "deprecated": false,
                     "deprecationMessage": "",
                     "inheritance": {
@@ -6539,7 +6550,7 @@
                     "optional": false,
                     "returnType": "void",
                     "typeParameters": [],
-                    "line": 47,
+                    "line": 65,
                     "deprecated": false,
                     "deprecationMessage": "",
                     "jsdoctags": [
@@ -6563,7 +6574,7 @@
                     "optional": false,
                     "returnType": "void",
                     "typeParameters": [],
-                    "line": 34,
+                    "line": 52,
                     "deprecated": false,
                     "deprecationMessage": "",
                     "inheritance": {
@@ -6576,7 +6587,7 @@
                     "optional": false,
                     "returnType": "void",
                     "typeParameters": [],
-                    "line": 28,
+                    "line": 46,
                     "deprecated": false,
                     "deprecationMessage": "",
                     "inheritance": {
@@ -6603,7 +6614,7 @@
                     "optional": false,
                     "returnType": "void",
                     "typeParameters": [],
-                    "line": 64,
+                    "line": 81,
                     "deprecated": false,
                     "deprecationMessage": "",
                     "jsdoctags": [
@@ -6959,7 +6970,7 @@
                     "type": "ChangeDetectorRef",
                     "optional": false,
                     "description": "",
-                    "line": 16,
+                    "line": 30,
                     "modifierKind": [
                         122
                     ],
@@ -6974,7 +6985,7 @@
                     "type": "number",
                     "optional": false,
                     "description": "",
-                    "line": 18,
+                    "line": 32,
                     "modifierKind": [
                         121
                     ],
@@ -6989,7 +7000,7 @@
                     "type": "Injector",
                     "optional": false,
                     "description": "",
-                    "line": 20,
+                    "line": 34,
                     "modifierKind": [
                         123
                     ],
@@ -7004,7 +7015,7 @@
                     "type": "Logger",
                     "optional": false,
                     "description": "",
-                    "line": 13,
+                    "line": 27,
                     "modifierKind": [
                         121
                     ],
@@ -7019,7 +7030,7 @@
                     "type": "ActivatedRoute",
                     "optional": false,
                     "description": "",
-                    "line": 14,
+                    "line": 28,
                     "inheritance": {
                         "file": "OdeComponent"
                     }
@@ -7031,7 +7042,7 @@
                     "type": "Router",
                     "optional": false,
                     "description": "",
-                    "line": 15,
+                    "line": 29,
                     "inheritance": {
                         "file": "OdeComponent"
                     }
@@ -7044,7 +7055,7 @@
                     "type": "Subscription",
                     "optional": false,
                     "description": "",
-                    "line": 17,
+                    "line": 31,
                     "modifierKind": [
                         122
                     ],
@@ -7404,7 +7415,7 @@
                     "optional": false,
                     "returnType": "void",
                     "typeParameters": [],
-                    "line": 56,
+                    "line": 73,
                     "deprecated": false,
                     "deprecationMessage": "",
                     "jsdoctags": [
@@ -7452,7 +7463,7 @@
                     "optional": false,
                     "returnType": "void",
                     "typeParameters": [],
-                    "line": 68,
+                    "line": 85,
                     "deprecated": false,
                     "deprecationMessage": "",
                     "jsdoctags": [
@@ -7500,7 +7511,7 @@
                     "optional": false,
                     "returnType": "void",
                     "typeParameters": [],
-                    "line": 60,
+                    "line": 77,
                     "deprecated": false,
                     "deprecationMessage": "",
                     "jsdoctags": [
@@ -7534,7 +7545,7 @@
                     "optional": false,
                     "returnType": "void",
                     "typeParameters": [],
-                    "line": 50,
+                    "line": 67,
                     "deprecated": false,
                     "deprecationMessage": "",
                     "inheritance": {
@@ -7547,7 +7558,7 @@
                     "optional": false,
                     "returnType": "void",
                     "typeParameters": [],
-                    "line": 41,
+                    "line": 59,
                     "deprecated": false,
                     "deprecationMessage": "",
                     "inheritance": {
@@ -7567,7 +7578,7 @@
                     "optional": false,
                     "returnType": "void",
                     "typeParameters": [],
-                    "line": 47,
+                    "line": 65,
                     "deprecated": false,
                     "deprecationMessage": "",
                     "jsdoctags": [
@@ -7591,7 +7602,7 @@
                     "optional": false,
                     "returnType": "void",
                     "typeParameters": [],
-                    "line": 34,
+                    "line": 52,
                     "deprecated": false,
                     "deprecationMessage": "",
                     "inheritance": {
@@ -7618,7 +7629,7 @@
                     "optional": false,
                     "returnType": "void",
                     "typeParameters": [],
-                    "line": 64,
+                    "line": 81,
                     "deprecated": false,
                     "deprecationMessage": "",
                     "jsdoctags": [
@@ -7836,7 +7847,7 @@
                     "type": "ChangeDetectorRef",
                     "optional": false,
                     "description": "",
-                    "line": 16,
+                    "line": 30,
                     "modifierKind": [
                         122
                     ],
@@ -7851,7 +7862,7 @@
                     "type": "number",
                     "optional": false,
                     "description": "",
-                    "line": 18,
+                    "line": 32,
                     "modifierKind": [
                         121
                     ],
@@ -7866,7 +7877,7 @@
                     "type": "Injector",
                     "optional": false,
                     "description": "",
-                    "line": 20,
+                    "line": 34,
                     "modifierKind": [
                         123
                     ],
@@ -7881,7 +7892,7 @@
                     "type": "Logger",
                     "optional": false,
                     "description": "",
-                    "line": 13,
+                    "line": 27,
                     "modifierKind": [
                         121
                     ],
@@ -7896,7 +7907,7 @@
                     "type": "ActivatedRoute",
                     "optional": false,
                     "description": "",
-                    "line": 14,
+                    "line": 28,
                     "inheritance": {
                         "file": "OdeComponent"
                     }
@@ -7908,7 +7919,7 @@
                     "type": "Router",
                     "optional": false,
                     "description": "",
-                    "line": 15,
+                    "line": 29,
                     "inheritance": {
                         "file": "OdeComponent"
                     }
@@ -7921,7 +7932,7 @@
                     "type": "Subscription",
                     "optional": false,
                     "description": "",
-                    "line": 17,
+                    "line": 31,
                     "modifierKind": [
                         122
                     ],
@@ -7992,7 +8003,7 @@
                     "optional": false,
                     "returnType": "void",
                     "typeParameters": [],
-                    "line": 56,
+                    "line": 73,
                     "deprecated": false,
                     "deprecationMessage": "",
                     "jsdoctags": [
@@ -8040,7 +8051,7 @@
                     "optional": false,
                     "returnType": "void",
                     "typeParameters": [],
-                    "line": 68,
+                    "line": 85,
                     "deprecated": false,
                     "deprecationMessage": "",
                     "jsdoctags": [
@@ -8088,7 +8099,7 @@
                     "optional": false,
                     "returnType": "void",
                     "typeParameters": [],
-                    "line": 60,
+                    "line": 77,
                     "deprecated": false,
                     "deprecationMessage": "",
                     "jsdoctags": [
@@ -8122,7 +8133,7 @@
                     "optional": false,
                     "returnType": "void",
                     "typeParameters": [],
-                    "line": 50,
+                    "line": 67,
                     "deprecated": false,
                     "deprecationMessage": "",
                     "inheritance": {
@@ -8135,7 +8146,7 @@
                     "optional": false,
                     "returnType": "void",
                     "typeParameters": [],
-                    "line": 41,
+                    "line": 59,
                     "deprecated": false,
                     "deprecationMessage": "",
                     "inheritance": {
@@ -8155,7 +8166,7 @@
                     "optional": false,
                     "returnType": "void",
                     "typeParameters": [],
-                    "line": 47,
+                    "line": 65,
                     "deprecated": false,
                     "deprecationMessage": "",
                     "jsdoctags": [
@@ -8179,7 +8190,7 @@
                     "optional": false,
                     "returnType": "void",
                     "typeParameters": [],
-                    "line": 34,
+                    "line": 52,
                     "deprecated": false,
                     "deprecationMessage": "",
                     "inheritance": {
@@ -8192,7 +8203,7 @@
                     "optional": false,
                     "returnType": "void",
                     "typeParameters": [],
-                    "line": 28,
+                    "line": 46,
                     "deprecated": false,
                     "deprecationMessage": "",
                     "inheritance": {
@@ -8219,7 +8230,7 @@
                     "optional": false,
                     "returnType": "void",
                     "typeParameters": [],
-                    "line": 64,
+                    "line": 81,
                     "deprecated": false,
                     "deprecationMessage": "",
                     "jsdoctags": [
@@ -8467,7 +8478,7 @@
                     "type": "ChangeDetectorRef",
                     "optional": false,
                     "description": "",
-                    "line": 16,
+                    "line": 30,
                     "modifierKind": [
                         122
                     ],
@@ -8482,7 +8493,7 @@
                     "type": "number",
                     "optional": false,
                     "description": "",
-                    "line": 18,
+                    "line": 32,
                     "modifierKind": [
                         121
                     ],
@@ -8497,7 +8508,7 @@
                     "type": "Injector",
                     "optional": false,
                     "description": "",
-                    "line": 20,
+                    "line": 34,
                     "modifierKind": [
                         123
                     ],
@@ -8512,7 +8523,7 @@
                     "type": "Logger",
                     "optional": false,
                     "description": "",
-                    "line": 13,
+                    "line": 27,
                     "modifierKind": [
                         121
                     ],
@@ -8527,7 +8538,7 @@
                     "type": "ActivatedRoute",
                     "optional": false,
                     "description": "",
-                    "line": 14,
+                    "line": 28,
                     "inheritance": {
                         "file": "OdeComponent"
                     }
@@ -8539,7 +8550,7 @@
                     "type": "Router",
                     "optional": false,
                     "description": "",
-                    "line": 15,
+                    "line": 29,
                     "inheritance": {
                         "file": "OdeComponent"
                     }
@@ -8552,7 +8563,7 @@
                     "type": "Subscription",
                     "optional": false,
                     "description": "",
-                    "line": 17,
+                    "line": 31,
                     "modifierKind": [
                         122
                     ],
@@ -8582,7 +8593,7 @@
                     "optional": false,
                     "returnType": "void",
                     "typeParameters": [],
-                    "line": 56,
+                    "line": 73,
                     "deprecated": false,
                     "deprecationMessage": "",
                     "jsdoctags": [
@@ -8630,7 +8641,7 @@
                     "optional": false,
                     "returnType": "void",
                     "typeParameters": [],
-                    "line": 68,
+                    "line": 85,
                     "deprecated": false,
                     "deprecationMessage": "",
                     "jsdoctags": [
@@ -8678,7 +8689,7 @@
                     "optional": false,
                     "returnType": "void",
                     "typeParameters": [],
-                    "line": 60,
+                    "line": 77,
                     "deprecated": false,
                     "deprecationMessage": "",
                     "jsdoctags": [
@@ -8712,7 +8723,7 @@
                     "optional": false,
                     "returnType": "void",
                     "typeParameters": [],
-                    "line": 50,
+                    "line": 67,
                     "deprecated": false,
                     "deprecationMessage": "",
                     "inheritance": {
@@ -8725,7 +8736,7 @@
                     "optional": false,
                     "returnType": "void",
                     "typeParameters": [],
-                    "line": 41,
+                    "line": 59,
                     "deprecated": false,
                     "deprecationMessage": "",
                     "inheritance": {
@@ -8745,7 +8756,7 @@
                     "optional": false,
                     "returnType": "void",
                     "typeParameters": [],
-                    "line": 47,
+                    "line": 65,
                     "deprecated": false,
                     "deprecationMessage": "",
                     "jsdoctags": [
@@ -8769,7 +8780,7 @@
                     "optional": false,
                     "returnType": "void",
                     "typeParameters": [],
-                    "line": 34,
+                    "line": 52,
                     "deprecated": false,
                     "deprecationMessage": "",
                     "inheritance": {
@@ -8782,7 +8793,7 @@
                     "optional": false,
                     "returnType": "void",
                     "typeParameters": [],
-                    "line": 28,
+                    "line": 46,
                     "deprecated": false,
                     "deprecationMessage": "",
                     "inheritance": {
@@ -8809,7 +8820,7 @@
                     "optional": false,
                     "returnType": "void",
                     "typeParameters": [],
-                    "line": 64,
+                    "line": 81,
                     "deprecated": false,
                     "deprecationMessage": "",
                     "jsdoctags": [
@@ -9059,7 +9070,7 @@
                     "type": "ChangeDetectorRef",
                     "optional": false,
                     "description": "",
-                    "line": 16,
+                    "line": 30,
                     "modifierKind": [
                         122
                     ],
@@ -9074,7 +9085,7 @@
                     "type": "number",
                     "optional": false,
                     "description": "",
-                    "line": 18,
+                    "line": 32,
                     "modifierKind": [
                         121
                     ],
@@ -9089,7 +9100,7 @@
                     "type": "Injector",
                     "optional": false,
                     "description": "",
-                    "line": 20,
+                    "line": 34,
                     "modifierKind": [
                         123
                     ],
@@ -9104,7 +9115,7 @@
                     "type": "Logger",
                     "optional": false,
                     "description": "",
-                    "line": 13,
+                    "line": 27,
                     "modifierKind": [
                         121
                     ],
@@ -9119,7 +9130,7 @@
                     "type": "ActivatedRoute",
                     "optional": false,
                     "description": "",
-                    "line": 14,
+                    "line": 28,
                     "inheritance": {
                         "file": "OdeComponent"
                     }
@@ -9131,7 +9142,7 @@
                     "type": "Router",
                     "optional": false,
                     "description": "",
-                    "line": 15,
+                    "line": 29,
                     "inheritance": {
                         "file": "OdeComponent"
                     }
@@ -9144,7 +9155,7 @@
                     "type": "Subscription",
                     "optional": false,
                     "description": "",
-                    "line": 17,
+                    "line": 31,
                     "modifierKind": [
                         122
                     ],
@@ -9205,7 +9216,7 @@
                     "optional": false,
                     "returnType": "void",
                     "typeParameters": [],
-                    "line": 56,
+                    "line": 73,
                     "deprecated": false,
                     "deprecationMessage": "",
                     "jsdoctags": [
@@ -9253,7 +9264,7 @@
                     "optional": false,
                     "returnType": "void",
                     "typeParameters": [],
-                    "line": 68,
+                    "line": 85,
                     "deprecated": false,
                     "deprecationMessage": "",
                     "jsdoctags": [
@@ -9301,7 +9312,7 @@
                     "optional": false,
                     "returnType": "void",
                     "typeParameters": [],
-                    "line": 60,
+                    "line": 77,
                     "deprecated": false,
                     "deprecationMessage": "",
                     "jsdoctags": [
@@ -9335,7 +9346,7 @@
                     "optional": false,
                     "returnType": "void",
                     "typeParameters": [],
-                    "line": 50,
+                    "line": 67,
                     "deprecated": false,
                     "deprecationMessage": "",
                     "inheritance": {
@@ -9348,7 +9359,7 @@
                     "optional": false,
                     "returnType": "void",
                     "typeParameters": [],
-                    "line": 41,
+                    "line": 59,
                     "deprecated": false,
                     "deprecationMessage": "",
                     "inheritance": {
@@ -9368,7 +9379,7 @@
                     "optional": false,
                     "returnType": "void",
                     "typeParameters": [],
-                    "line": 47,
+                    "line": 65,
                     "deprecated": false,
                     "deprecationMessage": "",
                     "jsdoctags": [
@@ -9392,7 +9403,7 @@
                     "optional": false,
                     "returnType": "void",
                     "typeParameters": [],
-                    "line": 34,
+                    "line": 52,
                     "deprecated": false,
                     "deprecationMessage": "",
                     "inheritance": {
@@ -9405,7 +9416,7 @@
                     "optional": false,
                     "returnType": "void",
                     "typeParameters": [],
-                    "line": 28,
+                    "line": 46,
                     "deprecated": false,
                     "deprecationMessage": "",
                     "inheritance": {
@@ -9432,7 +9443,7 @@
                     "optional": false,
                     "returnType": "void",
                     "typeParameters": [],
-                    "line": 64,
+                    "line": 81,
                     "deprecated": false,
                     "deprecationMessage": "",
                     "jsdoctags": [
@@ -9954,7 +9965,7 @@
                     "type": "ChangeDetectorRef",
                     "optional": false,
                     "description": "",
-                    "line": 16,
+                    "line": 30,
                     "modifierKind": [
                         122
                     ],
@@ -9969,7 +9980,7 @@
                     "type": "number",
                     "optional": false,
                     "description": "",
-                    "line": 18,
+                    "line": 32,
                     "modifierKind": [
                         121
                     ],
@@ -9984,7 +9995,7 @@
                     "type": "Injector",
                     "optional": false,
                     "description": "",
-                    "line": 20,
+                    "line": 34,
                     "modifierKind": [
                         123
                     ],
@@ -9999,7 +10010,7 @@
                     "type": "Logger",
                     "optional": false,
                     "description": "",
-                    "line": 13,
+                    "line": 27,
                     "modifierKind": [
                         121
                     ],
@@ -10014,7 +10025,7 @@
                     "type": "ActivatedRoute",
                     "optional": false,
                     "description": "",
-                    "line": 14,
+                    "line": 28,
                     "inheritance": {
                         "file": "OdeComponent"
                     }
@@ -10026,7 +10037,7 @@
                     "type": "Router",
                     "optional": false,
                     "description": "",
-                    "line": 15,
+                    "line": 29,
                     "inheritance": {
                         "file": "OdeComponent"
                     }
@@ -10039,7 +10050,7 @@
                     "type": "Subscription",
                     "optional": false,
                     "description": "",
-                    "line": 17,
+                    "line": 31,
                     "modifierKind": [
                         122
                     ],
@@ -10102,7 +10113,7 @@
                     "optional": false,
                     "returnType": "void",
                     "typeParameters": [],
-                    "line": 56,
+                    "line": 73,
                     "deprecated": false,
                     "deprecationMessage": "",
                     "jsdoctags": [
@@ -10150,7 +10161,7 @@
                     "optional": false,
                     "returnType": "void",
                     "typeParameters": [],
-                    "line": 68,
+                    "line": 85,
                     "deprecated": false,
                     "deprecationMessage": "",
                     "jsdoctags": [
@@ -10198,7 +10209,7 @@
                     "optional": false,
                     "returnType": "void",
                     "typeParameters": [],
-                    "line": 60,
+                    "line": 77,
                     "deprecated": false,
                     "deprecationMessage": "",
                     "jsdoctags": [
@@ -10232,7 +10243,7 @@
                     "optional": false,
                     "returnType": "void",
                     "typeParameters": [],
-                    "line": 50,
+                    "line": 67,
                     "deprecated": false,
                     "deprecationMessage": "",
                     "inheritance": {
@@ -10245,7 +10256,7 @@
                     "optional": false,
                     "returnType": "void",
                     "typeParameters": [],
-                    "line": 41,
+                    "line": 59,
                     "deprecated": false,
                     "deprecationMessage": "",
                     "inheritance": {
@@ -10265,7 +10276,7 @@
                     "optional": false,
                     "returnType": "void",
                     "typeParameters": [],
-                    "line": 47,
+                    "line": 65,
                     "deprecated": false,
                     "deprecationMessage": "",
                     "jsdoctags": [
@@ -10289,7 +10300,7 @@
                     "optional": false,
                     "returnType": "void",
                     "typeParameters": [],
-                    "line": 34,
+                    "line": 52,
                     "deprecated": false,
                     "deprecationMessage": "",
                     "inheritance": {
@@ -10316,7 +10327,7 @@
                     "optional": false,
                     "returnType": "void",
                     "typeParameters": [],
-                    "line": 64,
+                    "line": 81,
                     "deprecated": false,
                     "deprecationMessage": "",
                     "jsdoctags": [
@@ -10601,7 +10612,7 @@
                     "type": "ChangeDetectorRef",
                     "optional": false,
                     "description": "",
-                    "line": 16,
+                    "line": 30,
                     "modifierKind": [
                         122
                     ],
@@ -10616,7 +10627,7 @@
                     "type": "number",
                     "optional": false,
                     "description": "",
-                    "line": 18,
+                    "line": 32,
                     "modifierKind": [
                         121
                     ],
@@ -10631,7 +10642,7 @@
                     "type": "Injector",
                     "optional": false,
                     "description": "",
-                    "line": 20,
+                    "line": 34,
                     "modifierKind": [
                         123
                     ],
@@ -10646,7 +10657,7 @@
                     "type": "Logger",
                     "optional": false,
                     "description": "",
-                    "line": 13,
+                    "line": 27,
                     "modifierKind": [
                         121
                     ],
@@ -10661,7 +10672,7 @@
                     "type": "ActivatedRoute",
                     "optional": false,
                     "description": "",
-                    "line": 14,
+                    "line": 28,
                     "inheritance": {
                         "file": "OdeComponent"
                     }
@@ -10673,7 +10684,7 @@
                     "type": "Router",
                     "optional": false,
                     "description": "",
-                    "line": 15,
+                    "line": 29,
                     "inheritance": {
                         "file": "OdeComponent"
                     }
@@ -10686,7 +10697,7 @@
                     "type": "Subscription",
                     "optional": false,
                     "description": "",
-                    "line": 17,
+                    "line": 31,
                     "modifierKind": [
                         122
                     ],
@@ -10749,7 +10760,7 @@
                     "optional": false,
                     "returnType": "void",
                     "typeParameters": [],
-                    "line": 56,
+                    "line": 73,
                     "deprecated": false,
                     "deprecationMessage": "",
                     "jsdoctags": [
@@ -10797,7 +10808,7 @@
                     "optional": false,
                     "returnType": "void",
                     "typeParameters": [],
-                    "line": 68,
+                    "line": 85,
                     "deprecated": false,
                     "deprecationMessage": "",
                     "jsdoctags": [
@@ -10845,7 +10856,7 @@
                     "optional": false,
                     "returnType": "void",
                     "typeParameters": [],
-                    "line": 60,
+                    "line": 77,
                     "deprecated": false,
                     "deprecationMessage": "",
                     "jsdoctags": [
@@ -10879,7 +10890,7 @@
                     "optional": false,
                     "returnType": "void",
                     "typeParameters": [],
-                    "line": 50,
+                    "line": 67,
                     "deprecated": false,
                     "deprecationMessage": "",
                     "inheritance": {
@@ -10892,7 +10903,7 @@
                     "optional": false,
                     "returnType": "void",
                     "typeParameters": [],
-                    "line": 41,
+                    "line": 59,
                     "deprecated": false,
                     "deprecationMessage": "",
                     "inheritance": {
@@ -10912,7 +10923,7 @@
                     "optional": false,
                     "returnType": "void",
                     "typeParameters": [],
-                    "line": 47,
+                    "line": 65,
                     "deprecated": false,
                     "deprecationMessage": "",
                     "jsdoctags": [
@@ -10936,7 +10947,7 @@
                     "optional": false,
                     "returnType": "void",
                     "typeParameters": [],
-                    "line": 34,
+                    "line": 52,
                     "deprecated": false,
                     "deprecationMessage": "",
                     "inheritance": {
@@ -10963,7 +10974,7 @@
                     "optional": false,
                     "returnType": "void",
                     "typeParameters": [],
-                    "line": 64,
+                    "line": 81,
                     "deprecated": false,
                     "deprecationMessage": "",
                     "jsdoctags": [
@@ -11169,7 +11180,7 @@
                     "type": "ChangeDetectorRef",
                     "optional": false,
                     "description": "",
-                    "line": 16,
+                    "line": 30,
                     "modifierKind": [
                         122
                     ],
@@ -11184,7 +11195,7 @@
                     "type": "number",
                     "optional": false,
                     "description": "",
-                    "line": 18,
+                    "line": 32,
                     "modifierKind": [
                         121
                     ],
@@ -11199,7 +11210,7 @@
                     "type": "Injector",
                     "optional": false,
                     "description": "",
-                    "line": 20,
+                    "line": 34,
                     "modifierKind": [
                         123
                     ],
@@ -11214,7 +11225,7 @@
                     "type": "Logger",
                     "optional": false,
                     "description": "",
-                    "line": 13,
+                    "line": 27,
                     "modifierKind": [
                         121
                     ],
@@ -11229,7 +11240,7 @@
                     "type": "ActivatedRoute",
                     "optional": false,
                     "description": "",
-                    "line": 14,
+                    "line": 28,
                     "inheritance": {
                         "file": "OdeComponent"
                     }
@@ -11241,7 +11252,7 @@
                     "type": "Router",
                     "optional": false,
                     "description": "",
-                    "line": 15,
+                    "line": 29,
                     "inheritance": {
                         "file": "OdeComponent"
                     }
@@ -11254,7 +11265,7 @@
                     "type": "Subscription",
                     "optional": false,
                     "description": "",
-                    "line": 17,
+                    "line": 31,
                     "modifierKind": [
                         122
                     ],
@@ -11473,7 +11484,7 @@
                     "optional": false,
                     "returnType": "void",
                     "typeParameters": [],
-                    "line": 56,
+                    "line": 73,
                     "deprecated": false,
                     "deprecationMessage": "",
                     "jsdoctags": [
@@ -11521,7 +11532,7 @@
                     "optional": false,
                     "returnType": "void",
                     "typeParameters": [],
-                    "line": 68,
+                    "line": 85,
                     "deprecated": false,
                     "deprecationMessage": "",
                     "jsdoctags": [
@@ -11569,7 +11580,7 @@
                     "optional": false,
                     "returnType": "void",
                     "typeParameters": [],
-                    "line": 60,
+                    "line": 77,
                     "deprecated": false,
                     "deprecationMessage": "",
                     "jsdoctags": [
@@ -11603,7 +11614,7 @@
                     "optional": false,
                     "returnType": "void",
                     "typeParameters": [],
-                    "line": 50,
+                    "line": 67,
                     "deprecated": false,
                     "deprecationMessage": "",
                     "inheritance": {
@@ -11616,7 +11627,7 @@
                     "optional": false,
                     "returnType": "void",
                     "typeParameters": [],
-                    "line": 41,
+                    "line": 59,
                     "deprecated": false,
                     "deprecationMessage": "",
                     "inheritance": {
@@ -11636,7 +11647,7 @@
                     "optional": false,
                     "returnType": "void",
                     "typeParameters": [],
-                    "line": 47,
+                    "line": 65,
                     "deprecated": false,
                     "deprecationMessage": "",
                     "jsdoctags": [
@@ -11660,7 +11671,7 @@
                     "optional": false,
                     "returnType": "void",
                     "typeParameters": [],
-                    "line": 34,
+                    "line": 52,
                     "deprecated": false,
                     "deprecationMessage": "",
                     "inheritance": {
@@ -11673,7 +11684,7 @@
                     "optional": false,
                     "returnType": "void",
                     "typeParameters": [],
-                    "line": 28,
+                    "line": 46,
                     "deprecated": false,
                     "deprecationMessage": "",
                     "inheritance": {
@@ -11700,7 +11711,7 @@
                     "optional": false,
                     "returnType": "void",
                     "typeParameters": [],
-                    "line": 64,
+                    "line": 81,
                     "deprecated": false,
                     "deprecationMessage": "",
                     "jsdoctags": [
@@ -11984,7 +11995,7 @@
                     "type": "ChangeDetectorRef",
                     "optional": false,
                     "description": "",
-                    "line": 16,
+                    "line": 30,
                     "modifierKind": [
                         122
                     ],
@@ -11999,7 +12010,7 @@
                     "type": "number",
                     "optional": false,
                     "description": "",
-                    "line": 18,
+                    "line": 32,
                     "modifierKind": [
                         121
                     ],
@@ -12014,7 +12025,7 @@
                     "type": "Injector",
                     "optional": false,
                     "description": "",
-                    "line": 20,
+                    "line": 34,
                     "modifierKind": [
                         123
                     ],
@@ -12029,7 +12040,7 @@
                     "type": "Logger",
                     "optional": false,
                     "description": "",
-                    "line": 13,
+                    "line": 27,
                     "modifierKind": [
                         121
                     ],
@@ -12044,7 +12055,7 @@
                     "type": "ActivatedRoute",
                     "optional": false,
                     "description": "",
-                    "line": 14,
+                    "line": 28,
                     "inheritance": {
                         "file": "OdeComponent"
                     }
@@ -12056,7 +12067,7 @@
                     "type": "Router",
                     "optional": false,
                     "description": "",
-                    "line": 15,
+                    "line": 29,
                     "inheritance": {
                         "file": "OdeComponent"
                     }
@@ -12069,7 +12080,7 @@
                     "type": "Subscription",
                     "optional": false,
                     "description": "",
-                    "line": 17,
+                    "line": 31,
                     "modifierKind": [
                         122
                     ],
@@ -12289,7 +12300,7 @@
                     "optional": false,
                     "returnType": "void",
                     "typeParameters": [],
-                    "line": 56,
+                    "line": 73,
                     "deprecated": false,
                     "deprecationMessage": "",
                     "jsdoctags": [
@@ -12337,7 +12348,7 @@
                     "optional": false,
                     "returnType": "void",
                     "typeParameters": [],
-                    "line": 68,
+                    "line": 85,
                     "deprecated": false,
                     "deprecationMessage": "",
                     "jsdoctags": [
@@ -12385,7 +12396,7 @@
                     "optional": false,
                     "returnType": "void",
                     "typeParameters": [],
-                    "line": 60,
+                    "line": 77,
                     "deprecated": false,
                     "deprecationMessage": "",
                     "jsdoctags": [
@@ -12419,7 +12430,7 @@
                     "optional": false,
                     "returnType": "void",
                     "typeParameters": [],
-                    "line": 50,
+                    "line": 67,
                     "deprecated": false,
                     "deprecationMessage": "",
                     "inheritance": {
@@ -12432,7 +12443,7 @@
                     "optional": false,
                     "returnType": "void",
                     "typeParameters": [],
-                    "line": 41,
+                    "line": 59,
                     "deprecated": false,
                     "deprecationMessage": "",
                     "inheritance": {
@@ -12452,7 +12463,7 @@
                     "optional": false,
                     "returnType": "void",
                     "typeParameters": [],
-                    "line": 47,
+                    "line": 65,
                     "deprecated": false,
                     "deprecationMessage": "",
                     "jsdoctags": [
@@ -12476,7 +12487,7 @@
                     "optional": false,
                     "returnType": "void",
                     "typeParameters": [],
-                    "line": 34,
+                    "line": 52,
                     "deprecated": false,
                     "deprecationMessage": "",
                     "inheritance": {
@@ -12489,7 +12500,7 @@
                     "optional": false,
                     "returnType": "void",
                     "typeParameters": [],
-                    "line": 28,
+                    "line": 46,
                     "deprecated": false,
                     "deprecationMessage": "",
                     "inheritance": {
@@ -12516,7 +12527,7 @@
                     "optional": false,
                     "returnType": "void",
                     "typeParameters": [],
-                    "line": 64,
+                    "line": 81,
                     "deprecated": false,
                     "deprecationMessage": "",
                     "jsdoctags": [
@@ -12787,7 +12798,7 @@
                     "type": "ChangeDetectorRef",
                     "optional": false,
                     "description": "",
-                    "line": 16,
+                    "line": 30,
                     "modifierKind": [
                         122
                     ],
@@ -12802,7 +12813,7 @@
                     "type": "number",
                     "optional": false,
                     "description": "",
-                    "line": 18,
+                    "line": 32,
                     "modifierKind": [
                         121
                     ],
@@ -12817,7 +12828,7 @@
                     "type": "Injector",
                     "optional": false,
                     "description": "",
-                    "line": 20,
+                    "line": 34,
                     "modifierKind": [
                         123
                     ],
@@ -12832,7 +12843,7 @@
                     "type": "Logger",
                     "optional": false,
                     "description": "",
-                    "line": 13,
+                    "line": 27,
                     "modifierKind": [
                         121
                     ],
@@ -12847,7 +12858,7 @@
                     "type": "ActivatedRoute",
                     "optional": false,
                     "description": "",
-                    "line": 14,
+                    "line": 28,
                     "inheritance": {
                         "file": "OdeComponent"
                     }
@@ -12859,7 +12870,7 @@
                     "type": "Router",
                     "optional": false,
                     "description": "",
-                    "line": 15,
+                    "line": 29,
                     "inheritance": {
                         "file": "OdeComponent"
                     }
@@ -12872,7 +12883,7 @@
                     "type": "Subscription",
                     "optional": false,
                     "description": "",
-                    "line": 17,
+                    "line": 31,
                     "modifierKind": [
                         122
                     ],
@@ -13177,7 +13188,7 @@
                     "optional": false,
                     "returnType": "void",
                     "typeParameters": [],
-                    "line": 56,
+                    "line": 73,
                     "deprecated": false,
                     "deprecationMessage": "",
                     "jsdoctags": [
@@ -13225,7 +13236,7 @@
                     "optional": false,
                     "returnType": "void",
                     "typeParameters": [],
-                    "line": 68,
+                    "line": 85,
                     "deprecated": false,
                     "deprecationMessage": "",
                     "jsdoctags": [
@@ -13273,7 +13284,7 @@
                     "optional": false,
                     "returnType": "void",
                     "typeParameters": [],
-                    "line": 60,
+                    "line": 77,
                     "deprecated": false,
                     "deprecationMessage": "",
                     "jsdoctags": [
@@ -13307,7 +13318,7 @@
                     "optional": false,
                     "returnType": "void",
                     "typeParameters": [],
-                    "line": 50,
+                    "line": 67,
                     "deprecated": false,
                     "deprecationMessage": "",
                     "inheritance": {
@@ -13320,7 +13331,7 @@
                     "optional": false,
                     "returnType": "void",
                     "typeParameters": [],
-                    "line": 41,
+                    "line": 59,
                     "deprecated": false,
                     "deprecationMessage": "",
                     "inheritance": {
@@ -13340,7 +13351,7 @@
                     "optional": false,
                     "returnType": "void",
                     "typeParameters": [],
-                    "line": 47,
+                    "line": 65,
                     "deprecated": false,
                     "deprecationMessage": "",
                     "jsdoctags": [
@@ -13364,7 +13375,7 @@
                     "optional": false,
                     "returnType": "void",
                     "typeParameters": [],
-                    "line": 34,
+                    "line": 52,
                     "deprecated": false,
                     "deprecationMessage": "",
                     "inheritance": {
@@ -13377,7 +13388,7 @@
                     "optional": false,
                     "returnType": "void",
                     "typeParameters": [],
-                    "line": 28,
+                    "line": 46,
                     "deprecated": false,
                     "deprecationMessage": "",
                     "inheritance": {
@@ -13404,7 +13415,7 @@
                     "optional": false,
                     "returnType": "void",
                     "typeParameters": [],
-                    "line": 64,
+                    "line": 81,
                     "deprecated": false,
                     "deprecationMessage": "",
                     "jsdoctags": [
@@ -13498,7 +13509,7 @@
         },
         {
             "name": "OdeComponent",
-            "id": "component-OdeComponent-c53beacbdffa183447d93b775558246700ec12b42618ec9cec6fe721cbb59daf8c6091f7dad22685a40ab00bc98b5ccbf4560da0682bc6261b5583d26d741243",
+            "id": "component-OdeComponent-8d521e0a74601ad9b396552c8fb61be26634f11004aa3c3b24fd8d7ed0b1dc0c52eddc8f18775054c2aaffb7dd6ba40a337308d51b07e5c6369a334d3145505c",
             "file": "projects/ngx-ode-core/src/lib/component/ode.component.ts",
             "encapsulation": [],
             "entryComponents": [],
@@ -13520,7 +13531,7 @@
                     "type": "ChangeDetectorRef",
                     "optional": false,
                     "description": "",
-                    "line": 16,
+                    "line": 30,
                     "modifierKind": [
                         122
                     ]
@@ -13532,7 +13543,7 @@
                     "type": "number",
                     "optional": false,
                     "description": "",
-                    "line": 18,
+                    "line": 32,
                     "modifierKind": [
                         121
                     ]
@@ -13544,7 +13555,7 @@
                     "type": "Injector",
                     "optional": false,
                     "description": "",
-                    "line": 20,
+                    "line": 34,
                     "modifierKind": [
                         123
                     ]
@@ -13556,7 +13567,7 @@
                     "type": "Logger",
                     "optional": false,
                     "description": "",
-                    "line": 13,
+                    "line": 27,
                     "modifierKind": [
                         121
                     ]
@@ -13568,7 +13579,7 @@
                     "type": "ActivatedRoute",
                     "optional": false,
                     "description": "",
-                    "line": 14
+                    "line": 28
                 },
                 {
                     "name": "router",
@@ -13577,7 +13588,7 @@
                     "type": "Router",
                     "optional": false,
                     "description": "",
-                    "line": 15
+                    "line": 29
                 },
                 {
                     "name": "subscriptions",
@@ -13587,7 +13598,7 @@
                     "type": "Subscription",
                     "optional": false,
                     "description": "",
-                    "line": 17,
+                    "line": 31,
                     "modifierKind": [
                         122
                     ]
@@ -13614,7 +13625,7 @@
                     "optional": false,
                     "returnType": "void",
                     "typeParameters": [],
-                    "line": 56,
+                    "line": 73,
                     "deprecated": false,
                     "deprecationMessage": "",
                     "jsdoctags": [
@@ -13659,7 +13670,7 @@
                     "optional": false,
                     "returnType": "void",
                     "typeParameters": [],
-                    "line": 68,
+                    "line": 85,
                     "deprecated": false,
                     "deprecationMessage": "",
                     "jsdoctags": [
@@ -13704,7 +13715,7 @@
                     "optional": false,
                     "returnType": "void",
                     "typeParameters": [],
-                    "line": 60,
+                    "line": 77,
                     "deprecated": false,
                     "deprecationMessage": "",
                     "jsdoctags": [
@@ -13735,7 +13746,7 @@
                     "optional": false,
                     "returnType": "void",
                     "typeParameters": [],
-                    "line": 50,
+                    "line": 67,
                     "deprecated": false,
                     "deprecationMessage": ""
                 },
@@ -13745,7 +13756,7 @@
                     "optional": false,
                     "returnType": "void",
                     "typeParameters": [],
-                    "line": 41,
+                    "line": 59,
                     "deprecated": false,
                     "deprecationMessage": ""
                 },
@@ -13762,7 +13773,7 @@
                     "optional": false,
                     "returnType": "void",
                     "typeParameters": [],
-                    "line": 47,
+                    "line": 65,
                     "deprecated": false,
                     "deprecationMessage": "",
                     "jsdoctags": [
@@ -13783,7 +13794,7 @@
                     "optional": false,
                     "returnType": "void",
                     "typeParameters": [],
-                    "line": 34,
+                    "line": 52,
                     "deprecated": false,
                     "deprecationMessage": ""
                 },
@@ -13793,7 +13804,7 @@
                     "optional": false,
                     "returnType": "void",
                     "typeParameters": [],
-                    "line": 28,
+                    "line": 46,
                     "deprecated": false,
                     "deprecationMessage": ""
                 },
@@ -13817,7 +13828,7 @@
                     "optional": false,
                     "returnType": "void",
                     "typeParameters": [],
-                    "line": 64,
+                    "line": 81,
                     "deprecated": false,
                     "deprecationMessage": "",
                     "jsdoctags": [
@@ -13850,7 +13861,7 @@
             "description": "",
             "rawdescription": "\n",
             "type": "component",
-            "sourceCode": "import { Subscription } from 'rxjs';\nimport { ActivatedRoute, Router } from '@angular/router';\nimport { OnInit, OnDestroy, AfterViewInit, OnChanges, AfterContentInit, Injector,\n  Component, Type, ChangeDetectorRef, InjectionToken } from '@angular/core';\nimport { Logger } from '../utils/Logger';\n\nexport const COMPONENT_LIFECYCLE_DEBUG_MODE = new InjectionToken<number>('debugComponentLifecycle');\n\n@Component({\n    template: ''\n})\nexport class OdeComponent implements OnInit, OnDestroy, AfterViewInit, OnChanges, AfterContentInit {\n    private logger: Logger;\n    route: ActivatedRoute;\n    router: Router;\n    protected changeDetector: ChangeDetectorRef;\n    protected subscriptions: Subscription = new Subscription();\n    private debugComponentLifeCycle: number;\n\n    constructor(public injector: Injector ) {\n        this.debugComponentLifeCycle = injector.get(COMPONENT_LIFECYCLE_DEBUG_MODE);\n        this.logger = injector.get<Logger>(Logger as Type<Logger>);\n        this.route = injector.get<ActivatedRoute>(ActivatedRoute as Type<ActivatedRoute>);\n        this.router = injector.get<Router>(Router as Type<Router>);\n        this.changeDetector = injector.get<ChangeDetectorRef>(ChangeDetectorRef as Type<ChangeDetectorRef>);\n    }\n\n    ngOnInit(): void {\n        if (this.debugComponentLifeCycle) {\n            this.info('ngOnInit');\n        }\n    }\n\n    ngOnDestroy(): void {\n        if (this.debugComponentLifeCycle) {\n            this.info('ngOnDestroy');\n        }\n        this.subscriptions.unsubscribe();\n    }\n\n    ngAfterViewInit(): void {\n        if (this.debugComponentLifeCycle) {\n            this.info('ngAfterViewInit');\n        }\n    }\n\n    ngOnChanges(changes: import('@angular/core').SimpleChanges): void {\n    }\n\n    ngAfterContentInit(): void {\n        if (this.debugComponentLifeCycle) {\n            this.info('ngAfterContentInit');\n        }\n    }\n\n    debug(message: string, object?: any): void {\n        this.logger.debug(message, this, object);\n    }\n\n    info(message: string, object?: any): void {\n        this.logger.info(message, this, object);\n    }\n\n    warn(message: string, object?: any): void {\n        this.logger.warn(message, this, object);\n    }\n\n    error(message: string, object?: any): void {\n        this.logger.error(message, this, object);\n    }\n}\n",
+            "sourceCode": "import { Subscription } from \"rxjs\";\nimport { ActivatedRoute, Router } from \"@angular/router\";\nimport {\n  OnInit,\n  OnDestroy,\n  AfterViewInit,\n  OnChanges,\n  AfterContentInit,\n  Injector,\n  Component,\n  Type,\n  ChangeDetectorRef,\n  InjectionToken,\n} from \"@angular/core\";\nimport { Logger } from \"../utils/Logger\";\n\nexport const COMPONENT_LIFECYCLE_DEBUG_MODE = new InjectionToken<number>(\n  \"debugComponentLifecycle\"\n);\n\n@Component({\n  template: \"\",\n})\nexport class OdeComponent\n  implements OnInit, OnDestroy, AfterViewInit, OnChanges, AfterContentInit\n{\n  private logger: Logger;\n  route: ActivatedRoute;\n  router: Router;\n  protected changeDetector: ChangeDetectorRef;\n  protected subscriptions: Subscription = new Subscription();\n  private debugComponentLifeCycle: number;\n\n  constructor(public injector: Injector) {\n    this.debugComponentLifeCycle = injector.get(COMPONENT_LIFECYCLE_DEBUG_MODE);\n    this.logger = injector.get<Logger>(Logger as Type<Logger>);\n    this.route = injector.get<ActivatedRoute>(\n      ActivatedRoute as Type<ActivatedRoute>\n    );\n    this.router = injector.get<Router>(Router as Type<Router>);\n    this.changeDetector = injector.get<ChangeDetectorRef>(\n      ChangeDetectorRef as Type<ChangeDetectorRef>\n    );\n  }\n\n  ngOnInit(): void {\n    if (this.debugComponentLifeCycle) {\n      this.info(\"ngOnInit\");\n    }\n  }\n\n  ngOnDestroy(): void {\n    if (this.debugComponentLifeCycle) {\n      this.info(\"ngOnDestroy\");\n    }\n    this.subscriptions.unsubscribe();\n  }\n\n  ngAfterViewInit(): void {\n    if (this.debugComponentLifeCycle) {\n      this.info(\"ngAfterViewInit\");\n    }\n  }\n\n  ngOnChanges(changes: import(\"@angular/core\").SimpleChanges): void {}\n\n  ngAfterContentInit(): void {\n    if (this.debugComponentLifeCycle) {\n      this.info(\"ngAfterContentInit\");\n    }\n  }\n\n  debug(message: string, object?: any): void {\n    this.logger.debug(message, this, object);\n  }\n\n  info(message: string, object?: any): void {\n    this.logger.info(message, this, object);\n  }\n\n  warn(message: string, object?: any): void {\n    this.logger.warn(message, this, object);\n  }\n\n  error(message: string, object?: any): void {\n    this.logger.error(message, this, object);\n  }\n}\n",
             "assetsDirs": [],
             "styleUrlsData": "",
             "stylesData": "",
@@ -13867,7 +13878,7 @@
                         "deprecationMessage": ""
                     }
                 ],
-                "line": 18,
+                "line": 32,
                 "jsdoctags": [
                     {
                         "name": "injector",
@@ -14041,7 +14052,7 @@
                     "type": "ChangeDetectorRef",
                     "optional": false,
                     "description": "",
-                    "line": 16,
+                    "line": 30,
                     "modifierKind": [
                         122
                     ],
@@ -14056,7 +14067,7 @@
                     "type": "number",
                     "optional": false,
                     "description": "",
-                    "line": 18,
+                    "line": 32,
                     "modifierKind": [
                         121
                     ],
@@ -14071,7 +14082,7 @@
                     "type": "Injector",
                     "optional": false,
                     "description": "",
-                    "line": 20,
+                    "line": 34,
                     "modifierKind": [
                         123
                     ],
@@ -14086,7 +14097,7 @@
                     "type": "Logger",
                     "optional": false,
                     "description": "",
-                    "line": 13,
+                    "line": 27,
                     "modifierKind": [
                         121
                     ],
@@ -14101,7 +14112,7 @@
                     "type": "ActivatedRoute",
                     "optional": false,
                     "description": "",
-                    "line": 14,
+                    "line": 28,
                     "inheritance": {
                         "file": "OdeComponent"
                     }
@@ -14113,7 +14124,7 @@
                     "type": "Router",
                     "optional": false,
                     "description": "",
-                    "line": 15,
+                    "line": 29,
                     "inheritance": {
                         "file": "OdeComponent"
                     }
@@ -14126,7 +14137,7 @@
                     "type": "Subscription",
                     "optional": false,
                     "description": "",
-                    "line": 17,
+                    "line": 31,
                     "modifierKind": [
                         122
                     ],
@@ -14199,7 +14210,7 @@
                     "optional": false,
                     "returnType": "void",
                     "typeParameters": [],
-                    "line": 56,
+                    "line": 73,
                     "deprecated": false,
                     "deprecationMessage": "",
                     "jsdoctags": [
@@ -14247,7 +14258,7 @@
                     "optional": false,
                     "returnType": "void",
                     "typeParameters": [],
-                    "line": 68,
+                    "line": 85,
                     "deprecated": false,
                     "deprecationMessage": "",
                     "jsdoctags": [
@@ -14295,7 +14306,7 @@
                     "optional": false,
                     "returnType": "void",
                     "typeParameters": [],
-                    "line": 60,
+                    "line": 77,
                     "deprecated": false,
                     "deprecationMessage": "",
                     "jsdoctags": [
@@ -14329,7 +14340,7 @@
                     "optional": false,
                     "returnType": "void",
                     "typeParameters": [],
-                    "line": 50,
+                    "line": 67,
                     "deprecated": false,
                     "deprecationMessage": "",
                     "inheritance": {
@@ -14342,7 +14353,7 @@
                     "optional": false,
                     "returnType": "void",
                     "typeParameters": [],
-                    "line": 41,
+                    "line": 59,
                     "deprecated": false,
                     "deprecationMessage": "",
                     "inheritance": {
@@ -14362,7 +14373,7 @@
                     "optional": false,
                     "returnType": "void",
                     "typeParameters": [],
-                    "line": 47,
+                    "line": 65,
                     "deprecated": false,
                     "deprecationMessage": "",
                     "jsdoctags": [
@@ -14386,7 +14397,7 @@
                     "optional": false,
                     "returnType": "void",
                     "typeParameters": [],
-                    "line": 34,
+                    "line": 52,
                     "deprecated": false,
                     "deprecationMessage": "",
                     "inheritance": {
@@ -14413,7 +14424,7 @@
                     "optional": false,
                     "returnType": "void",
                     "typeParameters": [],
-                    "line": 64,
+                    "line": 81,
                     "deprecated": false,
                     "deprecationMessage": "",
                     "jsdoctags": [
@@ -14546,7 +14557,7 @@
                     "type": "ChangeDetectorRef",
                     "optional": false,
                     "description": "",
-                    "line": 16,
+                    "line": 30,
                     "modifierKind": [
                         122
                     ],
@@ -14561,7 +14572,7 @@
                     "type": "number",
                     "optional": false,
                     "description": "",
-                    "line": 18,
+                    "line": 32,
                     "modifierKind": [
                         121
                     ],
@@ -14576,7 +14587,7 @@
                     "type": "Injector",
                     "optional": false,
                     "description": "",
-                    "line": 20,
+                    "line": 34,
                     "modifierKind": [
                         123
                     ],
@@ -14591,7 +14602,7 @@
                     "type": "Logger",
                     "optional": false,
                     "description": "",
-                    "line": 13,
+                    "line": 27,
                     "modifierKind": [
                         121
                     ],
@@ -14606,7 +14617,7 @@
                     "type": "ActivatedRoute",
                     "optional": false,
                     "description": "",
-                    "line": 14,
+                    "line": 28,
                     "inheritance": {
                         "file": "OdeComponent"
                     }
@@ -14618,7 +14629,7 @@
                     "type": "Router",
                     "optional": false,
                     "description": "",
-                    "line": 15,
+                    "line": 29,
                     "inheritance": {
                         "file": "OdeComponent"
                     }
@@ -14631,7 +14642,7 @@
                     "type": "Subscription",
                     "optional": false,
                     "description": "",
-                    "line": 17,
+                    "line": 31,
                     "modifierKind": [
                         122
                     ],
@@ -14661,7 +14672,7 @@
                     "optional": false,
                     "returnType": "void",
                     "typeParameters": [],
-                    "line": 56,
+                    "line": 73,
                     "deprecated": false,
                     "deprecationMessage": "",
                     "jsdoctags": [
@@ -14709,7 +14720,7 @@
                     "optional": false,
                     "returnType": "void",
                     "typeParameters": [],
-                    "line": 68,
+                    "line": 85,
                     "deprecated": false,
                     "deprecationMessage": "",
                     "jsdoctags": [
@@ -14757,7 +14768,7 @@
                     "optional": false,
                     "returnType": "void",
                     "typeParameters": [],
-                    "line": 60,
+                    "line": 77,
                     "deprecated": false,
                     "deprecationMessage": "",
                     "jsdoctags": [
@@ -14791,7 +14802,7 @@
                     "optional": false,
                     "returnType": "void",
                     "typeParameters": [],
-                    "line": 50,
+                    "line": 67,
                     "deprecated": false,
                     "deprecationMessage": "",
                     "inheritance": {
@@ -14804,7 +14815,7 @@
                     "optional": false,
                     "returnType": "void",
                     "typeParameters": [],
-                    "line": 41,
+                    "line": 59,
                     "deprecated": false,
                     "deprecationMessage": "",
                     "inheritance": {
@@ -14824,7 +14835,7 @@
                     "optional": false,
                     "returnType": "void",
                     "typeParameters": [],
-                    "line": 47,
+                    "line": 65,
                     "deprecated": false,
                     "deprecationMessage": "",
                     "jsdoctags": [
@@ -14848,7 +14859,7 @@
                     "optional": false,
                     "returnType": "void",
                     "typeParameters": [],
-                    "line": 34,
+                    "line": 52,
                     "deprecated": false,
                     "deprecationMessage": "",
                     "inheritance": {
@@ -14861,7 +14872,7 @@
                     "optional": false,
                     "returnType": "void",
                     "typeParameters": [],
-                    "line": 28,
+                    "line": 46,
                     "deprecated": false,
                     "deprecationMessage": "",
                     "inheritance": {
@@ -14888,7 +14899,7 @@
                     "optional": false,
                     "returnType": "void",
                     "typeParameters": [],
-                    "line": 64,
+                    "line": 81,
                     "deprecated": false,
                     "deprecationMessage": "",
                     "jsdoctags": [
@@ -14990,7 +15001,7 @@
                     "type": "ChangeDetectorRef",
                     "optional": false,
                     "description": "",
-                    "line": 16,
+                    "line": 30,
                     "modifierKind": [
                         122
                     ],
@@ -15005,7 +15016,7 @@
                     "type": "number",
                     "optional": false,
                     "description": "",
-                    "line": 18,
+                    "line": 32,
                     "modifierKind": [
                         121
                     ],
@@ -15020,7 +15031,7 @@
                     "type": "Injector",
                     "optional": false,
                     "description": "",
-                    "line": 20,
+                    "line": 34,
                     "modifierKind": [
                         123
                     ],
@@ -15035,7 +15046,7 @@
                     "type": "Logger",
                     "optional": false,
                     "description": "",
-                    "line": 13,
+                    "line": 27,
                     "modifierKind": [
                         121
                     ],
@@ -15050,7 +15061,7 @@
                     "type": "ActivatedRoute",
                     "optional": false,
                     "description": "",
-                    "line": 14,
+                    "line": 28,
                     "inheritance": {
                         "file": "OdeComponent"
                     }
@@ -15062,7 +15073,7 @@
                     "type": "Router",
                     "optional": false,
                     "description": "",
-                    "line": 15,
+                    "line": 29,
                     "inheritance": {
                         "file": "OdeComponent"
                     }
@@ -15075,7 +15086,7 @@
                     "type": "Subscription",
                     "optional": false,
                     "description": "",
-                    "line": 17,
+                    "line": 31,
                     "modifierKind": [
                         122
                     ],
@@ -15105,7 +15116,7 @@
                     "optional": false,
                     "returnType": "void",
                     "typeParameters": [],
-                    "line": 56,
+                    "line": 73,
                     "deprecated": false,
                     "deprecationMessage": "",
                     "jsdoctags": [
@@ -15153,7 +15164,7 @@
                     "optional": false,
                     "returnType": "void",
                     "typeParameters": [],
-                    "line": 68,
+                    "line": 85,
                     "deprecated": false,
                     "deprecationMessage": "",
                     "jsdoctags": [
@@ -15201,7 +15212,7 @@
                     "optional": false,
                     "returnType": "void",
                     "typeParameters": [],
-                    "line": 60,
+                    "line": 77,
                     "deprecated": false,
                     "deprecationMessage": "",
                     "jsdoctags": [
@@ -15235,7 +15246,7 @@
                     "optional": false,
                     "returnType": "void",
                     "typeParameters": [],
-                    "line": 50,
+                    "line": 67,
                     "deprecated": false,
                     "deprecationMessage": "",
                     "inheritance": {
@@ -15248,7 +15259,7 @@
                     "optional": false,
                     "returnType": "void",
                     "typeParameters": [],
-                    "line": 41,
+                    "line": 59,
                     "deprecated": false,
                     "deprecationMessage": "",
                     "inheritance": {
@@ -15268,7 +15279,7 @@
                     "optional": false,
                     "returnType": "void",
                     "typeParameters": [],
-                    "line": 47,
+                    "line": 65,
                     "deprecated": false,
                     "deprecationMessage": "",
                     "jsdoctags": [
@@ -15292,7 +15303,7 @@
                     "optional": false,
                     "returnType": "void",
                     "typeParameters": [],
-                    "line": 34,
+                    "line": 52,
                     "deprecated": false,
                     "deprecationMessage": "",
                     "inheritance": {
@@ -15305,7 +15316,7 @@
                     "optional": false,
                     "returnType": "void",
                     "typeParameters": [],
-                    "line": 28,
+                    "line": 46,
                     "deprecated": false,
                     "deprecationMessage": "",
                     "inheritance": {
@@ -15332,7 +15343,7 @@
                     "optional": false,
                     "returnType": "void",
                     "typeParameters": [],
-                    "line": 64,
+                    "line": 81,
                     "deprecated": false,
                     "deprecationMessage": "",
                     "jsdoctags": [
@@ -15488,7 +15499,7 @@
                     "type": "ChangeDetectorRef",
                     "optional": false,
                     "description": "",
-                    "line": 16,
+                    "line": 30,
                     "modifierKind": [
                         122
                     ],
@@ -15503,7 +15514,7 @@
                     "type": "number",
                     "optional": false,
                     "description": "",
-                    "line": 18,
+                    "line": 32,
                     "modifierKind": [
                         121
                     ],
@@ -15518,7 +15529,7 @@
                     "type": "Injector",
                     "optional": false,
                     "description": "",
-                    "line": 20,
+                    "line": 34,
                     "modifierKind": [
                         123
                     ],
@@ -15533,7 +15544,7 @@
                     "type": "Logger",
                     "optional": false,
                     "description": "",
-                    "line": 13,
+                    "line": 27,
                     "modifierKind": [
                         121
                     ],
@@ -15548,7 +15559,7 @@
                     "type": "ActivatedRoute",
                     "optional": false,
                     "description": "",
-                    "line": 14,
+                    "line": 28,
                     "inheritance": {
                         "file": "OdeComponent"
                     }
@@ -15560,7 +15571,7 @@
                     "type": "Router",
                     "optional": false,
                     "description": "",
-                    "line": 15,
+                    "line": 29,
                     "inheritance": {
                         "file": "OdeComponent"
                     }
@@ -15573,7 +15584,7 @@
                     "type": "Subscription",
                     "optional": false,
                     "description": "",
-                    "line": 17,
+                    "line": 31,
                     "modifierKind": [
                         122
                     ],
@@ -15634,7 +15645,7 @@
                     "optional": false,
                     "returnType": "void",
                     "typeParameters": [],
-                    "line": 56,
+                    "line": 73,
                     "deprecated": false,
                     "deprecationMessage": "",
                     "jsdoctags": [
@@ -15682,7 +15693,7 @@
                     "optional": false,
                     "returnType": "void",
                     "typeParameters": [],
-                    "line": 68,
+                    "line": 85,
                     "deprecated": false,
                     "deprecationMessage": "",
                     "jsdoctags": [
@@ -15730,7 +15741,7 @@
                     "optional": false,
                     "returnType": "void",
                     "typeParameters": [],
-                    "line": 60,
+                    "line": 77,
                     "deprecated": false,
                     "deprecationMessage": "",
                     "jsdoctags": [
@@ -15764,7 +15775,7 @@
                     "optional": false,
                     "returnType": "void",
                     "typeParameters": [],
-                    "line": 50,
+                    "line": 67,
                     "deprecated": false,
                     "deprecationMessage": "",
                     "inheritance": {
@@ -15777,7 +15788,7 @@
                     "optional": false,
                     "returnType": "void",
                     "typeParameters": [],
-                    "line": 41,
+                    "line": 59,
                     "deprecated": false,
                     "deprecationMessage": "",
                     "inheritance": {
@@ -15797,7 +15808,7 @@
                     "optional": false,
                     "returnType": "void",
                     "typeParameters": [],
-                    "line": 47,
+                    "line": 65,
                     "deprecated": false,
                     "deprecationMessage": "",
                     "jsdoctags": [
@@ -15821,7 +15832,7 @@
                     "optional": false,
                     "returnType": "void",
                     "typeParameters": [],
-                    "line": 34,
+                    "line": 52,
                     "deprecated": false,
                     "deprecationMessage": "",
                     "inheritance": {
@@ -15834,7 +15845,7 @@
                     "optional": false,
                     "returnType": "void",
                     "typeParameters": [],
-                    "line": 28,
+                    "line": 46,
                     "deprecated": false,
                     "deprecationMessage": "",
                     "inheritance": {
@@ -15861,7 +15872,7 @@
                     "optional": false,
                     "returnType": "void",
                     "typeParameters": [],
-                    "line": 64,
+                    "line": 81,
                     "deprecated": false,
                     "deprecationMessage": "",
                     "jsdoctags": [
@@ -16269,7 +16280,7 @@
                     "type": "ChangeDetectorRef",
                     "optional": false,
                     "description": "",
-                    "line": 16,
+                    "line": 30,
                     "modifierKind": [
                         122
                     ],
@@ -16284,7 +16295,7 @@
                     "type": "number",
                     "optional": false,
                     "description": "",
-                    "line": 18,
+                    "line": 32,
                     "modifierKind": [
                         121
                     ],
@@ -16299,7 +16310,7 @@
                     "type": "Injector",
                     "optional": false,
                     "description": "",
-                    "line": 20,
+                    "line": 34,
                     "modifierKind": [
                         123
                     ],
@@ -16314,7 +16325,7 @@
                     "type": "Logger",
                     "optional": false,
                     "description": "",
-                    "line": 13,
+                    "line": 27,
                     "modifierKind": [
                         121
                     ],
@@ -16329,7 +16340,7 @@
                     "type": "ActivatedRoute",
                     "optional": false,
                     "description": "",
-                    "line": 14,
+                    "line": 28,
                     "inheritance": {
                         "file": "OdeComponent"
                     }
@@ -16341,7 +16352,7 @@
                     "type": "Router",
                     "optional": false,
                     "description": "",
-                    "line": 15,
+                    "line": 29,
                     "inheritance": {
                         "file": "OdeComponent"
                     }
@@ -16354,7 +16365,7 @@
                     "type": "Subscription",
                     "optional": false,
                     "description": "",
-                    "line": 17,
+                    "line": 31,
                     "modifierKind": [
                         122
                     ],
@@ -16451,7 +16462,7 @@
                     "optional": false,
                     "returnType": "void",
                     "typeParameters": [],
-                    "line": 56,
+                    "line": 73,
                     "deprecated": false,
                     "deprecationMessage": "",
                     "jsdoctags": [
@@ -16499,7 +16510,7 @@
                     "optional": false,
                     "returnType": "void",
                     "typeParameters": [],
-                    "line": 68,
+                    "line": 85,
                     "deprecated": false,
                     "deprecationMessage": "",
                     "jsdoctags": [
@@ -16547,7 +16558,7 @@
                     "optional": false,
                     "returnType": "void",
                     "typeParameters": [],
-                    "line": 60,
+                    "line": 77,
                     "deprecated": false,
                     "deprecationMessage": "",
                     "jsdoctags": [
@@ -16581,7 +16592,7 @@
                     "optional": false,
                     "returnType": "void",
                     "typeParameters": [],
-                    "line": 50,
+                    "line": 67,
                     "deprecated": false,
                     "deprecationMessage": "",
                     "inheritance": {
@@ -16594,7 +16605,7 @@
                     "optional": false,
                     "returnType": "void",
                     "typeParameters": [],
-                    "line": 41,
+                    "line": 59,
                     "deprecated": false,
                     "deprecationMessage": "",
                     "inheritance": {
@@ -16614,7 +16625,7 @@
                     "optional": false,
                     "returnType": "void",
                     "typeParameters": [],
-                    "line": 47,
+                    "line": 65,
                     "deprecated": false,
                     "deprecationMessage": "",
                     "jsdoctags": [
@@ -16652,7 +16663,7 @@
                     "optional": false,
                     "returnType": "void",
                     "typeParameters": [],
-                    "line": 64,
+                    "line": 81,
                     "deprecated": false,
                     "deprecationMessage": "",
                     "jsdoctags": [
@@ -16845,7 +16856,7 @@
                     "type": "ChangeDetectorRef",
                     "optional": false,
                     "description": "",
-                    "line": 16,
+                    "line": 30,
                     "modifierKind": [
                         122
                     ],
@@ -16860,7 +16871,7 @@
                     "type": "number",
                     "optional": false,
                     "description": "",
-                    "line": 18,
+                    "line": 32,
                     "modifierKind": [
                         121
                     ],
@@ -16875,7 +16886,7 @@
                     "type": "Injector",
                     "optional": false,
                     "description": "",
-                    "line": 20,
+                    "line": 34,
                     "modifierKind": [
                         123
                     ],
@@ -16890,7 +16901,7 @@
                     "type": "Logger",
                     "optional": false,
                     "description": "",
-                    "line": 13,
+                    "line": 27,
                     "modifierKind": [
                         121
                     ],
@@ -16905,7 +16916,7 @@
                     "type": "ActivatedRoute",
                     "optional": false,
                     "description": "",
-                    "line": 14,
+                    "line": 28,
                     "inheritance": {
                         "file": "OdeComponent"
                     }
@@ -16917,7 +16928,7 @@
                     "type": "Router",
                     "optional": false,
                     "description": "",
-                    "line": 15,
+                    "line": 29,
                     "inheritance": {
                         "file": "OdeComponent"
                     }
@@ -16930,7 +16941,7 @@
                     "type": "Subscription",
                     "optional": false,
                     "description": "",
-                    "line": 17,
+                    "line": 31,
                     "modifierKind": [
                         122
                     ],
@@ -16960,7 +16971,7 @@
                     "optional": false,
                     "returnType": "void",
                     "typeParameters": [],
-                    "line": 56,
+                    "line": 73,
                     "deprecated": false,
                     "deprecationMessage": "",
                     "jsdoctags": [
@@ -17008,7 +17019,7 @@
                     "optional": false,
                     "returnType": "void",
                     "typeParameters": [],
-                    "line": 68,
+                    "line": 85,
                     "deprecated": false,
                     "deprecationMessage": "",
                     "jsdoctags": [
@@ -17056,7 +17067,7 @@
                     "optional": false,
                     "returnType": "void",
                     "typeParameters": [],
-                    "line": 60,
+                    "line": 77,
                     "deprecated": false,
                     "deprecationMessage": "",
                     "jsdoctags": [
@@ -17090,7 +17101,7 @@
                     "optional": false,
                     "returnType": "void",
                     "typeParameters": [],
-                    "line": 50,
+                    "line": 67,
                     "deprecated": false,
                     "deprecationMessage": "",
                     "inheritance": {
@@ -17103,7 +17114,7 @@
                     "optional": false,
                     "returnType": "void",
                     "typeParameters": [],
-                    "line": 41,
+                    "line": 59,
                     "deprecated": false,
                     "deprecationMessage": "",
                     "inheritance": {
@@ -17123,7 +17134,7 @@
                     "optional": false,
                     "returnType": "void",
                     "typeParameters": [],
-                    "line": 47,
+                    "line": 65,
                     "deprecated": false,
                     "deprecationMessage": "",
                     "jsdoctags": [
@@ -17147,7 +17158,7 @@
                     "optional": false,
                     "returnType": "void",
                     "typeParameters": [],
-                    "line": 34,
+                    "line": 52,
                     "deprecated": false,
                     "deprecationMessage": "",
                     "inheritance": {
@@ -17160,7 +17171,7 @@
                     "optional": false,
                     "returnType": "void",
                     "typeParameters": [],
-                    "line": 28,
+                    "line": 46,
                     "deprecated": false,
                     "deprecationMessage": "",
                     "inheritance": {
@@ -17187,7 +17198,7 @@
                     "optional": false,
                     "returnType": "void",
                     "typeParameters": [],
-                    "line": 64,
+                    "line": 81,
                     "deprecated": false,
                     "deprecationMessage": "",
                     "jsdoctags": [
@@ -17325,7 +17336,7 @@
                     "type": "ChangeDetectorRef",
                     "optional": false,
                     "description": "",
-                    "line": 16,
+                    "line": 30,
                     "modifierKind": [
                         122
                     ],
@@ -17340,7 +17351,7 @@
                     "type": "number",
                     "optional": false,
                     "description": "",
-                    "line": 18,
+                    "line": 32,
                     "modifierKind": [
                         121
                     ],
@@ -17355,7 +17366,7 @@
                     "type": "Injector",
                     "optional": false,
                     "description": "",
-                    "line": 20,
+                    "line": 34,
                     "modifierKind": [
                         123
                     ],
@@ -17370,7 +17381,7 @@
                     "type": "Logger",
                     "optional": false,
                     "description": "",
-                    "line": 13,
+                    "line": 27,
                     "modifierKind": [
                         121
                     ],
@@ -17385,7 +17396,7 @@
                     "type": "ActivatedRoute",
                     "optional": false,
                     "description": "",
-                    "line": 14,
+                    "line": 28,
                     "inheritance": {
                         "file": "OdeComponent"
                     }
@@ -17397,7 +17408,7 @@
                     "type": "Router",
                     "optional": false,
                     "description": "",
-                    "line": 15,
+                    "line": 29,
                     "inheritance": {
                         "file": "OdeComponent"
                     }
@@ -17410,7 +17421,7 @@
                     "type": "Subscription",
                     "optional": false,
                     "description": "",
-                    "line": 17,
+                    "line": 31,
                     "modifierKind": [
                         122
                     ],
@@ -17468,7 +17479,7 @@
                     "optional": false,
                     "returnType": "void",
                     "typeParameters": [],
-                    "line": 56,
+                    "line": 73,
                     "deprecated": false,
                     "deprecationMessage": "",
                     "jsdoctags": [
@@ -17516,7 +17527,7 @@
                     "optional": false,
                     "returnType": "void",
                     "typeParameters": [],
-                    "line": 68,
+                    "line": 85,
                     "deprecated": false,
                     "deprecationMessage": "",
                     "jsdoctags": [
@@ -17564,7 +17575,7 @@
                     "optional": false,
                     "returnType": "void",
                     "typeParameters": [],
-                    "line": 60,
+                    "line": 77,
                     "deprecated": false,
                     "deprecationMessage": "",
                     "jsdoctags": [
@@ -17598,7 +17609,7 @@
                     "optional": false,
                     "returnType": "void",
                     "typeParameters": [],
-                    "line": 50,
+                    "line": 67,
                     "deprecated": false,
                     "deprecationMessage": "",
                     "inheritance": {
@@ -17611,7 +17622,7 @@
                     "optional": false,
                     "returnType": "void",
                     "typeParameters": [],
-                    "line": 41,
+                    "line": 59,
                     "deprecated": false,
                     "deprecationMessage": "",
                     "inheritance": {
@@ -17631,7 +17642,7 @@
                     "optional": false,
                     "returnType": "void",
                     "typeParameters": [],
-                    "line": 47,
+                    "line": 65,
                     "deprecated": false,
                     "deprecationMessage": "",
                     "jsdoctags": [
@@ -17655,7 +17666,7 @@
                     "optional": false,
                     "returnType": "void",
                     "typeParameters": [],
-                    "line": 34,
+                    "line": 52,
                     "deprecated": false,
                     "deprecationMessage": "",
                     "inheritance": {
@@ -17668,7 +17679,7 @@
                     "optional": false,
                     "returnType": "void",
                     "typeParameters": [],
-                    "line": 28,
+                    "line": 46,
                     "deprecated": false,
                     "deprecationMessage": "",
                     "inheritance": {
@@ -17695,7 +17706,7 @@
                     "optional": false,
                     "returnType": "void",
                     "typeParameters": [],
-                    "line": 64,
+                    "line": 81,
                     "deprecated": false,
                     "deprecationMessage": "",
                     "jsdoctags": [
@@ -17885,7 +17896,7 @@
                     "type": "ChangeDetectorRef",
                     "optional": false,
                     "description": "",
-                    "line": 16,
+                    "line": 30,
                     "modifierKind": [
                         122
                     ],
@@ -17900,7 +17911,7 @@
                     "type": "number",
                     "optional": false,
                     "description": "",
-                    "line": 18,
+                    "line": 32,
                     "modifierKind": [
                         121
                     ],
@@ -17915,7 +17926,7 @@
                     "type": "Injector",
                     "optional": false,
                     "description": "",
-                    "line": 20,
+                    "line": 34,
                     "modifierKind": [
                         123
                     ],
@@ -17930,7 +17941,7 @@
                     "type": "Logger",
                     "optional": false,
                     "description": "",
-                    "line": 13,
+                    "line": 27,
                     "modifierKind": [
                         121
                     ],
@@ -17945,7 +17956,7 @@
                     "type": "ActivatedRoute",
                     "optional": false,
                     "description": "",
-                    "line": 14,
+                    "line": 28,
                     "inheritance": {
                         "file": "OdeComponent"
                     }
@@ -17957,7 +17968,7 @@
                     "type": "Router",
                     "optional": false,
                     "description": "",
-                    "line": 15,
+                    "line": 29,
                     "inheritance": {
                         "file": "OdeComponent"
                     }
@@ -17970,7 +17981,7 @@
                     "type": "Subscription",
                     "optional": false,
                     "description": "",
-                    "line": 17,
+                    "line": 31,
                     "modifierKind": [
                         122
                     ],
@@ -18000,7 +18011,7 @@
                     "optional": false,
                     "returnType": "void",
                     "typeParameters": [],
-                    "line": 56,
+                    "line": 73,
                     "deprecated": false,
                     "deprecationMessage": "",
                     "jsdoctags": [
@@ -18048,7 +18059,7 @@
                     "optional": false,
                     "returnType": "void",
                     "typeParameters": [],
-                    "line": 68,
+                    "line": 85,
                     "deprecated": false,
                     "deprecationMessage": "",
                     "jsdoctags": [
@@ -18096,7 +18107,7 @@
                     "optional": false,
                     "returnType": "void",
                     "typeParameters": [],
-                    "line": 60,
+                    "line": 77,
                     "deprecated": false,
                     "deprecationMessage": "",
                     "jsdoctags": [
@@ -18130,7 +18141,7 @@
                     "optional": false,
                     "returnType": "void",
                     "typeParameters": [],
-                    "line": 50,
+                    "line": 67,
                     "deprecated": false,
                     "deprecationMessage": "",
                     "inheritance": {
@@ -18143,7 +18154,7 @@
                     "optional": false,
                     "returnType": "void",
                     "typeParameters": [],
-                    "line": 41,
+                    "line": 59,
                     "deprecated": false,
                     "deprecationMessage": "",
                     "inheritance": {
@@ -18163,7 +18174,7 @@
                     "optional": false,
                     "returnType": "void",
                     "typeParameters": [],
-                    "line": 47,
+                    "line": 65,
                     "deprecated": false,
                     "deprecationMessage": "",
                     "jsdoctags": [
@@ -18187,7 +18198,7 @@
                     "optional": false,
                     "returnType": "void",
                     "typeParameters": [],
-                    "line": 34,
+                    "line": 52,
                     "deprecated": false,
                     "deprecationMessage": "",
                     "inheritance": {
@@ -18200,7 +18211,7 @@
                     "optional": false,
                     "returnType": "void",
                     "typeParameters": [],
-                    "line": 28,
+                    "line": 46,
                     "deprecated": false,
                     "deprecationMessage": "",
                     "inheritance": {
@@ -18227,7 +18238,7 @@
                     "optional": false,
                     "returnType": "void",
                     "typeParameters": [],
-                    "line": 64,
+                    "line": 81,
                     "deprecated": false,
                     "deprecationMessage": "",
                     "jsdoctags": [
@@ -18358,7 +18369,7 @@
                     "type": "ChangeDetectorRef",
                     "optional": false,
                     "description": "",
-                    "line": 16,
+                    "line": 30,
                     "modifierKind": [
                         122
                     ],
@@ -18373,7 +18384,7 @@
                     "type": "number",
                     "optional": false,
                     "description": "",
-                    "line": 18,
+                    "line": 32,
                     "modifierKind": [
                         121
                     ],
@@ -18388,7 +18399,7 @@
                     "type": "Injector",
                     "optional": false,
                     "description": "",
-                    "line": 20,
+                    "line": 34,
                     "modifierKind": [
                         123
                     ],
@@ -18403,7 +18414,7 @@
                     "type": "Logger",
                     "optional": false,
                     "description": "",
-                    "line": 13,
+                    "line": 27,
                     "modifierKind": [
                         121
                     ],
@@ -18418,7 +18429,7 @@
                     "type": "ActivatedRoute",
                     "optional": false,
                     "description": "",
-                    "line": 14,
+                    "line": 28,
                     "inheritance": {
                         "file": "OdeComponent"
                     }
@@ -18430,7 +18441,7 @@
                     "type": "Router",
                     "optional": false,
                     "description": "",
-                    "line": 15,
+                    "line": 29,
                     "inheritance": {
                         "file": "OdeComponent"
                     }
@@ -18443,7 +18454,7 @@
                     "type": "Subscription",
                     "optional": false,
                     "description": "",
-                    "line": 17,
+                    "line": 31,
                     "modifierKind": [
                         122
                     ],
@@ -18486,7 +18497,7 @@
                     "optional": false,
                     "returnType": "void",
                     "typeParameters": [],
-                    "line": 56,
+                    "line": 73,
                     "deprecated": false,
                     "deprecationMessage": "",
                     "jsdoctags": [
@@ -18534,7 +18545,7 @@
                     "optional": false,
                     "returnType": "void",
                     "typeParameters": [],
-                    "line": 68,
+                    "line": 85,
                     "deprecated": false,
                     "deprecationMessage": "",
                     "jsdoctags": [
@@ -18582,7 +18593,7 @@
                     "optional": false,
                     "returnType": "void",
                     "typeParameters": [],
-                    "line": 60,
+                    "line": 77,
                     "deprecated": false,
                     "deprecationMessage": "",
                     "jsdoctags": [
@@ -18616,7 +18627,7 @@
                     "optional": false,
                     "returnType": "void",
                     "typeParameters": [],
-                    "line": 50,
+                    "line": 67,
                     "deprecated": false,
                     "deprecationMessage": "",
                     "inheritance": {
@@ -18629,7 +18640,7 @@
                     "optional": false,
                     "returnType": "void",
                     "typeParameters": [],
-                    "line": 41,
+                    "line": 59,
                     "deprecated": false,
                     "deprecationMessage": "",
                     "inheritance": {
@@ -18649,7 +18660,7 @@
                     "optional": false,
                     "returnType": "void",
                     "typeParameters": [],
-                    "line": 47,
+                    "line": 65,
                     "deprecated": false,
                     "deprecationMessage": "",
                     "jsdoctags": [
@@ -18673,7 +18684,7 @@
                     "optional": false,
                     "returnType": "void",
                     "typeParameters": [],
-                    "line": 34,
+                    "line": 52,
                     "deprecated": false,
                     "deprecationMessage": "",
                     "inheritance": {
@@ -18700,7 +18711,7 @@
                     "optional": false,
                     "returnType": "void",
                     "typeParameters": [],
-                    "line": 64,
+                    "line": 81,
                     "deprecated": false,
                     "deprecationMessage": "",
                     "jsdoctags": [
@@ -18978,7 +18989,7 @@
                     "type": "ChangeDetectorRef",
                     "optional": false,
                     "description": "",
-                    "line": 16,
+                    "line": 30,
                     "modifierKind": [
                         122
                     ],
@@ -18993,7 +19004,7 @@
                     "type": "number",
                     "optional": false,
                     "description": "",
-                    "line": 18,
+                    "line": 32,
                     "modifierKind": [
                         121
                     ],
@@ -19008,7 +19019,7 @@
                     "type": "Injector",
                     "optional": false,
                     "description": "",
-                    "line": 20,
+                    "line": 34,
                     "modifierKind": [
                         123
                     ],
@@ -19023,7 +19034,7 @@
                     "type": "Logger",
                     "optional": false,
                     "description": "",
-                    "line": 13,
+                    "line": 27,
                     "modifierKind": [
                         121
                     ],
@@ -19038,7 +19049,7 @@
                     "type": "ActivatedRoute",
                     "optional": false,
                     "description": "",
-                    "line": 14,
+                    "line": 28,
                     "inheritance": {
                         "file": "OdeComponent"
                     }
@@ -19050,7 +19061,7 @@
                     "type": "Router",
                     "optional": false,
                     "description": "",
-                    "line": 15,
+                    "line": 29,
                     "inheritance": {
                         "file": "OdeComponent"
                     }
@@ -19063,7 +19074,7 @@
                     "type": "Subscription",
                     "optional": false,
                     "description": "",
-                    "line": 17,
+                    "line": 31,
                     "modifierKind": [
                         122
                     ],
@@ -19187,7 +19198,7 @@
                     "optional": false,
                     "returnType": "void",
                     "typeParameters": [],
-                    "line": 56,
+                    "line": 73,
                     "deprecated": false,
                     "deprecationMessage": "",
                     "jsdoctags": [
@@ -19235,7 +19246,7 @@
                     "optional": false,
                     "returnType": "void",
                     "typeParameters": [],
-                    "line": 68,
+                    "line": 85,
                     "deprecated": false,
                     "deprecationMessage": "",
                     "jsdoctags": [
@@ -19283,7 +19294,7 @@
                     "optional": false,
                     "returnType": "void",
                     "typeParameters": [],
-                    "line": 60,
+                    "line": 77,
                     "deprecated": false,
                     "deprecationMessage": "",
                     "jsdoctags": [
@@ -19317,7 +19328,7 @@
                     "optional": false,
                     "returnType": "void",
                     "typeParameters": [],
-                    "line": 50,
+                    "line": 67,
                     "deprecated": false,
                     "deprecationMessage": "",
                     "inheritance": {
@@ -19330,7 +19341,7 @@
                     "optional": false,
                     "returnType": "void",
                     "typeParameters": [],
-                    "line": 41,
+                    "line": 59,
                     "deprecated": false,
                     "deprecationMessage": "",
                     "inheritance": {
@@ -19350,7 +19361,7 @@
                     "optional": false,
                     "returnType": "void",
                     "typeParameters": [],
-                    "line": 47,
+                    "line": 65,
                     "deprecated": false,
                     "deprecationMessage": "",
                     "jsdoctags": [
@@ -19374,7 +19385,7 @@
                     "optional": false,
                     "returnType": "void",
                     "typeParameters": [],
-                    "line": 28,
+                    "line": 46,
                     "deprecated": false,
                     "deprecationMessage": "",
                     "inheritance": {
@@ -19401,7 +19412,7 @@
                     "optional": false,
                     "returnType": "void",
                     "typeParameters": [],
-                    "line": 64,
+                    "line": 81,
                     "deprecated": false,
                     "deprecationMessage": "",
                     "jsdoctags": [
@@ -19621,7 +19632,7 @@
                     "type": "ChangeDetectorRef",
                     "optional": false,
                     "description": "",
-                    "line": 16,
+                    "line": 30,
                     "modifierKind": [
                         122
                     ],
@@ -19636,7 +19647,7 @@
                     "type": "number",
                     "optional": false,
                     "description": "",
-                    "line": 18,
+                    "line": 32,
                     "modifierKind": [
                         121
                     ],
@@ -19651,7 +19662,7 @@
                     "type": "Injector",
                     "optional": false,
                     "description": "",
-                    "line": 20,
+                    "line": 34,
                     "modifierKind": [
                         123
                     ],
@@ -19666,7 +19677,7 @@
                     "type": "Logger",
                     "optional": false,
                     "description": "",
-                    "line": 13,
+                    "line": 27,
                     "modifierKind": [
                         121
                     ],
@@ -19681,7 +19692,7 @@
                     "type": "ActivatedRoute",
                     "optional": false,
                     "description": "",
-                    "line": 14,
+                    "line": 28,
                     "inheritance": {
                         "file": "OdeComponent"
                     }
@@ -19693,7 +19704,7 @@
                     "type": "Router",
                     "optional": false,
                     "description": "",
-                    "line": 15,
+                    "line": 29,
                     "inheritance": {
                         "file": "OdeComponent"
                     }
@@ -19706,7 +19717,7 @@
                     "type": "Subscription",
                     "optional": false,
                     "description": "",
-                    "line": 17,
+                    "line": 31,
                     "modifierKind": [
                         122
                     ],
@@ -19876,7 +19887,7 @@
                     "optional": false,
                     "returnType": "void",
                     "typeParameters": [],
-                    "line": 56,
+                    "line": 73,
                     "deprecated": false,
                     "deprecationMessage": "",
                     "jsdoctags": [
@@ -19924,7 +19935,7 @@
                     "optional": false,
                     "returnType": "void",
                     "typeParameters": [],
-                    "line": 68,
+                    "line": 85,
                     "deprecated": false,
                     "deprecationMessage": "",
                     "jsdoctags": [
@@ -19972,7 +19983,7 @@
                     "optional": false,
                     "returnType": "void",
                     "typeParameters": [],
-                    "line": 60,
+                    "line": 77,
                     "deprecated": false,
                     "deprecationMessage": "",
                     "jsdoctags": [
@@ -20006,7 +20017,7 @@
                     "optional": false,
                     "returnType": "void",
                     "typeParameters": [],
-                    "line": 50,
+                    "line": 67,
                     "deprecated": false,
                     "deprecationMessage": "",
                     "inheritance": {
@@ -20019,7 +20030,7 @@
                     "optional": false,
                     "returnType": "void",
                     "typeParameters": [],
-                    "line": 41,
+                    "line": 59,
                     "deprecated": false,
                     "deprecationMessage": "",
                     "inheritance": {
@@ -20039,7 +20050,7 @@
                     "optional": false,
                     "returnType": "void",
                     "typeParameters": [],
-                    "line": 47,
+                    "line": 65,
                     "deprecated": false,
                     "deprecationMessage": "",
                     "jsdoctags": [
@@ -20063,7 +20074,7 @@
                     "optional": false,
                     "returnType": "void",
                     "typeParameters": [],
-                    "line": 34,
+                    "line": 52,
                     "deprecated": false,
                     "deprecationMessage": "",
                     "inheritance": {
@@ -20090,7 +20101,7 @@
                     "optional": false,
                     "returnType": "void",
                     "typeParameters": [],
-                    "line": 64,
+                    "line": 81,
                     "deprecated": false,
                     "deprecationMessage": "",
                     "jsdoctags": [
@@ -20272,7 +20283,7 @@
                     "type": "ChangeDetectorRef",
                     "optional": false,
                     "description": "",
-                    "line": 16,
+                    "line": 30,
                     "modifierKind": [
                         122
                     ],
@@ -20287,7 +20298,7 @@
                     "type": "number",
                     "optional": false,
                     "description": "",
-                    "line": 18,
+                    "line": 32,
                     "modifierKind": [
                         121
                     ],
@@ -20302,7 +20313,7 @@
                     "type": "Injector",
                     "optional": false,
                     "description": "",
-                    "line": 20,
+                    "line": 34,
                     "modifierKind": [
                         123
                     ],
@@ -20317,7 +20328,7 @@
                     "type": "Logger",
                     "optional": false,
                     "description": "",
-                    "line": 13,
+                    "line": 27,
                     "modifierKind": [
                         121
                     ],
@@ -20332,7 +20343,7 @@
                     "type": "ActivatedRoute",
                     "optional": false,
                     "description": "",
-                    "line": 14,
+                    "line": 28,
                     "inheritance": {
                         "file": "OdeComponent"
                     }
@@ -20344,7 +20355,7 @@
                     "type": "Router",
                     "optional": false,
                     "description": "",
-                    "line": 15,
+                    "line": 29,
                     "inheritance": {
                         "file": "OdeComponent"
                     }
@@ -20357,7 +20368,7 @@
                     "type": "Subscription",
                     "optional": false,
                     "description": "",
-                    "line": 17,
+                    "line": 31,
                     "modifierKind": [
                         122
                     ],
@@ -20470,7 +20481,7 @@
                     "optional": false,
                     "returnType": "void",
                     "typeParameters": [],
-                    "line": 56,
+                    "line": 73,
                     "deprecated": false,
                     "deprecationMessage": "",
                     "jsdoctags": [
@@ -20518,7 +20529,7 @@
                     "optional": false,
                     "returnType": "void",
                     "typeParameters": [],
-                    "line": 68,
+                    "line": 85,
                     "deprecated": false,
                     "deprecationMessage": "",
                     "jsdoctags": [
@@ -20566,7 +20577,7 @@
                     "optional": false,
                     "returnType": "void",
                     "typeParameters": [],
-                    "line": 60,
+                    "line": 77,
                     "deprecated": false,
                     "deprecationMessage": "",
                     "jsdoctags": [
@@ -20600,7 +20611,7 @@
                     "optional": false,
                     "returnType": "void",
                     "typeParameters": [],
-                    "line": 41,
+                    "line": 59,
                     "deprecated": false,
                     "deprecationMessage": "",
                     "inheritance": {
@@ -20620,7 +20631,7 @@
                     "optional": false,
                     "returnType": "void",
                     "typeParameters": [],
-                    "line": 47,
+                    "line": 65,
                     "deprecated": false,
                     "deprecationMessage": "",
                     "jsdoctags": [
@@ -20644,7 +20655,7 @@
                     "optional": false,
                     "returnType": "void",
                     "typeParameters": [],
-                    "line": 34,
+                    "line": 52,
                     "deprecated": false,
                     "deprecationMessage": "",
                     "inheritance": {
@@ -20657,7 +20668,7 @@
                     "optional": false,
                     "returnType": "void",
                     "typeParameters": [],
-                    "line": 28,
+                    "line": 46,
                     "deprecated": false,
                     "deprecationMessage": "",
                     "inheritance": {
@@ -20684,7 +20695,7 @@
                     "optional": false,
                     "returnType": "void",
                     "typeParameters": [],
-                    "line": 64,
+                    "line": 81,
                     "deprecated": false,
                     "deprecationMessage": "",
                     "jsdoctags": [
@@ -21276,6 +21287,16 @@
     "miscellaneous": {
         "variables": [
             {
+                "name": "actionsData",
+                "ctype": "miscellaneous",
+                "subtype": "variable",
+                "file": "projects/ngx-ode-ui/src/lib/components/dropdown/dropdown.stories.ts",
+                "deprecated": false,
+                "deprecationMessage": "",
+                "type": "object",
+                "defaultValue": "{\n  onDropdown: action(\"onDropdown\"),\n}"
+            },
+            {
                 "name": "COMPONENT_LIFECYCLE_DEBUG_MODE",
                 "ctype": "miscellaneous",
                 "subtype": "variable",
@@ -21283,7 +21304,7 @@
                 "deprecated": false,
                 "deprecationMessage": "",
                 "type": "",
-                "defaultValue": "new InjectionToken<number>('debugComponentLifecycle')"
+                "defaultValue": "new InjectionToken<number>(\n  \"debugComponentLifecycle\"\n)"
             },
             {
                 "name": "context",
@@ -21299,7 +21320,7 @@
                 "name": "context",
                 "ctype": "miscellaneous",
                 "subtype": "variable",
-                "file": "projects/ngx-ode-sijil/src/test.ts",
+                "file": "projects/ngx-ode-ui/src/test.ts",
                 "deprecated": false,
                 "deprecationMessage": "",
                 "type": "",
@@ -21309,7 +21330,7 @@
                 "name": "context",
                 "ctype": "miscellaneous",
                 "subtype": "variable",
-                "file": "projects/ngx-ode-ui/src/test.ts",
+                "file": "projects/ngx-ode-sijil/src/test.ts",
                 "deprecated": false,
                 "deprecationMessage": "",
                 "type": "",
@@ -21333,7 +21354,7 @@
                 "deprecated": false,
                 "deprecationMessage": "",
                 "type": "Story<DropdownComponent>",
-                "defaultValue": "(args: DropdownComponent) => ({\n  props: { ...args },\n  template: `\n  <ode-dropdown \n  name=\"${args.name}\"\n  [isDropdownOpened]=\"${args.isDropdownOpened}\">\n    <ode-list\n      [model]=\"model\">\n      <ng-template let-item>\n        <div>{{ item.title }}</div>\n      </ng-template>\n    </ode-list>\n  </ode-dropdown>\n  `,\n})"
+                "defaultValue": "(args: DropdownComponent) => ({\n  props: { ...args, onDropdown: actionsData.onDropdown },\n  template: `\n  <ode-dropdown \n  name=\"${args.name}\"\n  [isDropdownOpened]=\"${args.isDropdownOpened}\"\n  (onDropdown)=\"onToggle()\">\n    <ode-list\n      [model]=\"model\">\n      <ng-template let-item>\n        <div>{{ item.title }}</div>\n      </ng-template>\n    </ode-list>\n  </ode-dropdown>\n  `,\n})"
             },
             {
                 "name": "defaultDiacriticsRemovalMap",
@@ -21353,7 +21374,7 @@
                 "deprecated": false,
                 "deprecationMessage": "",
                 "type": "Story<ListComponent>",
-                "defaultValue": "(args: ListComponent) => ({\n  props: { ...args },\n  template: `\n    <ode-list\n    [model]=\"model\">\n      <ng-template let-item>\n        <div>{{ item.title }}</div>\n      </ng-template>\n    </ode-list>`,\n})"
+                "defaultValue": "(args: ListComponent) => ({\n  props: { ...args },\n  template: `\n    <ode-list\n    [model]=\"model\"\n    [loading]=\"${args.loading}\">\n      <ng-template let-item>\n        <div>{{ item.title }}</div>\n      </ng-template>\n    </ode-list>`,\n})"
             },
             {
                 "name": "defaultSijilOpts",
@@ -21373,7 +21394,7 @@
                 "deprecated": false,
                 "deprecationMessage": "",
                 "type": "Story<ListComponent>",
-                "defaultValue": "(args: ListComponent) => ({\n  props: { ...args },\n  template: `\n    <ode-list\n    [model]=\"model\">\n      <ng-template let-item>\n        <div>{{ item.title }}</div>\n      </ng-template>\n    </ode-list>`,\n})"
+                "defaultValue": "(args: ListComponent) => ({\n  props: { ...args },\n  template: `\n    <ode-list\n    [model]=\"model\"\n    [loading]=\"${args.loading}\">\n      <ng-template let-item>\n        <div>{{ item.title }}</div>\n      </ng-template>\n    </ode-list>`,\n})"
             },
             {
                 "name": "icons",
@@ -21508,7 +21529,7 @@
                 "name": "require",
                 "ctype": "miscellaneous",
                 "subtype": "variable",
-                "file": "projects/ngx-ode-sijil/src/test.ts",
+                "file": "projects/ngx-ode-ui/src/test.ts",
                 "deprecated": false,
                 "deprecationMessage": "",
                 "type": "any"
@@ -21517,7 +21538,7 @@
                 "name": "require",
                 "ctype": "miscellaneous",
                 "subtype": "variable",
-                "file": "projects/ngx-ode-ui/src/test.ts",
+                "file": "projects/ngx-ode-sijil/src/test.ts",
                 "deprecated": false,
                 "deprecationMessage": "",
                 "type": "any"
@@ -21546,21 +21567,21 @@
                 "name": "Template",
                 "ctype": "miscellaneous",
                 "subtype": "variable",
-                "file": "stories/Header.stories.ts",
-                "deprecated": false,
-                "deprecationMessage": "",
-                "type": "Story<Header>",
-                "defaultValue": "(args: Header) => ({\n  props: args,\n})"
-            },
-            {
-                "name": "Template",
-                "ctype": "miscellaneous",
-                "subtype": "variable",
                 "file": "stories/Button.stories.ts",
                 "deprecated": false,
                 "deprecationMessage": "",
                 "type": "Story<Button>",
                 "defaultValue": "(args: Button) => ({\n  props: args,\n})"
+            },
+            {
+                "name": "Template",
+                "ctype": "miscellaneous",
+                "subtype": "variable",
+                "file": "stories/Header.stories.ts",
+                "deprecated": false,
+                "deprecationMessage": "",
+                "type": "Story<Header>",
+                "defaultValue": "(args: Header) => ({\n  props: args,\n})"
             },
             {
                 "name": "Template",
@@ -21822,6 +21843,38 @@
         ],
         "enumerations": [],
         "groupedVariables": {
+            "projects/ngx-ode-ui/src/lib/components/dropdown/dropdown.stories.ts": [
+                {
+                    "name": "actionsData",
+                    "ctype": "miscellaneous",
+                    "subtype": "variable",
+                    "file": "projects/ngx-ode-ui/src/lib/components/dropdown/dropdown.stories.ts",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "type": "object",
+                    "defaultValue": "{\n  onDropdown: action(\"onDropdown\"),\n}"
+                },
+                {
+                    "name": "Default",
+                    "ctype": "miscellaneous",
+                    "subtype": "variable",
+                    "file": "projects/ngx-ode-ui/src/lib/components/dropdown/dropdown.stories.ts",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "type": "Story<DropdownComponent>",
+                    "defaultValue": "(args: DropdownComponent) => ({\n  props: { ...args, onDropdown: actionsData.onDropdown },\n  template: `\n  <ode-dropdown \n  name=\"${args.name}\"\n  [isDropdownOpened]=\"${args.isDropdownOpened}\"\n  (onDropdown)=\"onToggle()\">\n    <ode-list\n      [model]=\"model\">\n      <ng-template let-item>\n        <div>{{ item.title }}</div>\n      </ng-template>\n    </ode-list>\n  </ode-dropdown>\n  `,\n})"
+                },
+                {
+                    "name": "Open",
+                    "ctype": "miscellaneous",
+                    "subtype": "variable",
+                    "file": "projects/ngx-ode-ui/src/lib/components/dropdown/dropdown.stories.ts",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "type": "Story<DropdownComponent>",
+                    "defaultValue": "(args: DropdownComponent) => ({\n  props: args,\n  template: `\n    <ode-dropdown \n      name=\"${args.name}\"\n      [isDropdownOpened]=\"${args.isDropdownOpened}\">\n        <ode-list\n          [model]=\"model\">\n          <ng-template let-item>\n            <div>{{ item.title }}</div>\n          </ng-template>\n        </ode-list>\n      </ode-dropdown>\n  `,\n})"
+                }
+            ],
             "projects/ngx-ode-core/src/lib/component/ode.component.ts": [
                 {
                     "name": "COMPONENT_LIFECYCLE_DEBUG_MODE",
@@ -21831,7 +21884,7 @@
                     "deprecated": false,
                     "deprecationMessage": "",
                     "type": "",
-                    "defaultValue": "new InjectionToken<number>('debugComponentLifecycle')"
+                    "defaultValue": "new InjectionToken<number>(\n  \"debugComponentLifecycle\"\n)"
                 }
             ],
             "projects/ngx-ode-core/src/test.ts": [
@@ -21850,27 +21903,6 @@
                     "ctype": "miscellaneous",
                     "subtype": "variable",
                     "file": "projects/ngx-ode-core/src/test.ts",
-                    "deprecated": false,
-                    "deprecationMessage": "",
-                    "type": "any"
-                }
-            ],
-            "projects/ngx-ode-sijil/src/test.ts": [
-                {
-                    "name": "context",
-                    "ctype": "miscellaneous",
-                    "subtype": "variable",
-                    "file": "projects/ngx-ode-sijil/src/test.ts",
-                    "deprecated": false,
-                    "deprecationMessage": "",
-                    "type": "",
-                    "defaultValue": "require.context('./', true, /\\.spec\\.ts$/)"
-                },
-                {
-                    "name": "require",
-                    "ctype": "miscellaneous",
-                    "subtype": "variable",
-                    "file": "projects/ngx-ode-sijil/src/test.ts",
                     "deprecated": false,
                     "deprecationMessage": "",
                     "type": "any"
@@ -21897,6 +21929,27 @@
                     "type": "any"
                 }
             ],
+            "projects/ngx-ode-sijil/src/test.ts": [
+                {
+                    "name": "context",
+                    "ctype": "miscellaneous",
+                    "subtype": "variable",
+                    "file": "projects/ngx-ode-sijil/src/test.ts",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "type": "",
+                    "defaultValue": "require.context('./', true, /\\.spec\\.ts$/)"
+                },
+                {
+                    "name": "require",
+                    "ctype": "miscellaneous",
+                    "subtype": "variable",
+                    "file": "projects/ngx-ode-sijil/src/test.ts",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "type": "any"
+                }
+            ],
             "projects/ngx-ode-ui/src/lib/components/datepicker/datepicker.component.ts": [
                 {
                     "name": "CUSTOM_INPUT_CONTROL_VALUE_ACCESSOR",
@@ -21917,28 +21970,6 @@
                     "deprecationMessage": "",
                     "type": "",
                     "defaultValue": "() => {\n}"
-                }
-            ],
-            "projects/ngx-ode-ui/src/lib/components/dropdown/dropdown.stories.ts": [
-                {
-                    "name": "Default",
-                    "ctype": "miscellaneous",
-                    "subtype": "variable",
-                    "file": "projects/ngx-ode-ui/src/lib/components/dropdown/dropdown.stories.ts",
-                    "deprecated": false,
-                    "deprecationMessage": "",
-                    "type": "Story<DropdownComponent>",
-                    "defaultValue": "(args: DropdownComponent) => ({\n  props: { ...args },\n  template: `\n  <ode-dropdown \n  name=\"${args.name}\"\n  [isDropdownOpened]=\"${args.isDropdownOpened}\">\n    <ode-list\n      [model]=\"model\">\n      <ng-template let-item>\n        <div>{{ item.title }}</div>\n      </ng-template>\n    </ode-list>\n  </ode-dropdown>\n  `,\n})"
-                },
-                {
-                    "name": "Open",
-                    "ctype": "miscellaneous",
-                    "subtype": "variable",
-                    "file": "projects/ngx-ode-ui/src/lib/components/dropdown/dropdown.stories.ts",
-                    "deprecated": false,
-                    "deprecationMessage": "",
-                    "type": "Story<DropdownComponent>",
-                    "defaultValue": "(args: DropdownComponent) => ({\n  props: args,\n  template: `\n    <ode-dropdown \n      name=\"${args.name}\"\n      [isDropdownOpened]=\"${args.isDropdownOpened}\">\n        <ode-list\n          [model]=\"model\">\n          <ng-template let-item>\n            <div>{{ item.title }}</div>\n          </ng-template>\n        </ode-list>\n      </ode-dropdown>\n  `,\n})"
                 }
             ],
             "projects/ngx-ode-ui/src/lib/helpers/accents.helper.ts": [
@@ -21972,7 +22003,7 @@
                     "deprecated": false,
                     "deprecationMessage": "",
                     "type": "Story<ListComponent>",
-                    "defaultValue": "(args: ListComponent) => ({\n  props: { ...args },\n  template: `\n    <ode-list\n    [model]=\"model\">\n      <ng-template let-item>\n        <div>{{ item.title }}</div>\n      </ng-template>\n    </ode-list>`,\n})"
+                    "defaultValue": "(args: ListComponent) => ({\n  props: { ...args },\n  template: `\n    <ode-list\n    [model]=\"model\"\n    [loading]=\"${args.loading}\">\n      <ng-template let-item>\n        <div>{{ item.title }}</div>\n      </ng-template>\n    </ode-list>`,\n})"
                 },
                 {
                     "name": "EmptyList",
@@ -21982,7 +22013,7 @@
                     "deprecated": false,
                     "deprecationMessage": "",
                     "type": "Story<ListComponent>",
-                    "defaultValue": "(args: ListComponent) => ({\n  props: { ...args },\n  template: `\n    <ode-list\n    [model]=\"model\">\n      <ng-template let-item>\n        <div>{{ item.title }}</div>\n      </ng-template>\n    </ode-list>`,\n})"
+                    "defaultValue": "(args: ListComponent) => ({\n  props: { ...args },\n  template: `\n    <ode-list\n    [model]=\"model\"\n    [loading]=\"${args.loading}\">\n      <ng-template let-item>\n        <div>{{ item.title }}</div>\n      </ng-template>\n    </ode-list>`,\n})"
                 },
                 {
                     "name": "LoadingList",
@@ -22621,7 +22652,17 @@
                 "linktype": "component",
                 "name": "DropdownComponent",
                 "coveragePercent": 0,
-                "coverageCount": "0/5",
+                "coverageCount": "0/6",
+                "status": "low"
+            },
+            {
+                "filePath": "projects/ngx-ode-ui/src/lib/components/dropdown/dropdown.stories.ts",
+                "type": "variable",
+                "linktype": "miscellaneous",
+                "linksubtype": "variable",
+                "name": "actionsData",
+                "coveragePercent": 0,
+                "coverageCount": "0/1",
                 "status": "low"
             },
             {
