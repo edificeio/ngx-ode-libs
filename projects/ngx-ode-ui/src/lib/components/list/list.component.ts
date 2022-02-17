@@ -21,13 +21,14 @@ export class ListComponent extends OdeComponent {
     self = this;
     _storedElements = [];
 
-    @Input() model = [];
+    @Input() model;
     @Input() filters;
     @Input() inputFilter;
     @Input() sort;
     @Input() limit: number;
     @Input() searchPlaceholder = 'search';
     @Input() noResultsLabel = 'list.results.no.items';
+    @Input() placeholder = 'list.placeholder';
     @Input() isSearchActive = true;
     @Input() searchInput: boolean = false;
     @Input() searchSubmit: () => void;

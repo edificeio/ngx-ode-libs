@@ -12,7 +12,7 @@
     [scrollWindow]="false"
     (scrolled)="scrolledDown.emit()"
     [infiniteScrollThrottle]="50">
-  <ul>
+  <ul *ngIf="model">
     <li *ngFor="let item of model | filter: filters | filter: inputFilter | store:self:'storedElements' | orderBy: sort | slice: 0:limit"
         (click)="onSelect.emit(item)"
         [class.selected]="isSelected(item)"
@@ -23,7 +23,10 @@
       </ng-template>
     </li>
   </ul>
-  <ul *ngIf="storedElements && storedElements.length === 0">
+  <ul *ngIf="model && storedElements && storedElements.length === 0">
     <li class="no-results">{{ noResultsLabel | translate }}</li>
+  </ul>
+  <ul *ngIf="!model">
+    <li class="placeholder">{{ placeholder | translate }}</li>
   </ul>
 </div>
