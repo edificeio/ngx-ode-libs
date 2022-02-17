@@ -8,12 +8,32 @@ ul li {
   cursor: pointer;
   border-top: 1px solid #ddd;
   padding: 10px 10px;
+
+  &.no-results {
+    padding: 50px;
+    text-align: center;
+    font-style: italic;
+    &:hover {
+      cursor: default !important;
+      background-color: inherit !important;
+    }
+  }
+
+  &.placeholder {
+    color: #aaa;
+    padding: 50px;
+    text-align: center;
+    &:hover {
+      cursor: default !important;
+      background-color: inherit !important;
+    }
+  }
 }
 
 ul li.disabled {
   pointer-events: none;
 }
 
-.placeholder {
-  color: #aaa;
+.list-wrapper {
+  min-height: 30vh;
 }
