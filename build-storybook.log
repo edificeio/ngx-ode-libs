@@ -1,0 +1,1614 @@
+[0m
+[0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [48;5;255m [48;5;255m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m
+[0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [48;5;255m [48;5;255m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m
+[0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [48;5;255m [48;5;255m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m
+[48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [0m [0m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [0m [0m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [0m [0m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [0m [0m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [0m [0m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [0m [0m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [0m [0m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [0m
+[48;5;255m [48;5;255m [0m [0m [0m [0m [0m [0m [0m [48;5;255m [48;5;255m [0m [0m [0m [0m [48;5;255m [48;5;255m [0m [0m [48;5;255m [48;5;255m [0m [0m [0m [48;5;255m [48;5;255m [0m [0m [0m [48;5;255m [48;5;255m [0m [0m [48;5;255m [48;5;255m [0m [0m [0m [0m [48;5;255m [48;5;255m [0m [0m [48;5;255m [48;5;255m [0m [0m [0m [0m [48;5;255m [48;5;255m [0m [0m [48;5;255m [48;5;255m [0m [0m [0m [0m [48;5;255m [48;5;255m [0m [0m [48;5;255m [48;5;255m [0m [0m [0m [0m [48;5;255m [48;5;255m [0m [0m [48;5;255m [48;5;255m [0m
+[48;5;255m [48;5;255m [0m [0m [0m [0m [0m [0m [0m [48;5;255m [48;5;255m [0m [0m [0m [0m [48;5;255m [48;5;255m [0m [0m [48;5;255m [48;5;255m [0m [0m [0m [48;5;255m [48;5;255m [0m [0m [0m [48;5;255m [48;5;255m [0m [0m [48;5;255m [48;5;255m [0m [0m [0m [0m [48;5;255m [48;5;255m [0m [0m [48;5;255m [48;5;255m [0m [0m [0m [0m [48;5;255m [48;5;255m [0m [0m [48;5;255m [48;5;255m [0m [0m [0m [0m [48;5;255m [48;5;255m [0m [0m [48;5;255m [48;5;255m [0m [0m [0m [0m [48;5;255m [48;5;255m [0m [0m [48;5;255m [48;5;255m [0m
+[48;5;255m [48;5;255m [0m [0m [0m [0m [0m [0m [0m [48;5;255m [48;5;255m [0m [0m [0m [0m [48;5;255m [48;5;255m [0m [0m [48;5;255m [48;5;255m [0m [0m [0m [48;5;255m [48;5;255m [0m [0m [0m [48;5;255m [48;5;255m [0m [0m [48;5;255m [48;5;255m [0m [0m [0m [0m [48;5;255m [48;5;255m [0m [0m [48;5;255m [48;5;255m [0m [0m [0m [0m [48;5;255m [48;5;255m [0m [0m [48;5;255m [48;5;255m [0m [0m [0m [0m [48;5;255m [48;5;255m [0m [0m [48;5;255m [48;5;255m [0m [0m [0m [0m [48;5;255m [48;5;255m [0m [0m [48;5;255m [48;5;255m [0m
+[48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [0m [0m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [0m [0m [48;5;255m [48;5;255m [0m [0m [0m [48;5;255m [48;5;255m [0m [0m [0m [48;5;255m [48;5;255m [0m [0m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [0m [0m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [0m [0m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [0m [0m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [0m [0m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [0m
+[0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [48;5;255m [48;5;255m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m
+[0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [48;5;255m [48;5;255m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m
+[0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [48;5;255m [48;5;255m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m
+
+1.1.18
+
+TypeScript version used by Compodoc : 4.5.5
+
+TypeScript version of current project : 4.5.5
+
+Node.js version : v12.22.0
+
+Operating system : macOS Monterey
+
+[14:38:21] No configuration file found, switching to CLI flags.
+[14:38:21] Using tsconfig file : /Users/clement/www/ode/ngx-ode-libs/tsconfig.json
+[14:38:21] Including      : /Users/clement/www/ode/ngx-ode-libs/.editorconfig
+[14:38:21] Including      : /Users/clement/www/ode/ngx-ode-libs/.DS_Store
+[14:38:21] Including      : /Users/clement/www/ode/ngx-ode-libs/angular.json
+[14:38:21] Including      : /Users/clement/www/ode/ngx-ode-libs/README.md
+[14:38:21] Including      : /Users/clement/www/ode/ngx-ode-libs/build-storybook.log
+[14:38:21] Including      : /Users/clement/www/ode/ngx-ode-libs/build-noDocker.sh
+[14:38:21] Including      : /Users/clement/www/ode/ngx-ode-libs/.gitignore
+[14:38:21] Including      : /Users/clement/www/ode/ngx-ode-libs/build.sh
+[14:38:21] Including      : /Users/clement/www/ode/ngx-ode-libs/documentation.json
+[14:38:21] Including      : /Users/clement/www/ode/ngx-ode-libs/docker-compose.yml
+[14:38:21] Including      : /Users/clement/www/ode/ngx-ode-libs/ngx-ode-core.jenkinsfile
+[14:38:21] Including      : /Users/clement/www/ode/ngx-ode-libs/ngx-ode-sijil.jenkinsfile
+[14:38:21] Including      : /Users/clement/www/ode/ngx-ode-libs/ngx-ode-ui.jenkinsfile
+[14:38:21] Including      : /Users/clement/www/ode/ngx-ode-libs/package-lock.json
+[14:38:21] Including      : /Users/clement/www/ode/ngx-ode-libs/package.json
+[14:38:21] Including      : /Users/clement/www/ode/ngx-ode-libs/tslint.json
+[14:38:21] Including      : /Users/clement/www/ode/ngx-ode-libs/tsconfig.json
+[14:38:21] Including      : /Users/clement/www/ode/ngx-ode-libs/.storybook/preview.js
+[14:38:21] Including      : /Users/clement/www/ode/ngx-ode-libs/.storybook/main.js
+[14:38:21] Including      : /Users/clement/www/ode/ngx-ode-libs/.storybook/tsconfig.json
+[14:38:21] Ignoring       : /Users/clement/www/ode/ngx-ode-libs/.storybook/typings.d.ts
+[14:38:21] Ignoring       : /Users/clement/www/ode/ngx-ode-libs/dist/bit-dropdown.d.ts
+[14:38:21] Including      : /Users/clement/www/ode/ngx-ode-libs/dist/bit-dropdown.metadata.json
+[14:38:21] Ignoring       : /Users/clement/www/ode/ngx-ode-libs/dist/bit-ngx-ode-core.d.ts
+[14:38:21] Including      : /Users/clement/www/ode/ngx-ode-libs/dist/bit-ngx-ode-core.metadata.json
+[14:38:21] Ignoring       : /Users/clement/www/ode/ngx-ode-libs/dist/bit-ngx-ode-core.d.ts.__ivy_ngcc_bak
+[14:38:21] Ignoring       : /Users/clement/www/ode/ngx-ode-libs/dist/dropdown.component.d.ts
+[14:38:21] Ignoring       : /Users/clement/www/ode/ngx-ode-libs/dist/dropdown.module.d.ts
+[14:38:21] Ignoring       : /Users/clement/www/ode/ngx-ode-libs/dist/ngx-ode-core.module.d.ts
+[14:38:21] Ignoring       : /Users/clement/www/ode/ngx-ode-libs/dist/ngx-ode-core.module.d.ts.__ivy_ngcc_bak
+[14:38:21] Ignoring       : /Users/clement/www/ode/ngx-ode-libs/dist/ngx-ode-core.module.d.ts.map
+[14:38:21] Including      : /Users/clement/www/ode/ngx-ode-libs/dist/package.json
+[14:38:21] Including      : /Users/clement/www/ode/ngx-ode-libs/stories/Button.stories.ts
+[14:38:21] Including      : /Users/clement/www/ode/ngx-ode-libs/stories/Header.stories.ts
+[14:38:21] Including      : /Users/clement/www/ode/ngx-ode-libs/stories/Introduction.stories.mdx
+[14:38:21] Including      : /Users/clement/www/ode/ngx-ode-libs/stories/Page.stories.ts
+[14:38:21] Including      : /Users/clement/www/ode/ngx-ode-libs/stories/User.ts
+[14:38:21] Including      : /Users/clement/www/ode/ngx-ode-libs/stories/button.component.ts
+[14:38:21] Including      : /Users/clement/www/ode/ngx-ode-libs/stories/button.css
+[14:38:21] Including      : /Users/clement/www/ode/ngx-ode-libs/stories/header.component.ts
+[14:38:21] Including      : /Users/clement/www/ode/ngx-ode-libs/stories/header.css
+[14:38:21] Including      : /Users/clement/www/ode/ngx-ode-libs/stories/page.component.ts
+[14:38:21] Including      : /Users/clement/www/ode/ngx-ode-libs/stories/page.css
+[14:38:21] Ignoring       : /Users/clement/www/ode/ngx-ode-libs/dist/bit-ngx-ode-core.d.ts.map
+[14:38:21] Including      : /Users/clement/www/ode/ngx-ode-libs/dist/bundles/bit-dropdown.umd.min.js.map
+[14:38:21] Including      : /Users/clement/www/ode/ngx-ode-libs/dist/bundles/bit-dropdown.umd.min.js
+[14:38:21] Including      : /Users/clement/www/ode/ngx-ode-libs/dist/bundles/bit-dropdown.umd.js.map
+[14:38:21] Including      : /Users/clement/www/ode/ngx-ode-libs/dist/bundles/bit-dropdown.umd.js
+[14:38:21] Including      : /Users/clement/www/ode/ngx-ode-libs/dist/bundles/bit-ngx-ode-core-ngx-ode-core.umd.js
+[14:38:21] Including      : /Users/clement/www/ode/ngx-ode-libs/dist/bundles/bit-ngx-ode-core-ngx-ode-core.umd.min.js
+[14:38:21] Including      : /Users/clement/www/ode/ngx-ode-libs/dist/bundles/bit-ngx-ode-core-ngx-ode-core.umd.min.js.map
+[14:38:21] Including      : /Users/clement/www/ode/ngx-ode-libs/dist/bundles/bit-ngx-ode-core.umd.js
+[14:38:21] Including      : /Users/clement/www/ode/ngx-ode-libs/dist/bundles/bit-ngx-ode-core-ngx-ode-core.umd.js.map
+[14:38:21] Including      : /Users/clement/www/ode/ngx-ode-libs/dist/bundles/bit-ngx-ode-core.umd.js.map
+[14:38:21] Including      : /Users/clement/www/ode/ngx-ode-libs/dist/bundles/bit-ngx-ode-core.umd.min.js
+[14:38:21] Including      : /Users/clement/www/ode/ngx-ode-libs/dist/bundles/bit-ngx-ode-core.umd.min.js.map
+[14:38:21] Ignoring       : /Users/clement/www/ode/ngx-ode-libs/dist/component/ode.component.d.ts
+[14:38:21] Ignoring       : /Users/clement/www/ode/ngx-ode-libs/dist/component/ode.component.d.ts.__ivy_ngcc_bak
+[14:38:21] Including      : /Users/clement/www/ode/ngx-ode-libs/dist/esm2015/bit-dropdown.js
+[14:38:21] Ignoring       : /Users/clement/www/ode/ngx-ode-libs/dist/component/ode.component.d.ts.map
+[14:38:21] Including      : /Users/clement/www/ode/ngx-ode-libs/dist/esm2015/bit-ngx-ode-core.js
+[14:38:21] Including      : /Users/clement/www/ode/ngx-ode-libs/dist/esm2015/dropdown.component.js
+[14:38:21] Including      : /Users/clement/www/ode/ngx-ode-libs/dist/esm2015/dropdown.module.js
+[14:38:21] Including      : /Users/clement/www/ode/ngx-ode-libs/dist/fesm2015/bit-dropdown.js
+[14:38:21] Including      : /Users/clement/www/ode/ngx-ode-libs/dist/esm2015/ngx-ode-core.module.js
+[14:38:21] Including      : /Users/clement/www/ode/ngx-ode-libs/dist/fesm2015/bit-dropdown.js.map
+[14:38:21] Including      : /Users/clement/www/ode/ngx-ode-libs/dist/fesm2015/bit-ngx-ode-core-ngx-ode-core.js
+[14:38:21] Including      : /Users/clement/www/ode/ngx-ode-libs/dist/fesm2015/bit-ngx-ode-core-ngx-ode-core.js.map
+[14:38:21] Including      : /Users/clement/www/ode/ngx-ode-libs/dist/fesm2015/bit-ngx-ode-core.js
+[14:38:21] Including      : /Users/clement/www/ode/ngx-ode-libs/dist/fesm2015/bit-ngx-ode-core.js.map
+[14:38:21] Including      : /Users/clement/www/ode/ngx-ode-libs/dist/ngx-ode-core/README.md
+[14:38:21] Ignoring       : /Users/clement/www/ode/ngx-ode-libs/dist/ngx-ode-core/bit-ngx-ode-core-ngx-ode-core.d.ts
+[14:38:21] Ignoring       : /Users/clement/www/ode/ngx-ode-libs/dist/ngx-ode-core/bit-ngx-ode-core-ngx-ode-core.d.ts.__ivy_ngcc_bak
+[14:38:21] Including      : /Users/clement/www/ode/ngx-ode-libs/dist/ngx-ode-core/bit-ngx-ode-core-ngx-ode-core.metadata.json
+[14:38:21] Ignoring       : /Users/clement/www/ode/ngx-ode-libs/dist/ngx-ode-core/bit-ngx-ode-core-ngx-ode-core.d.ts.map
+[14:38:21] Ignoring       : /Users/clement/www/ode/ngx-ode-libs/dist/ngx-ode-core/ngx-ode-core.d.ts.__ivy_ngcc_bak
+[14:38:21] Ignoring       : /Users/clement/www/ode/ngx-ode-libs/dist/ngx-ode-core/ngx-ode-core.d.ts
+[14:38:21] Including      : /Users/clement/www/ode/ngx-ode-libs/dist/ngx-ode-core/ngx-ode-core.metadata.json
+[14:38:21] Including      : /Users/clement/www/ode/ngx-ode-libs/dist/ngx-ode-core/package.json
+[14:38:21] Ignoring       : /Users/clement/www/ode/ngx-ode-libs/dist/ngx-ode-core/public-api.d.ts
+[14:38:21] Including      : /Users/clement/www/ode/ngx-ode-libs/dist/ngx-ode-sijil/CHANGELOG.md
+[14:38:21] Including      : /Users/clement/www/ode/ngx-ode-libs/dist/ngx-ode-sijil/README.md
+[14:38:21] Ignoring       : /Users/clement/www/ode/ngx-ode-libs/dist/ngx-ode-sijil/ngx-ode-sijil.d.ts
+[14:38:21] Ignoring       : /Users/clement/www/ode/ngx-ode-libs/dist/ngx-ode-sijil/ngx-ode-sijil.d.ts.__ivy_ngcc_bak
+[14:38:21] Including      : /Users/clement/www/ode/ngx-ode-libs/dist/ngx-ode-sijil/ngx-ode-sijil.metadata.json
+[14:38:21] Including      : /Users/clement/www/ode/ngx-ode-libs/dist/ngx-ode-sijil/package.json
+[14:38:21] Ignoring       : /Users/clement/www/ode/ngx-ode-libs/dist/ngx-ode-sijil/public-api.d.ts
+[14:38:21] Including      : /Users/clement/www/ode/ngx-ode-libs/projects/ngx-ode-core/README.md
+[14:38:21] Including      : /Users/clement/www/ode/ngx-ode-libs/projects/ngx-ode-core/karma.conf.js
+[14:38:21] Including      : /Users/clement/www/ode/ngx-ode-libs/projects/ngx-ode-core/ng-package.json
+[14:38:21] Including      : /Users/clement/www/ode/ngx-ode-libs/projects/ngx-ode-core/package.json
+[14:38:21] Including      : /Users/clement/www/ode/ngx-ode-libs/projects/ngx-ode-core/tsconfig.lib.json
+[14:38:21] Including      : /Users/clement/www/ode/ngx-ode-libs/projects/ngx-ode-core/tsconfig.lib.prod.json
+[14:38:21] Including      : /Users/clement/www/ode/ngx-ode-libs/projects/ngx-ode-core/tslint.json
+[14:38:21] Including      : /Users/clement/www/ode/ngx-ode-libs/projects/ngx-ode-core/tsconfig.spec.json
+[14:38:21] Ignoring       : /Users/clement/www/ode/ngx-ode-libs/dist/utils/Logger.d.ts
+[14:38:21] Including      : /Users/clement/www/ode/ngx-ode-libs/projects/ngx-ode-sijil/CHANGELOG.md
+[14:38:21] Including      : /Users/clement/www/ode/ngx-ode-libs/projects/ngx-ode-sijil/karma.conf.js
+[14:38:21] Including      : /Users/clement/www/ode/ngx-ode-libs/projects/ngx-ode-sijil/README.md
+[14:38:21] Including      : /Users/clement/www/ode/ngx-ode-libs/projects/ngx-ode-sijil/ng-package.json
+[14:38:21] Including      : /Users/clement/www/ode/ngx-ode-libs/projects/ngx-ode-sijil/package.json
+[14:38:21] Including      : /Users/clement/www/ode/ngx-ode-libs/projects/ngx-ode-sijil/tsconfig.lib.json
+[14:38:21] Including      : /Users/clement/www/ode/ngx-ode-libs/projects/ngx-ode-sijil/tsconfig.lib.prod.json
+[14:38:21] Including      : /Users/clement/www/ode/ngx-ode-libs/projects/ngx-ode-sijil/tsconfig.spec.json
+[14:38:21] Including      : /Users/clement/www/ode/ngx-ode-libs/projects/ngx-ode-sijil/tslint.json
+[14:38:21] Including      : /Users/clement/www/ode/ngx-ode-libs/dist/ngx-ode-ui/CHANGELOG.md
+[14:38:21] Including      : /Users/clement/www/ode/ngx-ode-libs/dist/ngx-ode-ui/README.md
+[14:38:21] Ignoring       : /Users/clement/www/ode/ngx-ode-libs/dist/ngx-ode-ui/ngx-ode-ui.d.ts
+[14:38:21] Ignoring       : /Users/clement/www/ode/ngx-ode-libs/dist/ngx-ode-ui/ngx-ode-ui.d.ts.__ivy_ngcc_bak
+[14:38:21] Including      : /Users/clement/www/ode/ngx-ode-libs/dist/ngx-ode-ui/ngx-ode-ui.metadata.json
+[14:38:21] Including      : /Users/clement/www/ode/ngx-ode-libs/dist/ngx-ode-ui/package.json
+[14:38:21] Ignoring       : /Users/clement/www/ode/ngx-ode-libs/dist/ngx-ode-ui/public-api.d.ts
+[14:38:21] Including      : /Users/clement/www/ode/ngx-ode-libs/projects/ngx-ode-ui/CHANGELOG.md
+[14:38:21] Including      : /Users/clement/www/ode/ngx-ode-libs/projects/ngx-ode-ui/README.md
+[14:38:21] Including      : /Users/clement/www/ode/ngx-ode-libs/projects/ngx-ode-ui/karma.conf.js
+[14:38:21] Including      : /Users/clement/www/ode/ngx-ode-libs/projects/ngx-ode-ui/ng-package.json
+[14:38:21] Including      : /Users/clement/www/ode/ngx-ode-libs/projects/ngx-ode-ui/package-lock.json
+[14:38:21] Including      : /Users/clement/www/ode/ngx-ode-libs/projects/ngx-ode-ui/package.json
+[14:38:21] Including      : /Users/clement/www/ode/ngx-ode-libs/projects/ngx-ode-ui/tsconfig.lib.json
+[14:38:21] Including      : /Users/clement/www/ode/ngx-ode-libs/projects/ngx-ode-ui/tsconfig.lib.prod.json
+[14:38:21] Including      : /Users/clement/www/ode/ngx-ode-libs/projects/ngx-ode-ui/tsconfig.spec.json
+[14:38:21] Including      : /Users/clement/www/ode/ngx-ode-libs/projects/ngx-ode-ui/tslint.json
+[14:38:21] Including      : /Users/clement/www/ode/ngx-ode-libs/stories/assets/code-brackets.svg
+[14:38:21] Including      : /Users/clement/www/ode/ngx-ode-libs/stories/assets/colors.svg
+[14:38:21] Including      : /Users/clement/www/ode/ngx-ode-libs/stories/assets/comments.svg
+[14:38:21] Including      : /Users/clement/www/ode/ngx-ode-libs/stories/assets/direction.svg
+[14:38:21] Including      : /Users/clement/www/ode/ngx-ode-libs/stories/assets/flow.svg
+[14:38:21] Including      : /Users/clement/www/ode/ngx-ode-libs/stories/assets/main.css
+[14:38:21] Including      : /Users/clement/www/ode/ngx-ode-libs/stories/assets/plugin.svg
+[14:38:21] Including      : /Users/clement/www/ode/ngx-ode-libs/stories/assets/repo.svg
+[14:38:21] Including      : /Users/clement/www/ode/ngx-ode-libs/stories/assets/stackalt.svg
+[14:38:21] Including      : /Users/clement/www/ode/ngx-ode-libs/stories/dropdown/dropdown.component.html
+[14:38:21] Including      : /Users/clement/www/ode/ngx-ode-libs/stories/dropdown/dropdown.component.scss
+[14:38:21] Including      : /Users/clement/www/ode/ngx-ode-libs/stories/dropdown/dropdown.component.ts
+[14:38:21] Ignoring       : /Users/clement/www/ode/ngx-ode-libs/dist/ngx-ode-sijil/ngx-ode-sijil.d.ts.map
+[14:38:21] Ignoring       : /Users/clement/www/ode/ngx-ode-libs/dist/ngx-ode-core/ngx-ode-core.d.ts.map
+[14:38:21] Ignoring       : /Users/clement/www/ode/ngx-ode-libs/dist/ngx-ode-ui/ngx-ode-ui.d.ts.map
+[14:38:21] Including      : /Users/clement/www/ode/ngx-ode-libs/dist/__ivy_ngcc__/fesm2015/bit-ngx-ode-core.js.map
+[14:38:21] Including      : /Users/clement/www/ode/ngx-ode-libs/dist/__ivy_ngcc__/fesm2015/bit-ngx-ode-core.js
+[14:38:21] Including      : /Users/clement/www/ode/ngx-ode-libs/dist/esm2015/component/ode.component.js
+[14:38:21] Including      : /Users/clement/www/ode/ngx-ode-libs/dist/esm2015/ngx-ode-core/bit-ngx-ode-core-ngx-ode-core.js
+[14:38:21] Including      : /Users/clement/www/ode/ngx-ode-libs/dist/esm2015/ngx-ode-core/public-api.js
+[14:38:21] Including      : /Users/clement/www/ode/ngx-ode-libs/dist/esm2015/utils/Logger.js
+[14:38:21] Including      : /Users/clement/www/ode/ngx-ode-libs/dist/ngx-ode-core/esm2015/ngx-ode-core.js
+[14:38:21] Including      : /Users/clement/www/ode/ngx-ode-libs/dist/ngx-ode-core/esm2015/public-api.js
+[14:38:21] Including      : /Users/clement/www/ode/ngx-ode-libs/dist/ngx-ode-core/bundles/ngx-ode-core.umd.js
+[14:38:21] Including      : /Users/clement/www/ode/ngx-ode-libs/dist/ngx-ode-core/bundles/ngx-ode-core.umd.js.map
+[14:38:21] Including      : /Users/clement/www/ode/ngx-ode-libs/dist/ngx-ode-core/bundles/ngx-ode-core.umd.min.js
+[14:38:21] Including      : /Users/clement/www/ode/ngx-ode-libs/dist/ngx-ode-core/bundles/ngx-ode-core.umd.min.js.map
+[14:38:21] Including      : /Users/clement/www/ode/ngx-ode-libs/dist/ngx-ode-core/esm5/ngx-ode-core.js
+[14:38:21] Including      : /Users/clement/www/ode/ngx-ode-libs/dist/ngx-ode-core/esm5/public-api.js
+[14:38:21] Including      : /Users/clement/www/ode/ngx-ode-libs/dist/ngx-ode-core/fesm2015/bit-ngx-ode-core-ngx-ode-core.js
+[14:38:21] Including      : /Users/clement/www/ode/ngx-ode-libs/dist/ngx-ode-core/fesm2015/ngx-ode-core.js
+[14:38:21] Including      : /Users/clement/www/ode/ngx-ode-libs/dist/ngx-ode-core/fesm2015/bit-ngx-ode-core-ngx-ode-core.js.map
+[14:38:21] Including      : /Users/clement/www/ode/ngx-ode-libs/dist/ngx-ode-core/fesm2015/ngx-ode-core.js.map
+[14:38:21] Ignoring       : /Users/clement/www/ode/ngx-ode-libs/dist/ngx-ode-core/lib/ngx-ode-core.module.d.ts
+[14:38:21] Ignoring       : /Users/clement/www/ode/ngx-ode-libs/dist/ngx-ode-core/lib/ngx-ode-core.module.d.ts.__ivy_ngcc_bak
+[14:38:21] Including      : /Users/clement/www/ode/ngx-ode-libs/dist/ngx-ode-core/fesm5/ngx-ode-core.js
+[14:38:21] Ignoring       : /Users/clement/www/ode/ngx-ode-libs/dist/ngx-ode-core/lib/ngx-ode-core.module.d.ts.map
+[14:38:21] Including      : /Users/clement/www/ode/ngx-ode-libs/dist/ngx-ode-core/fesm5/ngx-ode-core.js.map
+[14:38:21] Including      : /Users/clement/www/ode/ngx-ode-libs/dist/ngx-ode-sijil/esm2015/ngx-ode-sijil.js
+[14:38:21] Including      : /Users/clement/www/ode/ngx-ode-libs/dist/ngx-ode-sijil/esm2015/public-api.js
+[14:38:21] Including      : /Users/clement/www/ode/ngx-ode-libs/dist/ngx-ode-sijil/fesm2015/ngx-ode-sijil.js
+[14:38:21] Including      : /Users/clement/www/ode/ngx-ode-libs/dist/ngx-ode-sijil/fesm2015/ngx-ode-sijil.js.map
+[14:38:21] Including      : /Users/clement/www/ode/ngx-ode-libs/dist/ngx-ode-sijil/bundles/ngx-ode-sijil.umd.js
+[14:38:21] Including      : /Users/clement/www/ode/ngx-ode-libs/dist/ngx-ode-sijil/bundles/ngx-ode-sijil.umd.js.map
+[14:38:21] Including      : /Users/clement/www/ode/ngx-ode-libs/dist/ngx-ode-sijil/bundles/ngx-ode-sijil.umd.min.js
+[14:38:21] Including      : /Users/clement/www/ode/ngx-ode-libs/dist/ngx-ode-sijil/bundles/ngx-ode-sijil.umd.min.js.map
+[14:38:21] Including      : /Users/clement/www/ode/ngx-ode-libs/dist/ngx-ode-sijil/fesm5/ngx-ode-sijil.js
+[14:38:21] Including      : /Users/clement/www/ode/ngx-ode-libs/dist/ngx-ode-sijil/fesm5/ngx-ode-sijil.js.map
+[14:38:21] Ignoring       : /Users/clement/www/ode/ngx-ode-libs/dist/ngx-ode-sijil/lib/ngx-ode-sijil.module.d.ts
+[14:38:21] Ignoring       : /Users/clement/www/ode/ngx-ode-libs/dist/ngx-ode-sijil/lib/ngx-ode-sijil.module.d.ts.__ivy_ngcc_bak
+[14:38:21] Including      : /Users/clement/www/ode/ngx-ode-libs/dist/ngx-ode-sijil/esm5/public-api.js
+[14:38:21] Ignoring       : /Users/clement/www/ode/ngx-ode-libs/dist/ngx-ode-sijil/lib/ngx-ode-sijil.module.d.ts.map
+[14:38:21] Including      : /Users/clement/www/ode/ngx-ode-libs/dist/ngx-ode-sijil/esm5/ngx-ode-sijil.js
+[14:38:21] Including      : /Users/clement/www/ode/ngx-ode-libs/projects/ngx-ode-core/src/test.ts
+[14:38:21] Including      : /Users/clement/www/ode/ngx-ode-libs/projects/ngx-ode-core/src/public-api.ts
+[14:38:21] Including      : /Users/clement/www/ode/ngx-ode-libs/projects/ngx-ode-sijil/src/public-api.ts
+[14:38:21] Including      : /Users/clement/www/ode/ngx-ode-libs/projects/ngx-ode-sijil/src/test.ts
+[14:38:21] Including      : /Users/clement/www/ode/ngx-ode-libs/dist/ngx-ode-ui/esm2015/ngx-ode-ui.js
+[14:38:21] Including      : /Users/clement/www/ode/ngx-ode-libs/dist/ngx-ode-ui/esm2015/public-api.js
+[14:38:21] Including      : /Users/clement/www/ode/ngx-ode-libs/dist/ngx-ode-ui/bundles/ngx-ode-ui.umd.js.map
+[14:38:21] Including      : /Users/clement/www/ode/ngx-ode-libs/dist/ngx-ode-ui/bundles/ngx-ode-ui.umd.js
+[14:38:21] Including      : /Users/clement/www/ode/ngx-ode-libs/dist/ngx-ode-ui/bundles/ngx-ode-ui.umd.min.js.map
+[14:38:21] Including      : /Users/clement/www/ode/ngx-ode-libs/dist/ngx-ode-ui/bundles/ngx-ode-ui.umd.min.js
+[14:38:21] Including      : /Users/clement/www/ode/ngx-ode-libs/dist/ngx-ode-ui/fesm5/ngx-ode-ui.js
+[14:38:21] Including      : /Users/clement/www/ode/ngx-ode-libs/dist/ngx-ode-ui/fesm5/ngx-ode-ui.js.map
+[14:38:21] Including      : /Users/clement/www/ode/ngx-ode-libs/dist/ngx-ode-ui/fesm2015/ngx-ode-ui.js
+[14:38:21] Including      : /Users/clement/www/ode/ngx-ode-libs/dist/ngx-ode-ui/fesm2015/ngx-ode-ui.js.map
+[14:38:21] Including      : /Users/clement/www/ode/ngx-ode-libs/dist/ngx-ode-ui/esm5/ngx-ode-ui.js
+[14:38:21] Including      : /Users/clement/www/ode/ngx-ode-libs/dist/ngx-ode-ui/esm5/public-api.js
+[14:38:21] Ignoring       : /Users/clement/www/ode/ngx-ode-libs/dist/ngx-ode-ui/lib/ngx-ode-ui.module.d.ts
+[14:38:21] Ignoring       : /Users/clement/www/ode/ngx-ode-libs/dist/ngx-ode-ui/lib/ngx-ode-ui.module.d.ts.__ivy_ngcc_bak
+[14:38:21] Ignoring       : /Users/clement/www/ode/ngx-ode-libs/dist/ngx-ode-ui/lib/ngx-ode-ui.module.d.ts.map
+[14:38:21] Including      : /Users/clement/www/ode/ngx-ode-libs/projects/ngx-ode-ui/src/public-api.ts
+[14:38:21] Including      : /Users/clement/www/ode/ngx-ode-libs/projects/ngx-ode-ui/src/test.ts
+[14:38:21] Including      : /Users/clement/www/ode/ngx-ode-libs/.angular/cache/13.2.3/babel-webpack/032898a80c23e682996c8ec51ca01459.json
+[14:38:21] Including      : /Users/clement/www/ode/ngx-ode-libs/.angular/cache/13.2.3/babel-webpack/067a42795d8aba39ecfcb05cd6e1abc5.json
+[14:38:21] Including      : /Users/clement/www/ode/ngx-ode-libs/.angular/cache/13.2.3/babel-webpack/0a778375f9eca1b8d0bb1f2f76127088.json
+[14:38:21] Including      : /Users/clement/www/ode/ngx-ode-libs/.angular/cache/13.2.3/babel-webpack/0d4f5f43c97d19b53933d59f1e5eae2a.json
+[14:38:21] Including      : /Users/clement/www/ode/ngx-ode-libs/.angular/cache/13.2.3/babel-webpack/18a8dbdf108aa03adaa1242693f06c90.json
+[14:38:21] Including      : /Users/clement/www/ode/ngx-ode-libs/.angular/cache/13.2.3/babel-webpack/1f5220155194459af7880f7744eb6410.json
+[14:38:21] Including      : /Users/clement/www/ode/ngx-ode-libs/.angular/cache/13.2.3/babel-webpack/26e5cda57e3b69f08c93b6ca001d0932.json
+[14:38:21] Including      : /Users/clement/www/ode/ngx-ode-libs/.angular/cache/13.2.3/babel-webpack/0d536ab6034b159c7fcea5d6327b03be.json
+[14:38:21] Including      : /Users/clement/www/ode/ngx-ode-libs/.angular/cache/13.2.3/babel-webpack/2977651574046c352c1179bca3301c2e.json
+[14:38:21] Including      : /Users/clement/www/ode/ngx-ode-libs/.angular/cache/13.2.3/babel-webpack/30f812505aa94110c9896ebd2238ed4e.json
+[14:38:21] Including      : /Users/clement/www/ode/ngx-ode-libs/.angular/cache/13.2.3/babel-webpack/3f4c53647678fdeb51fe51b71d179e2b.json
+[14:38:21] Including      : /Users/clement/www/ode/ngx-ode-libs/.angular/cache/13.2.3/babel-webpack/341c298986f126484f4cb9e27a3e8fdf.json
+[14:38:21] Including      : /Users/clement/www/ode/ngx-ode-libs/.angular/cache/13.2.3/babel-webpack/42e3761c9e03215b3e286e4c0758459c.json
+[14:38:21] Including      : /Users/clement/www/ode/ngx-ode-libs/.angular/cache/13.2.3/babel-webpack/49a966907af215bea37780bbd1ef4306.json
+[14:38:21] Including      : /Users/clement/www/ode/ngx-ode-libs/.angular/cache/13.2.3/babel-webpack/4a88210c0eae7ae2b3114e423375d5b0.json
+[14:38:21] Including      : /Users/clement/www/ode/ngx-ode-libs/.angular/cache/13.2.3/babel-webpack/50c0500fccfffa3622d749d020f10e9c.json
+[14:38:21] Including      : /Users/clement/www/ode/ngx-ode-libs/.angular/cache/13.2.3/babel-webpack/59b02ae171ba5cff8fad2a9acc17d426.json
+[14:38:21] Including      : /Users/clement/www/ode/ngx-ode-libs/.angular/cache/13.2.3/babel-webpack/5b26d85cf630aa4427a48cc0ad713636.json
+[14:38:21] Including      : /Users/clement/www/ode/ngx-ode-libs/.angular/cache/13.2.3/babel-webpack/5b8933ae8fd33e3fb46dba080a7ecb3b.json
+[14:38:21] Including      : /Users/clement/www/ode/ngx-ode-libs/.angular/cache/13.2.3/babel-webpack/6399d5fdb9bb715fc12faf9c065c0d8c.json
+[14:38:21] Including      : /Users/clement/www/ode/ngx-ode-libs/.angular/cache/13.2.3/babel-webpack/709e9ff8a6c5fe2b59593082c1eb36e8.json
+[14:38:21] Including      : /Users/clement/www/ode/ngx-ode-libs/.angular/cache/13.2.3/babel-webpack/7130c3b95fd9a9132625fda9acecefed.json
+[14:38:21] Including      : /Users/clement/www/ode/ngx-ode-libs/.angular/cache/13.2.3/babel-webpack/8a7a51bde39f68e9b1d8d61799b7a246.json
+[14:38:21] Including      : /Users/clement/www/ode/ngx-ode-libs/.angular/cache/13.2.3/babel-webpack/9559e715bc065b06830603bc6017e518.json
+[14:38:21] Including      : /Users/clement/www/ode/ngx-ode-libs/.angular/cache/13.2.3/babel-webpack/9aa97d211abfa8f9ab7aba30c5bc2611.json
+[14:38:21] Including      : /Users/clement/www/ode/ngx-ode-libs/.angular/cache/13.2.3/babel-webpack/97df79d248218e369f76646d10ea66cb.json
+[14:38:21] Including      : /Users/clement/www/ode/ngx-ode-libs/.angular/cache/13.2.3/babel-webpack/9ecaafd67ff7881df27e7f2812a9b3f2.json
+[14:38:21] Including      : /Users/clement/www/ode/ngx-ode-libs/.angular/cache/13.2.3/babel-webpack/9f183cb968ce5936211bd06aa89cc058.json
+[14:38:21] Including      : /Users/clement/www/ode/ngx-ode-libs/.angular/cache/13.2.3/babel-webpack/c8da7b8ca83d1da49b4ce8775406dbd2.json
+[14:38:21] Including      : /Users/clement/www/ode/ngx-ode-libs/.angular/cache/13.2.3/babel-webpack/cac781be887f73e0dadfbd538af1bad1.json
+[14:38:21] Including      : /Users/clement/www/ode/ngx-ode-libs/.angular/cache/13.2.3/babel-webpack/cc8bb8cc956f56f01b4c27f1cd538c3a.json
+[14:38:21] Including      : /Users/clement/www/ode/ngx-ode-libs/.angular/cache/13.2.3/babel-webpack/cde94d955d874e57463ca4fd1c06c2f4.json
+[14:38:21] Including      : /Users/clement/www/ode/ngx-ode-libs/.angular/cache/13.2.3/babel-webpack/d57ad84fc1bcefc3172f7c810042e775.json
+[14:38:21] Including      : /Users/clement/www/ode/ngx-ode-libs/.angular/cache/13.2.3/babel-webpack/ced84f45c4b8e7733be7585990d0cae3.json
+[14:38:21] Including      : /Users/clement/www/ode/ngx-ode-libs/.angular/cache/13.2.3/babel-webpack/de8f6f973bd6489b079199990d6fe994.json
+[14:38:21] Including      : /Users/clement/www/ode/ngx-ode-libs/.angular/cache/13.2.3/babel-webpack/e8d79bd58939d50cec3a952200daaf5d.json
+[14:38:21] Including      : /Users/clement/www/ode/ngx-ode-libs/.angular/cache/13.2.3/babel-webpack/e9fff37560056f29c7841b6e86df7ec1.json
+[14:38:21] Including      : /Users/clement/www/ode/ngx-ode-libs/.angular/cache/13.2.3/babel-webpack/f456752447ddd6489d08b7c57769d647.json
+[14:38:21] Including      : /Users/clement/www/ode/ngx-ode-libs/dist/esm2015/ngx-ode-core/lib/ngx-ode-core.module.js
+[14:38:21] Including      : /Users/clement/www/ode/ngx-ode-libs/dist/ngx-ode-core/__ivy_ngcc__/fesm2015/ngx-ode-core.js
+[14:38:21] Including      : /Users/clement/www/ode/ngx-ode-libs/dist/ngx-ode-core/__ivy_ngcc__/fesm2015/ngx-ode-core.js.map
+[14:38:21] Including      : /Users/clement/www/ode/ngx-ode-libs/dist/ngx-ode-core/esm2015/lib/ngx-ode-core.module.js
+[14:38:21] Including      : /Users/clement/www/ode/ngx-ode-libs/dist/ngx-ode-core/esm5/lib/ngx-ode-core.module.js
+[14:38:21] Ignoring       : /Users/clement/www/ode/ngx-ode-libs/dist/ngx-ode-core/lib/component/ode.component.d.ts
+[14:38:21] Ignoring       : /Users/clement/www/ode/ngx-ode-libs/dist/ngx-ode-core/lib/component/ode.component.d.ts.__ivy_ngcc_bak
+[14:38:21] Ignoring       : /Users/clement/www/ode/ngx-ode-libs/dist/ngx-ode-core/lib/utils/Logger.d.ts
+[14:38:21] Ignoring       : /Users/clement/www/ode/ngx-ode-libs/dist/ngx-ode-core/lib/utils/Logger.d.ts.__ivy_ngcc_bak
+[14:38:21] Ignoring       : /Users/clement/www/ode/ngx-ode-libs/dist/ngx-ode-core/lib/component/ode.component.d.ts.map
+[14:38:21] Including      : /Users/clement/www/ode/ngx-ode-libs/dist/ngx-ode-sijil/__ivy_ngcc__/fesm2015/ngx-ode-sijil.js
+[14:38:21] Including      : /Users/clement/www/ode/ngx-ode-libs/dist/ngx-ode-sijil/__ivy_ngcc__/fesm2015/ngx-ode-sijil.js.map
+[14:38:21] Including      : /Users/clement/www/ode/ngx-ode-libs/dist/ngx-ode-sijil/esm2015/lib/ngx-ode-sijil.module.js
+[14:38:21] Ignoring       : /Users/clement/www/ode/ngx-ode-libs/dist/ngx-ode-core/lib/utils/Logger.d.ts.map
+[14:38:21] Ignoring       : /Users/clement/www/ode/ngx-ode-libs/dist/ngx-ode-sijil/lib/components/s5l.component.d.ts
+[14:38:21] Ignoring       : /Users/clement/www/ode/ngx-ode-libs/dist/ngx-ode-sijil/lib/components/s5l.component.d.ts.__ivy_ngcc_bak
+[14:38:21] Ignoring       : /Users/clement/www/ode/ngx-ode-libs/dist/ngx-ode-sijil/lib/pipes/translate.pipe.d.ts
+[14:38:21] Ignoring       : /Users/clement/www/ode/ngx-ode-libs/dist/ngx-ode-sijil/lib/pipes/translate.pipe.d.ts.__ivy_ngcc_bak
+[14:38:21] Ignoring       : /Users/clement/www/ode/ngx-ode-libs/dist/ngx-ode-sijil/lib/components/s5l.component.d.ts.map
+[14:38:21] Ignoring       : /Users/clement/www/ode/ngx-ode-libs/dist/ngx-ode-sijil/lib/services/bundles.service.d.ts
+[14:38:21] Ignoring       : /Users/clement/www/ode/ngx-ode-libs/dist/ngx-ode-sijil/lib/services/sijil.opts.d.ts
+[14:38:21] Ignoring       : /Users/clement/www/ode/ngx-ode-libs/dist/ngx-ode-sijil/lib/pipes/translate.pipe.d.ts.map
+[14:38:21] Including      : /Users/clement/www/ode/ngx-ode-libs/dist/ngx-ode-sijil/esm5/lib/ngx-ode-sijil.module.js
+[14:38:21] Including      : /Users/clement/www/ode/ngx-ode-libs/projects/ngx-ode-core/src/lib/ngx-ode-core.module.ts
+[14:38:21] Including      : /Users/clement/www/ode/ngx-ode-libs/projects/ngx-ode-sijil/src/lib/ngx-ode-sijil.module.ts
+[14:38:21] Including      : /Users/clement/www/ode/ngx-ode-libs/dist/ngx-ode-ui/__ivy_ngcc__/fesm2015/ngx-ode-ui.js
+[14:38:21] Including      : /Users/clement/www/ode/ngx-ode-libs/dist/ngx-ode-ui/__ivy_ngcc__/fesm2015/ngx-ode-ui.js.map
+[14:38:21] Including      : /Users/clement/www/ode/ngx-ode-libs/dist/ngx-ode-ui/esm2015/lib/ngx-ode-ui.module.js
+[14:38:21] Including      : /Users/clement/www/ode/ngx-ode-libs/dist/ngx-ode-ui/esm5/lib/ngx-ode-ui.module.js
+[14:38:21] Ignoring       : /Users/clement/www/ode/ngx-ode-libs/dist/ngx-ode-ui/lib/directives/anchor.directive.d.ts
+[14:38:21] Ignoring       : /Users/clement/www/ode/ngx-ode-libs/dist/ngx-ode-ui/lib/directives/anchor.directive.d.ts.__ivy_ngcc_bak
+[14:38:21] Ignoring       : /Users/clement/www/ode/ngx-ode-libs/dist/ngx-ode-ui/lib/directives/drag-and-drop-files.directive.d.ts
+[14:38:21] Ignoring       : /Users/clement/www/ode/ngx-ode-libs/dist/ngx-ode-ui/lib/directives/drag-and-drop-files.directive.d.ts.__ivy_ngcc_bak
+[14:38:21] Ignoring       : /Users/clement/www/ode/ngx-ode-libs/dist/ngx-ode-ui/lib/directives/dynamictemplate.directive.d.ts
+[14:38:21] Ignoring       : /Users/clement/www/ode/ngx-ode-libs/dist/ngx-ode-ui/lib/directives/dynamictemplate.directive.d.ts.__ivy_ngcc_bak
+[14:38:21] Ignoring       : /Users/clement/www/ode/ngx-ode-libs/dist/ngx-ode-ui/lib/directives/object-url.directive.d.ts
+[14:38:21] Ignoring       : /Users/clement/www/ode/ngx-ode-libs/dist/ngx-ode-ui/lib/directives/object-url.directive.d.ts.__ivy_ngcc_bak
+[14:38:21] Ignoring       : /Users/clement/www/ode/ngx-ode-libs/dist/ngx-ode-ui/lib/directives/dynamictemplate.directive.d.ts.map
+[14:38:21] Ignoring       : /Users/clement/www/ode/ngx-ode-libs/dist/ngx-ode-ui/lib/directives/object-url.directive.d.ts.map
+[14:38:21] Ignoring       : /Users/clement/www/ode/ngx-ode-libs/dist/ngx-ode-ui/lib/services/dynamicModuleImports.service.d.ts
+[14:38:21] Ignoring       : /Users/clement/www/ode/ngx-ode-libs/dist/ngx-ode-ui/lib/services/dynamicModuleImports.service.d.ts.__ivy_ngcc_bak
+[14:38:21] Ignoring       : /Users/clement/www/ode/ngx-ode-libs/dist/ngx-ode-ui/lib/services/inputFile.service.d.ts
+[14:38:21] Ignoring       : /Users/clement/www/ode/ngx-ode-libs/dist/ngx-ode-ui/lib/services/inputFile.service.d.ts.__ivy_ngcc_bak
+[14:38:21] Ignoring       : /Users/clement/www/ode/ngx-ode-libs/dist/ngx-ode-ui/lib/services/dynamicModuleImports.service.d.ts.map
+[14:38:21] Ignoring       : /Users/clement/www/ode/ngx-ode-libs/dist/ngx-ode-ui/lib/services/labels.service.d.ts
+[14:38:21] Ignoring       : /Users/clement/www/ode/ngx-ode-libs/dist/ngx-ode-ui/lib/services/inputFile.service.d.ts.map
+[14:38:21] Ignoring       : /Users/clement/www/ode/ngx-ode-libs/dist/ngx-ode-ui/lib/services/labels.service.d.ts.__ivy_ngcc_bak
+[14:38:21] Ignoring       : /Users/clement/www/ode/ngx-ode-libs/dist/ngx-ode-ui/lib/services/spinner.service.d.ts
+[14:38:21] Ignoring       : /Users/clement/www/ode/ngx-ode-libs/dist/ngx-ode-ui/lib/services/spinner.service.d.ts.__ivy_ngcc_bak
+[14:38:21] Ignoring       : /Users/clement/www/ode/ngx-ode-libs/dist/ngx-ode-ui/lib/services/labels.service.d.ts.map
+[14:38:21] Including      : /Users/clement/www/ode/ngx-ode-libs/projects/ngx-ode-ui/src/lib/ngx-ode-ui.module.ts
+[14:38:21] Ignoring       : /Users/clement/www/ode/ngx-ode-libs/dist/ngx-ode-ui/lib/utils/math.d.ts
+[14:38:21] Ignoring       : /Users/clement/www/ode/ngx-ode-libs/dist/ngx-ode-ui/lib/utils/string.d.ts
+[14:38:21] Ignoring       : /Users/clement/www/ode/ngx-ode-libs/dist/ngx-ode-ui/lib/utils/testing.d.ts
+[14:38:21] Ignoring       : /Users/clement/www/ode/ngx-ode-libs/dist/ngx-ode-ui/lib/pipes/bytes.pipe.d.ts
+[14:38:21] Ignoring       : /Users/clement/www/ode/ngx-ode-libs/dist/ngx-ode-ui/lib/pipes/bytes.pipe.d.ts.__ivy_ngcc_bak
+[14:38:21] Ignoring       : /Users/clement/www/ode/ngx-ode-libs/dist/ngx-ode-ui/lib/pipes/bytes.pipe.d.ts.map
+[14:38:21] Ignoring       : /Users/clement/www/ode/ngx-ode-libs/dist/ngx-ode-ui/lib/directives/anchor.directive.d.ts.map
+[14:38:21] Ignoring       : /Users/clement/www/ode/ngx-ode-libs/dist/ngx-ode-ui/lib/directives/drag-and-drop-files.directive.d.ts.map
+[14:38:21] Ignoring       : /Users/clement/www/ode/ngx-ode-libs/dist/ngx-ode-ui/lib/pipes/filter.pipe.d.ts
+[14:38:21] Ignoring       : /Users/clement/www/ode/ngx-ode-libs/dist/ngx-ode-ui/lib/pipes/filter.pipe.d.ts.__ivy_ngcc_bak
+[14:38:21] Ignoring       : /Users/clement/www/ode/ngx-ode-libs/dist/ngx-ode-ui/lib/pipes/flattenObjArray.pipe.d.ts
+[14:38:21] Ignoring       : /Users/clement/www/ode/ngx-ode-libs/dist/ngx-ode-ui/lib/pipes/flattenObjArray.pipe.d.ts.__ivy_ngcc_bak
+[14:38:21] Ignoring       : /Users/clement/www/ode/ngx-ode-libs/dist/ngx-ode-ui/lib/pipes/keys.pipe.d.ts
+[14:38:21] Ignoring       : /Users/clement/www/ode/ngx-ode-libs/dist/ngx-ode-ui/lib/pipes/keys.pipe.d.ts.__ivy_ngcc_bak
+[14:38:21] Ignoring       : /Users/clement/www/ode/ngx-ode-libs/dist/ngx-ode-ui/lib/pipes/filter.pipe.d.ts.map
+[14:38:21] Ignoring       : /Users/clement/www/ode/ngx-ode-libs/dist/ngx-ode-ui/lib/pipes/length.pipe.d.ts
+[14:38:21] Ignoring       : /Users/clement/www/ode/ngx-ode-libs/dist/ngx-ode-ui/lib/pipes/length.pipe.d.ts.__ivy_ngcc_bak
+[14:38:21] Ignoring       : /Users/clement/www/ode/ngx-ode-libs/dist/ngx-ode-ui/lib/pipes/keys.pipe.d.ts.map
+[14:38:21] Ignoring       : /Users/clement/www/ode/ngx-ode-libs/dist/ngx-ode-ui/lib/pipes/limit.pipe.d.ts
+[14:38:21] Ignoring       : /Users/clement/www/ode/ngx-ode-libs/dist/ngx-ode-ui/lib/pipes/limit.pipe.d.ts.__ivy_ngcc_bak
+[14:38:21] Ignoring       : /Users/clement/www/ode/ngx-ode-libs/dist/ngx-ode-ui/lib/pipes/length.pipe.d.ts.map
+[14:38:21] Ignoring       : /Users/clement/www/ode/ngx-ode-libs/dist/ngx-ode-ui/lib/pipes/localizedDate.pipe.d.ts
+[14:38:21] Ignoring       : /Users/clement/www/ode/ngx-ode-libs/dist/ngx-ode-ui/lib/pipes/localizedDate.pipe.d.ts.__ivy_ngcc_bak
+[14:38:21] Ignoring       : /Users/clement/www/ode/ngx-ode-libs/dist/ngx-ode-ui/lib/pipes/limit.pipe.d.ts.map
+[14:38:21] Ignoring       : /Users/clement/www/ode/ngx-ode-libs/dist/ngx-ode-ui/lib/pipes/orderBy.pipe.d.ts
+[14:38:21] Ignoring       : /Users/clement/www/ode/ngx-ode-libs/dist/ngx-ode-ui/lib/pipes/orderBy.pipe.d.ts.__ivy_ngcc_bak
+[14:38:21] Ignoring       : /Users/clement/www/ode/ngx-ode-libs/dist/ngx-ode-ui/lib/pipes/localizedDate.pipe.d.ts.map
+[14:38:21] Ignoring       : /Users/clement/www/ode/ngx-ode-libs/dist/ngx-ode-ui/lib/pipes/store.pipe.d.ts
+[14:38:21] Ignoring       : /Users/clement/www/ode/ngx-ode-libs/dist/ngx-ode-ui/lib/pipes/store.pipe.d.ts.__ivy_ngcc_bak
+[14:38:21] Ignoring       : /Users/clement/www/ode/ngx-ode-libs/dist/ngx-ode-ui/lib/pipes/orderBy.pipe.d.ts.map
+[14:38:21] Ignoring       : /Users/clement/www/ode/ngx-ode-libs/dist/ngx-ode-ui/lib/pipes/store.pipe.d.ts.map
+[14:38:21] Ignoring       : /Users/clement/www/ode/ngx-ode-libs/dist/ngx-ode-ui/lib/pipes/flattenObjArray.pipe.d.ts.map
+[14:38:21] Ignoring       : /Users/clement/www/ode/ngx-ode-libs/dist/ngx-ode-ui/lib/services/spinner.service.d.ts.map
+[14:38:21] Including      : /Users/clement/www/ode/ngx-ode-libs/dist/esm2015/ngx-ode-core/lib/component/ode.component.js
+[14:38:21] Including      : /Users/clement/www/ode/ngx-ode-libs/dist/ngx-ode-core/esm2015/lib/utils/Logger.js
+[14:38:21] Including      : /Users/clement/www/ode/ngx-ode-libs/dist/esm2015/ngx-ode-core/lib/utils/Logger.js
+[14:38:21] Including      : /Users/clement/www/ode/ngx-ode-libs/dist/ngx-ode-core/esm5/lib/component/ode.component.js
+[14:38:21] Including      : /Users/clement/www/ode/ngx-ode-libs/dist/ngx-ode-core/esm2015/lib/component/ode.component.js
+[14:38:21] Including      : /Users/clement/www/ode/ngx-ode-libs/dist/ngx-ode-core/esm5/lib/utils/Logger.js
+[14:38:21] Including      : /Users/clement/www/ode/ngx-ode-libs/dist/ngx-ode-sijil/esm2015/lib/pipes/translate.pipe.js
+[14:38:21] Including      : /Users/clement/www/ode/ngx-ode-libs/dist/ngx-ode-sijil/esm2015/lib/services/bundles.service.js
+[14:38:21] Including      : /Users/clement/www/ode/ngx-ode-libs/dist/ngx-ode-sijil/esm2015/lib/components/s5l.component.js
+[14:38:21] Including      : /Users/clement/www/ode/ngx-ode-libs/dist/ngx-ode-sijil/esm2015/lib/services/sijil.opts.js
+[14:38:21] Ignoring       : /Users/clement/www/ode/ngx-ode-libs/dist/ngx-ode-sijil/lib/services/parser/fragments.parser.d.ts
+[14:38:21] Ignoring       : /Users/clement/www/ode/ngx-ode-libs/dist/ngx-ode-sijil/lib/services/parser/parser.interface.d.ts
+[14:38:21] Ignoring       : /Users/clement/www/ode/ngx-ode-libs/dist/ngx-ode-sijil/lib/services/require/httprequire.service.d.ts
+[14:38:21] Ignoring       : /Users/clement/www/ode/ngx-ode-libs/dist/ngx-ode-sijil/lib/services/require/httprequire.service.d.ts.__ivy_ngcc_bak
+[14:38:21] Ignoring       : /Users/clement/www/ode/ngx-ode-libs/dist/ngx-ode-sijil/lib/services/require/require.interface.d.ts
+[14:38:21] Including      : /Users/clement/www/ode/ngx-ode-libs/dist/ngx-ode-sijil/esm5/lib/components/s5l.component.js
+[14:38:21] Including      : /Users/clement/www/ode/ngx-ode-libs/dist/ngx-ode-sijil/esm5/lib/pipes/translate.pipe.js
+[14:38:21] Ignoring       : /Users/clement/www/ode/ngx-ode-libs/dist/ngx-ode-sijil/lib/services/require/httprequire.service.d.ts.map
+[14:38:21] Including      : /Users/clement/www/ode/ngx-ode-libs/dist/ngx-ode-sijil/esm5/lib/services/bundles.service.js
+[14:38:21] Including      : /Users/clement/www/ode/ngx-ode-libs/dist/ngx-ode-sijil/esm5/lib/services/sijil.opts.js
+[14:38:21] Ignoring       : /Users/clement/www/ode/ngx-ode-libs/projects/ngx-ode-core/src/lib/component/ode.component.spec.ts
+[14:38:21] Including      : /Users/clement/www/ode/ngx-ode-libs/projects/ngx-ode-core/src/lib/component/ode.component.ts
+[14:38:21] Including      : /Users/clement/www/ode/ngx-ode-libs/projects/ngx-ode-core/src/lib/utils/Logger.ts
+[14:38:21] Including      : /Users/clement/www/ode/ngx-ode-libs/projects/ngx-ode-sijil/src/lib/components/s5l.component.ts
+[14:38:21] Including      : /Users/clement/www/ode/ngx-ode-libs/projects/ngx-ode-sijil/src/lib/pipes/translate.pipe.ts
+[14:38:21] Including      : /Users/clement/www/ode/ngx-ode-libs/projects/ngx-ode-sijil/src/lib/services/bundles.service.ts
+[14:38:21] Including      : /Users/clement/www/ode/ngx-ode-libs/projects/ngx-ode-sijil/src/lib/services/sijil.opts.ts
+[14:38:21] Including      : /Users/clement/www/ode/ngx-ode-libs/dist/ngx-ode-ui/esm2015/lib/pipes/bytes.pipe.js
+[14:38:21] Including      : /Users/clement/www/ode/ngx-ode-libs/dist/ngx-ode-ui/esm2015/lib/pipes/flattenObjArray.pipe.js
+[14:38:21] Including      : /Users/clement/www/ode/ngx-ode-libs/dist/ngx-ode-ui/esm2015/lib/pipes/filter.pipe.js
+[14:38:21] Including      : /Users/clement/www/ode/ngx-ode-libs/dist/ngx-ode-ui/esm2015/lib/pipes/keys.pipe.js
+[14:38:21] Including      : /Users/clement/www/ode/ngx-ode-libs/dist/ngx-ode-ui/esm2015/lib/pipes/length.pipe.js
+[14:38:21] Including      : /Users/clement/www/ode/ngx-ode-libs/dist/ngx-ode-ui/esm2015/lib/pipes/limit.pipe.js
+[14:38:21] Including      : /Users/clement/www/ode/ngx-ode-libs/dist/ngx-ode-ui/esm2015/lib/pipes/localizedDate.pipe.js
+[14:38:21] Including      : /Users/clement/www/ode/ngx-ode-libs/dist/ngx-ode-ui/esm2015/lib/pipes/orderBy.pipe.js
+[14:38:21] Including      : /Users/clement/www/ode/ngx-ode-libs/dist/ngx-ode-ui/esm2015/lib/pipes/store.pipe.js
+[14:38:21] Including      : /Users/clement/www/ode/ngx-ode-libs/dist/ngx-ode-ui/esm2015/lib/services/dynamicModuleImports.service.js
+[14:38:21] Including      : /Users/clement/www/ode/ngx-ode-libs/dist/ngx-ode-ui/esm2015/lib/services/labels.service.js
+[14:38:21] Including      : /Users/clement/www/ode/ngx-ode-libs/dist/ngx-ode-ui/esm2015/lib/services/inputFile.service.js
+[14:38:21] Including      : /Users/clement/www/ode/ngx-ode-libs/dist/ngx-ode-ui/esm2015/lib/services/spinner.service.js
+[14:38:21] Including      : /Users/clement/www/ode/ngx-ode-libs/dist/ngx-ode-ui/esm2015/lib/utils/math.js
+[14:38:21] Including      : /Users/clement/www/ode/ngx-ode-libs/dist/ngx-ode-ui/esm2015/lib/utils/testing.js
+[14:38:21] Including      : /Users/clement/www/ode/ngx-ode-libs/dist/ngx-ode-ui/esm2015/lib/directives/anchor.directive.js
+[14:38:21] Including      : /Users/clement/www/ode/ngx-ode-libs/dist/ngx-ode-ui/esm2015/lib/utils/string.js
+[14:38:21] Including      : /Users/clement/www/ode/ngx-ode-libs/dist/ngx-ode-ui/esm2015/lib/directives/drag-and-drop-files.directive.js
+[14:38:21] Including      : /Users/clement/www/ode/ngx-ode-libs/dist/ngx-ode-ui/esm2015/lib/directives/dynamictemplate.directive.js
+[14:38:21] Including      : /Users/clement/www/ode/ngx-ode-libs/dist/ngx-ode-ui/esm2015/lib/directives/object-url.directive.js
+[14:38:21] Including      : /Users/clement/www/ode/ngx-ode-libs/dist/ngx-ode-ui/esm5/lib/services/dynamicModuleImports.service.js
+[14:38:21] Including      : /Users/clement/www/ode/ngx-ode-libs/dist/ngx-ode-ui/esm5/lib/services/inputFile.service.js
+[14:38:21] Including      : /Users/clement/www/ode/ngx-ode-libs/dist/ngx-ode-ui/esm5/lib/services/spinner.service.js
+[14:38:21] Including      : /Users/clement/www/ode/ngx-ode-libs/dist/ngx-ode-ui/esm5/lib/services/labels.service.js
+[14:38:21] Including      : /Users/clement/www/ode/ngx-ode-libs/dist/ngx-ode-ui/esm5/lib/pipes/bytes.pipe.js
+[14:38:21] Including      : /Users/clement/www/ode/ngx-ode-libs/dist/ngx-ode-ui/esm5/lib/pipes/keys.pipe.js
+[14:38:21] Including      : /Users/clement/www/ode/ngx-ode-libs/dist/ngx-ode-ui/esm5/lib/pipes/length.pipe.js
+[14:38:21] Including      : /Users/clement/www/ode/ngx-ode-libs/dist/ngx-ode-ui/esm5/lib/pipes/filter.pipe.js
+[14:38:21] Including      : /Users/clement/www/ode/ngx-ode-libs/dist/ngx-ode-ui/esm5/lib/pipes/limit.pipe.js
+[14:38:21] Including      : /Users/clement/www/ode/ngx-ode-libs/dist/ngx-ode-ui/esm5/lib/pipes/flattenObjArray.pipe.js
+[14:38:21] Including      : /Users/clement/www/ode/ngx-ode-libs/dist/ngx-ode-ui/esm5/lib/pipes/localizedDate.pipe.js
+[14:38:21] Including      : /Users/clement/www/ode/ngx-ode-libs/dist/ngx-ode-ui/esm5/lib/pipes/orderBy.pipe.js
+[14:38:21] Including      : /Users/clement/www/ode/ngx-ode-libs/dist/ngx-ode-ui/esm5/lib/pipes/store.pipe.js
+[14:38:21] Ignoring       : /Users/clement/www/ode/ngx-ode-libs/dist/ngx-ode-ui/lib/components/datepicker/datepicker.component.d.ts
+[14:38:21] Ignoring       : /Users/clement/www/ode/ngx-ode-libs/dist/ngx-ode-ui/lib/components/datepicker/datepicker.component.d.ts.__ivy_ngcc_bak
+[14:38:21] Including      : /Users/clement/www/ode/ngx-ode-libs/dist/ngx-ode-ui/esm5/lib/directives/anchor.directive.js
+[14:38:21] Including      : /Users/clement/www/ode/ngx-ode-libs/dist/ngx-ode-ui/esm5/lib/directives/drag-and-drop-files.directive.js
+[14:38:21] Ignoring       : /Users/clement/www/ode/ngx-ode-libs/dist/ngx-ode-ui/lib/components/datepicker/datepicker.component.d.ts.map
+[14:38:21] Including      : /Users/clement/www/ode/ngx-ode-libs/dist/ngx-ode-ui/esm5/lib/directives/object-url.directive.js
+[14:38:21] Including      : /Users/clement/www/ode/ngx-ode-libs/dist/ngx-ode-ui/esm5/lib/utils/math.js
+[14:38:21] Including      : /Users/clement/www/ode/ngx-ode-libs/dist/ngx-ode-ui/esm5/lib/utils/string.js
+[14:38:21] Including      : /Users/clement/www/ode/ngx-ode-libs/dist/ngx-ode-ui/esm5/lib/utils/testing.js
+[14:38:21] Including      : /Users/clement/www/ode/ngx-ode-libs/dist/ngx-ode-ui/esm5/lib/directives/dynamictemplate.directive.js
+[14:38:21] Ignoring       : /Users/clement/www/ode/ngx-ode-libs/dist/ngx-ode-ui/lib/components/dropdown/dropdown.component.d.ts
+[14:38:21] Ignoring       : /Users/clement/www/ode/ngx-ode-libs/dist/ngx-ode-ui/lib/components/dropdown/dropdown.component.d.ts.__ivy_ngcc_bak
+[14:38:21] Ignoring       : /Users/clement/www/ode/ngx-ode-libs/dist/ngx-ode-ui/lib/components/dropdown/dropdown.component.d.ts.map
+[14:38:21] Ignoring       : /Users/clement/www/ode/ngx-ode-libs/dist/ngx-ode-ui/lib/components/form-errors/form-errors.component.d.ts
+[14:38:21] Ignoring       : /Users/clement/www/ode/ngx-ode-libs/dist/ngx-ode-ui/lib/components/form-errors/form-errors.component.d.ts.__ivy_ngcc_bak
+[14:38:21] Ignoring       : /Users/clement/www/ode/ngx-ode-libs/dist/ngx-ode-ui/lib/components/form-field/form-field.component.d.ts
+[14:38:21] Ignoring       : /Users/clement/www/ode/ngx-ode-libs/dist/ngx-ode-ui/lib/components/form-field/form-field.component.d.ts.__ivy_ngcc_bak
+[14:38:21] Ignoring       : /Users/clement/www/ode/ngx-ode-libs/dist/ngx-ode-ui/lib/components/form-field/form-field.component.d.ts.map
+[14:38:21] Ignoring       : /Users/clement/www/ode/ngx-ode-libs/dist/ngx-ode-ui/lib/components/ellipsis/ellipsis.component.d.ts
+[14:38:21] Ignoring       : /Users/clement/www/ode/ngx-ode-libs/dist/ngx-ode-ui/lib/components/form-errors/form-errors.component.d.ts.map
+[14:38:21] Ignoring       : /Users/clement/www/ode/ngx-ode-libs/dist/ngx-ode-ui/lib/components/list/list.component.d.ts
+[14:38:21] Ignoring       : /Users/clement/www/ode/ngx-ode-libs/dist/ngx-ode-ui/lib/components/list/list.component.d.ts.__ivy_ngcc_bak
+[14:38:21] Ignoring       : /Users/clement/www/ode/ngx-ode-libs/dist/ngx-ode-ui/lib/components/ellipsis/ellipsis.component.d.ts.__ivy_ngcc_bak
+[14:38:21] Ignoring       : /Users/clement/www/ode/ngx-ode-libs/dist/ngx-ode-ui/lib/components/list-checkable/list-checkable.component.d.ts
+[14:38:21] Ignoring       : /Users/clement/www/ode/ngx-ode-libs/dist/ngx-ode-ui/lib/components/list-checkable/list-checkable.component.d.ts.__ivy_ngcc_bak
+[14:38:21] Ignoring       : /Users/clement/www/ode/ngx-ode-libs/dist/ngx-ode-ui/lib/components/message-box/message-box.component.d.ts
+[14:38:21] Ignoring       : /Users/clement/www/ode/ngx-ode-libs/dist/ngx-ode-ui/lib/components/ellipsis/ellipsis.component.d.ts.map
+[14:38:21] Ignoring       : /Users/clement/www/ode/ngx-ode-libs/dist/ngx-ode-ui/lib/components/message-box/message-box.component.d.ts.__ivy_ngcc_bak
+[14:38:21] Ignoring       : /Users/clement/www/ode/ngx-ode-libs/dist/ngx-ode-ui/lib/components/item-tree/item-tree.component.d.ts
+[14:38:21] Ignoring       : /Users/clement/www/ode/ngx-ode-libs/dist/ngx-ode-ui/lib/components/item-tree/item-tree.component.d.ts.__ivy_ngcc_bak
+[14:38:21] Ignoring       : /Users/clement/www/ode/ngx-ode-libs/dist/ngx-ode-ui/lib/components/item-tree/item-tree.component.d.ts.map
+[14:38:21] Ignoring       : /Users/clement/www/ode/ngx-ode-libs/dist/ngx-ode-ui/lib/components/lightbox/lightbox.component.d.ts
+[14:38:21] Ignoring       : /Users/clement/www/ode/ngx-ode-libs/dist/ngx-ode-ui/lib/components/lightbox/lightbox.component.d.ts.__ivy_ngcc_bak
+[14:38:21] Ignoring       : /Users/clement/www/ode/ngx-ode-libs/dist/ngx-ode-ui/lib/components/lightbox/lightbox.component.d.ts.map
+[14:38:21] Ignoring       : /Users/clement/www/ode/ngx-ode-libs/dist/ngx-ode-ui/lib/components/lightbox-confirm/lightbox-confirm.component.d.ts
+[14:38:21] Ignoring       : /Users/clement/www/ode/ngx-ode-libs/dist/ngx-ode-ui/lib/components/lightbox-confirm/lightbox-confirm.component.d.ts.__ivy_ngcc_bak
+[14:38:21] Ignoring       : /Users/clement/www/ode/ngx-ode-libs/dist/ngx-ode-ui/lib/components/message-box/message-box.component.d.ts.map
+[14:38:21] Ignoring       : /Users/clement/www/ode/ngx-ode-libs/dist/ngx-ode-ui/lib/components/list/list.component.d.ts.map
+[14:38:21] Ignoring       : /Users/clement/www/ode/ngx-ode-libs/dist/ngx-ode-ui/lib/components/lightbox-confirm/lightbox-confirm.component.d.ts.map
+[14:38:21] Ignoring       : /Users/clement/www/ode/ngx-ode-libs/dist/ngx-ode-ui/lib/components/message-sticker/message-sticker.component.d.ts
+[14:38:21] Ignoring       : /Users/clement/www/ode/ngx-ode-libs/dist/ngx-ode-ui/lib/components/list-checkable/list-checkable.component.d.ts.map
+[14:38:21] Ignoring       : /Users/clement/www/ode/ngx-ode-libs/dist/ngx-ode-ui/lib/components/message-sticker/message-sticker.component.d.ts.__ivy_ngcc_bak
+[14:38:21] Ignoring       : /Users/clement/www/ode/ngx-ode-libs/dist/ngx-ode-ui/lib/components/multi-select/multi-select.component.d.ts
+[14:38:21] Ignoring       : /Users/clement/www/ode/ngx-ode-libs/dist/ngx-ode-ui/lib/components/multi-select/multi-select.component.d.ts.__ivy_ngcc_bak
+[14:38:21] Ignoring       : /Users/clement/www/ode/ngx-ode-libs/dist/ngx-ode-ui/lib/components/mono-select/mono-select.component.d.ts.__ivy_ngcc_bak
+[14:38:21] Ignoring       : /Users/clement/www/ode/ngx-ode-libs/dist/ngx-ode-ui/lib/components/mono-select/mono-select.component.d.ts
+[14:38:21] Ignoring       : /Users/clement/www/ode/ngx-ode-libs/dist/ngx-ode-ui/lib/components/message-sticker/message-sticker.component.d.ts.map
+[14:38:21] Ignoring       : /Users/clement/www/ode/ngx-ode-libs/dist/ngx-ode-ui/lib/components/panel-section/panel-section.component.d.ts
+[14:38:21] Ignoring       : /Users/clement/www/ode/ngx-ode-libs/dist/ngx-ode-ui/lib/components/panel-section/panel-section.component.d.ts.__ivy_ngcc_bak
+[14:38:21] Ignoring       : /Users/clement/www/ode/ngx-ode-libs/dist/ngx-ode-ui/lib/components/multi-select/multi-select.component.d.ts.map
+[14:38:21] Ignoring       : /Users/clement/www/ode/ngx-ode-libs/dist/ngx-ode-ui/lib/components/multi-combo/multi-combo.component.d.ts
+[14:38:21] Ignoring       : /Users/clement/www/ode/ngx-ode-libs/dist/ngx-ode-ui/lib/components/multi-combo/multi-combo.component.d.ts.__ivy_ngcc_bak
+[14:38:21] Ignoring       : /Users/clement/www/ode/ngx-ode-libs/dist/ngx-ode-ui/lib/components/portal/portal.component.d.ts
+[14:38:21] Ignoring       : /Users/clement/www/ode/ngx-ode-libs/dist/ngx-ode-ui/lib/components/mono-select/mono-select.component.d.ts.map
+[14:38:21] Ignoring       : /Users/clement/www/ode/ngx-ode-libs/dist/ngx-ode-ui/lib/components/portal/portal.component.d.ts.__ivy_ngcc_bak
+[14:38:21] Ignoring       : /Users/clement/www/ode/ngx-ode-libs/dist/ngx-ode-ui/lib/components/panel-section/panel-section.component.d.ts.map
+[14:38:21] Ignoring       : /Users/clement/www/ode/ngx-ode-libs/dist/ngx-ode-ui/lib/components/search-input/search-input.component.d.ts
+[14:38:21] Ignoring       : /Users/clement/www/ode/ngx-ode-libs/dist/ngx-ode-ui/lib/components/multi-combo/multi-combo.component.d.ts.map
+[14:38:21] Ignoring       : /Users/clement/www/ode/ngx-ode-libs/dist/ngx-ode-ui/lib/components/search-input/search-input.component.d.ts.__ivy_ngcc_bak
+[14:38:21] Ignoring       : /Users/clement/www/ode/ngx-ode-libs/dist/ngx-ode-ui/lib/components/push-panel/push-panel.component.d.ts
+[14:38:21] Ignoring       : /Users/clement/www/ode/ngx-ode-libs/dist/ngx-ode-ui/lib/components/push-panel/push-panel.component.d.ts.__ivy_ngcc_bak
+[14:38:21] Ignoring       : /Users/clement/www/ode/ngx-ode-libs/dist/ngx-ode-ui/lib/components/portal/portal.component.d.ts.map
+[14:38:21] Ignoring       : /Users/clement/www/ode/ngx-ode-libs/dist/ngx-ode-ui/lib/components/search-input/search-input.component.d.ts.map
+[14:38:21] Ignoring       : /Users/clement/www/ode/ngx-ode-libs/dist/ngx-ode-ui/lib/components/side-layout/side-layout.component.d.ts
+[14:38:21] Ignoring       : /Users/clement/www/ode/ngx-ode-libs/dist/ngx-ode-ui/lib/components/side-layout/side-layout.component.d.ts.__ivy_ngcc_bak
+[14:38:21] Ignoring       : /Users/clement/www/ode/ngx-ode-libs/dist/ngx-ode-ui/lib/components/push-panel/push-panel.component.d.ts.map
+[14:38:21] Ignoring       : /Users/clement/www/ode/ngx-ode-libs/dist/ngx-ode-ui/lib/components/spinner-cube/spinner-cube.component.d.ts
+[14:38:21] Ignoring       : /Users/clement/www/ode/ngx-ode-libs/dist/ngx-ode-ui/lib/components/spinner-cube/spinner-cube.component.d.ts.__ivy_ngcc_bak
+[14:38:21] Ignoring       : /Users/clement/www/ode/ngx-ode-libs/dist/ngx-ode-ui/lib/components/table/pager.component.d.ts
+[14:38:21] Ignoring       : /Users/clement/www/ode/ngx-ode-libs/dist/ngx-ode-ui/lib/components/table/pager.component.d.ts.__ivy_ngcc_bak
+[14:38:21] Ignoring       : /Users/clement/www/ode/ngx-ode-libs/dist/ngx-ode-ui/lib/components/side-panel/side-panel.component.d.ts
+[14:38:21] Ignoring       : /Users/clement/www/ode/ngx-ode-libs/dist/ngx-ode-ui/lib/components/spinner-cube/spinner-cube.component.d.ts.map
+[14:38:21] Ignoring       : /Users/clement/www/ode/ngx-ode-libs/dist/ngx-ode-ui/lib/components/side-layout/side-layout.component.d.ts.map
+[14:38:21] Ignoring       : /Users/clement/www/ode/ngx-ode-libs/dist/ngx-ode-ui/lib/components/side-panel/side-panel.component.d.ts.__ivy_ngcc_bak
+[14:38:21] Ignoring       : /Users/clement/www/ode/ngx-ode-libs/dist/ngx-ode-ui/lib/components/table/pager.component.d.ts.map
+[14:38:21] Ignoring       : /Users/clement/www/ode/ngx-ode-libs/dist/ngx-ode-ui/lib/components/wizard/wizard.component.d.ts
+[14:38:21] Ignoring       : /Users/clement/www/ode/ngx-ode-libs/dist/ngx-ode-ui/lib/components/wizard/wizard.component.d.ts.__ivy_ngcc_bak
+[14:38:21] Ignoring       : /Users/clement/www/ode/ngx-ode-libs/dist/ngx-ode-ui/lib/components/side-panel/side-panel.component.d.ts.map
+[14:38:21] Ignoring       : /Users/clement/www/ode/ngx-ode-libs/dist/ngx-ode-ui/lib/components/upload-files/upload-files.component.d.ts
+[14:38:21] Ignoring       : /Users/clement/www/ode/ngx-ode-libs/dist/ngx-ode-ui/lib/components/upload-files/upload-files.component.d.ts.__ivy_ngcc_bak
+[14:38:21] Ignoring       : /Users/clement/www/ode/ngx-ode-libs/dist/ngx-ode-ui/lib/components/value-editable/simple-select.component.d.ts
+[14:38:21] Ignoring       : /Users/clement/www/ode/ngx-ode-libs/dist/ngx-ode-ui/lib/components/value-editable/simple-select.component.d.ts.__ivy_ngcc_bak
+[14:38:21] Ignoring       : /Users/clement/www/ode/ngx-ode-libs/dist/ngx-ode-ui/lib/components/wizard/wizard.component.d.ts.map
+[14:38:21] Ignoring       : /Users/clement/www/ode/ngx-ode-libs/dist/ngx-ode-ui/lib/components/tooltip/tooltip.component.d.ts.__ivy_ngcc_bak
+[14:38:21] Ignoring       : /Users/clement/www/ode/ngx-ode-libs/dist/ngx-ode-ui/lib/components/tooltip/tooltip.component.d.ts
+[14:38:21] Ignoring       : /Users/clement/www/ode/ngx-ode-libs/dist/ngx-ode-ui/lib/components/upload-files/upload-files.component.d.ts.map
+[14:38:21] Ignoring       : /Users/clement/www/ode/ngx-ode-libs/dist/ngx-ode-ui/lib/directives/dynamic-component/component-descriptor.model.d.ts
+[14:38:21] Ignoring       : /Users/clement/www/ode/ngx-ode-libs/dist/ngx-ode-ui/lib/directives/dynamic-component/dynamic-component.directive.d.ts
+[14:38:21] Ignoring       : /Users/clement/www/ode/ngx-ode-libs/dist/ngx-ode-ui/lib/directives/dynamic-component/dynamic-component.directive.d.ts.__ivy_ngcc_bak
+[14:38:21] Ignoring       : /Users/clement/www/ode/ngx-ode-libs/dist/ngx-ode-ui/lib/components/value-editable/simple-select.component.d.ts.map
+[14:38:21] Ignoring       : /Users/clement/www/ode/ngx-ode-libs/dist/ngx-ode-ui/lib/components/tooltip/tooltip.component.d.ts.map
+[14:38:21] Ignoring       : /Users/clement/www/ode/ngx-ode-libs/dist/ngx-ode-ui/lib/directives/dynamic-component/dynamic-component.directive.d.ts.map
+[14:38:21] Ignoring       : /Users/clement/www/ode/ngx-ode-libs/projects/ngx-ode-ui/src/lib/helpers/accents.helper.spec.ts
+[14:38:21] Including      : /Users/clement/www/ode/ngx-ode-libs/projects/ngx-ode-ui/src/lib/directives/drag-and-drop-files.directive.ts
+[14:38:21] Including      : /Users/clement/www/ode/ngx-ode-libs/projects/ngx-ode-ui/src/lib/helpers/accents.helper.ts
+[14:38:21] Including      : /Users/clement/www/ode/ngx-ode-libs/projects/ngx-ode-ui/src/lib/directives/anchor.directive.ts
+[14:38:21] Including      : /Users/clement/www/ode/ngx-ode-libs/projects/ngx-ode-ui/src/lib/directives/dynamictemplate.directive.ts
+[14:38:21] Including      : /Users/clement/www/ode/ngx-ode-libs/projects/ngx-ode-ui/src/lib/pipes/bytes.pipe.ts
+[14:38:21] Including      : /Users/clement/www/ode/ngx-ode-libs/projects/ngx-ode-ui/src/lib/directives/object-url.directive.ts
+[14:38:21] Including      : /Users/clement/www/ode/ngx-ode-libs/projects/ngx-ode-ui/src/lib/pipes/filter.pipe.ts
+[14:38:21] Including      : /Users/clement/www/ode/ngx-ode-libs/projects/ngx-ode-ui/src/lib/pipes/flattenObjArray.pipe.ts
+[14:38:21] Including      : /Users/clement/www/ode/ngx-ode-libs/projects/ngx-ode-ui/src/lib/pipes/length.pipe.ts
+[14:38:21] Including      : /Users/clement/www/ode/ngx-ode-libs/projects/ngx-ode-ui/src/lib/pipes/keys.pipe.ts
+[14:38:21] Including      : /Users/clement/www/ode/ngx-ode-libs/projects/ngx-ode-ui/src/lib/pipes/limit.pipe.ts
+[14:38:21] Including      : /Users/clement/www/ode/ngx-ode-libs/projects/ngx-ode-ui/src/lib/pipes/localizedDate.pipe.ts
+[14:38:21] Including      : /Users/clement/www/ode/ngx-ode-libs/projects/ngx-ode-ui/src/lib/pipes/orderBy.pipe.ts
+[14:38:21] Including      : /Users/clement/www/ode/ngx-ode-libs/projects/ngx-ode-ui/src/lib/pipes/replace.pipe.ts
+[14:38:21] Including      : /Users/clement/www/ode/ngx-ode-libs/projects/ngx-ode-ui/src/lib/pipes/store.pipe.ts
+[14:38:21] Including      : /Users/clement/www/ode/ngx-ode-libs/projects/ngx-ode-ui/src/lib/services/dynamicModuleImports.service.ts
+[14:38:21] Ignoring       : /Users/clement/www/ode/ngx-ode-libs/projects/ngx-ode-ui/src/lib/services/inputFile.service.spec.ts
+[14:38:21] Including      : /Users/clement/www/ode/ngx-ode-libs/projects/ngx-ode-ui/src/lib/services/inputFile.service.ts
+[14:38:21] Including      : /Users/clement/www/ode/ngx-ode-libs/projects/ngx-ode-ui/src/lib/services/labels.service.ts
+[14:38:21] Including      : /Users/clement/www/ode/ngx-ode-libs/projects/ngx-ode-ui/src/lib/services/spinner.service.ts
+[14:38:21] Ignoring       : /Users/clement/www/ode/ngx-ode-libs/projects/ngx-ode-ui/src/lib/utils/math.spec.ts
+[14:38:21] Including      : /Users/clement/www/ode/ngx-ode-libs/projects/ngx-ode-ui/src/lib/utils/math.ts
+[14:38:21] Ignoring       : /Users/clement/www/ode/ngx-ode-libs/projects/ngx-ode-ui/src/lib/utils/string.spec.ts
+[14:38:21] Including      : /Users/clement/www/ode/ngx-ode-libs/projects/ngx-ode-ui/src/lib/utils/testing.ts
+[14:38:21] Including      : /Users/clement/www/ode/ngx-ode-libs/projects/ngx-ode-ui/src/lib/utils/string.ts
+[14:38:21] Including      : /Users/clement/www/ode/ngx-ode-libs/dist/ngx-ode-sijil/esm2015/lib/services/parser/fragments.parser.js
+[14:38:21] Including      : /Users/clement/www/ode/ngx-ode-libs/dist/ngx-ode-sijil/esm2015/lib/services/parser/parser.interface.js
+[14:38:21] Including      : /Users/clement/www/ode/ngx-ode-libs/dist/ngx-ode-sijil/esm2015/lib/services/require/httprequire.service.js
+[14:38:21] Including      : /Users/clement/www/ode/ngx-ode-libs/dist/ngx-ode-sijil/esm5/lib/services/parser/fragments.parser.js
+[14:38:21] Including      : /Users/clement/www/ode/ngx-ode-libs/dist/ngx-ode-sijil/esm5/lib/services/parser/parser.interface.js
+[14:38:21] Including      : /Users/clement/www/ode/ngx-ode-libs/dist/ngx-ode-sijil/esm5/lib/services/require/httprequire.service.js
+[14:38:21] Including      : /Users/clement/www/ode/ngx-ode-libs/dist/ngx-ode-sijil/esm2015/lib/services/require/require.interface.js
+[14:38:21] Including      : /Users/clement/www/ode/ngx-ode-libs/dist/ngx-ode-sijil/esm5/lib/services/require/require.interface.js
+[14:38:21] Including      : /Users/clement/www/ode/ngx-ode-libs/projects/ngx-ode-sijil/src/lib/services/parser/parser.interface.ts
+[14:38:21] Including      : /Users/clement/www/ode/ngx-ode-libs/projects/ngx-ode-sijil/src/lib/services/require/httprequire.service.ts
+[14:38:21] Including      : /Users/clement/www/ode/ngx-ode-libs/projects/ngx-ode-sijil/src/lib/services/parser/fragments.parser.ts
+[14:38:21] Including      : /Users/clement/www/ode/ngx-ode-libs/projects/ngx-ode-sijil/src/lib/services/require/require.interface.ts
+[14:38:21] Including      : /Users/clement/www/ode/ngx-ode-libs/projects/ngx-ode-sijil/src/lib/services/require/xhrrequire.service.ts
+[14:38:21] Including      : /Users/clement/www/ode/ngx-ode-libs/dist/ngx-ode-ui/esm2015/lib/components/datepicker/datepicker.component.js
+[14:38:21] Including      : /Users/clement/www/ode/ngx-ode-libs/dist/ngx-ode-ui/esm2015/lib/components/dropdown/dropdown.component.js
+[14:38:21] Including      : /Users/clement/www/ode/ngx-ode-libs/dist/ngx-ode-ui/esm2015/lib/components/ellipsis/ellipsis.component.js
+[14:38:21] Including      : /Users/clement/www/ode/ngx-ode-libs/dist/ngx-ode-ui/esm2015/lib/components/form-field/form-field.component.js
+[14:38:21] Including      : /Users/clement/www/ode/ngx-ode-libs/dist/ngx-ode-ui/esm2015/lib/components/form-errors/form-errors.component.js
+[14:38:21] Including      : /Users/clement/www/ode/ngx-ode-libs/dist/ngx-ode-ui/esm2015/lib/components/lightbox/lightbox.component.js
+[14:38:21] Including      : /Users/clement/www/ode/ngx-ode-libs/dist/ngx-ode-ui/esm2015/lib/components/item-tree/item-tree.component.js
+[14:38:21] Including      : /Users/clement/www/ode/ngx-ode-libs/dist/ngx-ode-ui/esm2015/lib/components/lightbox-confirm/lightbox-confirm.component.js
+[14:38:21] Including      : /Users/clement/www/ode/ngx-ode-libs/dist/ngx-ode-ui/esm2015/lib/components/list/list.component.js
+[14:38:21] Including      : /Users/clement/www/ode/ngx-ode-libs/dist/ngx-ode-ui/esm2015/lib/components/message-sticker/message-sticker.component.js
+[14:38:21] Including      : /Users/clement/www/ode/ngx-ode-libs/dist/ngx-ode-ui/esm2015/lib/components/list-checkable/list-checkable.component.js
+[14:38:21] Including      : /Users/clement/www/ode/ngx-ode-libs/dist/ngx-ode-ui/esm2015/lib/components/mono-select/mono-select.component.js
+[14:38:21] Including      : /Users/clement/www/ode/ngx-ode-libs/dist/ngx-ode-ui/esm2015/lib/components/message-box/message-box.component.js
+[14:38:21] Including      : /Users/clement/www/ode/ngx-ode-libs/dist/ngx-ode-ui/esm2015/lib/components/multi-select/multi-select.component.js
+[14:38:21] Including      : /Users/clement/www/ode/ngx-ode-libs/dist/ngx-ode-ui/esm2015/lib/components/multi-combo/multi-combo.component.js
+[14:38:21] Including      : /Users/clement/www/ode/ngx-ode-libs/dist/ngx-ode-ui/esm2015/lib/components/panel-section/panel-section.component.js
+[14:38:21] Including      : /Users/clement/www/ode/ngx-ode-libs/dist/ngx-ode-ui/esm2015/lib/components/portal/portal.component.js
+[14:38:21] Including      : /Users/clement/www/ode/ngx-ode-libs/dist/ngx-ode-ui/esm2015/lib/components/search-input/search-input.component.js
+[14:38:21] Including      : /Users/clement/www/ode/ngx-ode-libs/dist/ngx-ode-ui/esm2015/lib/components/push-panel/push-panel.component.js
+[14:38:21] Including      : /Users/clement/www/ode/ngx-ode-libs/dist/ngx-ode-ui/esm2015/lib/components/side-layout/side-layout.component.js
+[14:38:21] Including      : /Users/clement/www/ode/ngx-ode-libs/dist/ngx-ode-ui/esm2015/lib/components/side-panel/side-panel.component.js
+[14:38:21] Including      : /Users/clement/www/ode/ngx-ode-libs/dist/ngx-ode-ui/esm2015/lib/components/spinner-cube/spinner-cube.component.js
+[14:38:21] Including      : /Users/clement/www/ode/ngx-ode-libs/dist/ngx-ode-ui/esm2015/lib/components/table/pager.component.js
+[14:38:21] Including      : /Users/clement/www/ode/ngx-ode-libs/dist/ngx-ode-ui/esm2015/lib/components/value-editable/simple-select.component.js
+[14:38:21] Including      : /Users/clement/www/ode/ngx-ode-libs/dist/ngx-ode-ui/esm2015/lib/components/upload-files/upload-files.component.js
+[14:38:21] Including      : /Users/clement/www/ode/ngx-ode-libs/dist/ngx-ode-ui/esm2015/lib/components/tooltip/tooltip.component.js
+[14:38:21] Including      : /Users/clement/www/ode/ngx-ode-libs/dist/ngx-ode-ui/esm2015/lib/components/wizard/wizard.component.js
+[14:38:21] Including      : /Users/clement/www/ode/ngx-ode-libs/dist/ngx-ode-ui/esm2015/lib/directives/dynamic-component/component-descriptor.model.js
+[14:38:21] Including      : /Users/clement/www/ode/ngx-ode-libs/dist/ngx-ode-ui/esm2015/lib/directives/dynamic-component/dynamic-component.directive.js
+[14:38:21] Including      : /Users/clement/www/ode/ngx-ode-libs/dist/ngx-ode-ui/esm5/lib/components/dropdown/dropdown.component.js
+[14:38:21] Including      : /Users/clement/www/ode/ngx-ode-libs/dist/ngx-ode-ui/esm5/lib/components/datepicker/datepicker.component.js
+[14:38:21] Including      : /Users/clement/www/ode/ngx-ode-libs/dist/ngx-ode-ui/esm5/lib/components/ellipsis/ellipsis.component.js
+[14:38:21] Including      : /Users/clement/www/ode/ngx-ode-libs/dist/ngx-ode-ui/esm5/lib/components/form-field/form-field.component.js
+[14:38:21] Including      : /Users/clement/www/ode/ngx-ode-libs/dist/ngx-ode-ui/esm5/lib/components/form-errors/form-errors.component.js
+[14:38:21] Including      : /Users/clement/www/ode/ngx-ode-libs/dist/ngx-ode-ui/esm5/lib/components/item-tree/item-tree.component.js
+[14:38:21] Including      : /Users/clement/www/ode/ngx-ode-libs/dist/ngx-ode-ui/esm5/lib/components/list/list.component.js
+[14:38:21] Including      : /Users/clement/www/ode/ngx-ode-libs/dist/ngx-ode-ui/esm5/lib/components/list-checkable/list-checkable.component.js
+[14:38:21] Including      : /Users/clement/www/ode/ngx-ode-libs/dist/ngx-ode-ui/esm5/lib/components/lightbox/lightbox.component.js
+[14:38:21] Including      : /Users/clement/www/ode/ngx-ode-libs/dist/ngx-ode-ui/esm5/lib/components/message-box/message-box.component.js
+[14:38:21] Including      : /Users/clement/www/ode/ngx-ode-libs/dist/ngx-ode-ui/esm5/lib/components/message-sticker/message-sticker.component.js
+[14:38:21] Including      : /Users/clement/www/ode/ngx-ode-libs/dist/ngx-ode-ui/esm5/lib/components/lightbox-confirm/lightbox-confirm.component.js
+[14:38:21] Including      : /Users/clement/www/ode/ngx-ode-libs/dist/ngx-ode-ui/esm5/lib/components/mono-select/mono-select.component.js
+[14:38:21] Including      : /Users/clement/www/ode/ngx-ode-libs/dist/ngx-ode-ui/esm5/lib/components/multi-select/multi-select.component.js
+[14:38:21] Including      : /Users/clement/www/ode/ngx-ode-libs/dist/ngx-ode-ui/esm5/lib/components/panel-section/panel-section.component.js
+[14:38:21] Including      : /Users/clement/www/ode/ngx-ode-libs/dist/ngx-ode-ui/esm5/lib/components/portal/portal.component.js
+[14:38:21] Including      : /Users/clement/www/ode/ngx-ode-libs/dist/ngx-ode-ui/esm5/lib/components/side-panel/side-panel.component.js
+[14:38:21] Including      : /Users/clement/www/ode/ngx-ode-libs/dist/ngx-ode-ui/esm5/lib/components/side-layout/side-layout.component.js
+[14:38:21] Including      : /Users/clement/www/ode/ngx-ode-libs/dist/ngx-ode-ui/esm5/lib/components/push-panel/push-panel.component.js
+[14:38:21] Including      : /Users/clement/www/ode/ngx-ode-libs/dist/ngx-ode-ui/esm5/lib/components/multi-combo/multi-combo.component.js
+[14:38:21] Including      : /Users/clement/www/ode/ngx-ode-libs/dist/ngx-ode-ui/esm5/lib/components/table/pager.component.js
+[14:38:21] Including      : /Users/clement/www/ode/ngx-ode-libs/dist/ngx-ode-ui/esm5/lib/components/value-editable/simple-select.component.js
+[14:38:21] Including      : /Users/clement/www/ode/ngx-ode-libs/dist/ngx-ode-ui/esm5/lib/components/upload-files/upload-files.component.js
+[14:38:21] Including      : /Users/clement/www/ode/ngx-ode-libs/dist/ngx-ode-ui/esm5/lib/components/search-input/search-input.component.js
+[14:38:21] Including      : /Users/clement/www/ode/ngx-ode-libs/dist/ngx-ode-ui/esm5/lib/components/spinner-cube/spinner-cube.component.js
+[14:38:21] Including      : /Users/clement/www/ode/ngx-ode-libs/dist/ngx-ode-ui/esm5/lib/components/wizard/wizard.component.js
+[14:38:21] Including      : /Users/clement/www/ode/ngx-ode-libs/dist/ngx-ode-ui/esm5/lib/directives/dynamic-component/component-descriptor.model.js
+[14:38:21] Including      : /Users/clement/www/ode/ngx-ode-libs/dist/ngx-ode-ui/esm5/lib/components/tooltip/tooltip.component.js
+[14:38:21] Including      : /Users/clement/www/ode/ngx-ode-libs/dist/ngx-ode-ui/esm5/lib/directives/dynamic-component/dynamic-component.directive.js
+[14:38:21] Including      : /Users/clement/www/ode/ngx-ode-libs/projects/ngx-ode-ui/src/lib/components/datepicker/datepicker.component.html
+[14:38:21] Including      : /Users/clement/www/ode/ngx-ode-libs/projects/ngx-ode-ui/src/lib/components/form-errors/form-errors.component.scss
+[14:38:21] Including      : /Users/clement/www/ode/ngx-ode-libs/projects/ngx-ode-ui/src/lib/components/form-errors/form-errors.component.ts
+[14:38:21] Including      : /Users/clement/www/ode/ngx-ode-libs/projects/ngx-ode-ui/src/lib/components/form-errors/form-errors.component.html
+[14:38:21] Including      : /Users/clement/www/ode/ngx-ode-libs/projects/ngx-ode-ui/src/lib/components/ellipsis/ellipsis.component.ts
+[14:38:21] Including      : /Users/clement/www/ode/ngx-ode-libs/projects/ngx-ode-ui/src/lib/components/datepicker/datepicker.component.ts
+[14:38:21] Including      : /Users/clement/www/ode/ngx-ode-libs/projects/ngx-ode-ui/src/lib/components/ellipsis/ellipsis.component.scss
+[14:38:21] Including      : /Users/clement/www/ode/ngx-ode-libs/projects/ngx-ode-ui/src/lib/components/lightbox/lightbox.component.scss
+[14:38:21] Including      : /Users/clement/www/ode/ngx-ode-libs/projects/ngx-ode-ui/src/lib/components/lightbox/lightbox.component.html
+[14:38:21] Including      : /Users/clement/www/ode/ngx-ode-libs/projects/ngx-ode-ui/src/lib/components/list/list.component.html
+[14:38:21] Including      : /Users/clement/www/ode/ngx-ode-libs/projects/ngx-ode-ui/src/lib/components/lightbox/lightbox.component.ts
+[14:38:21] Including      : /Users/clement/www/ode/ngx-ode-libs/projects/ngx-ode-ui/src/lib/components/list/list.component.scss
+[14:38:21] Including      : /Users/clement/www/ode/ngx-ode-libs/projects/ngx-ode-ui/src/lib/components/list/list.stories.ts
+[14:38:21] Including      : /Users/clement/www/ode/ngx-ode-libs/projects/ngx-ode-ui/src/lib/components/lightbox-confirm/lightbox-confirm.component.html
+[14:38:21] Including      : /Users/clement/www/ode/ngx-ode-libs/projects/ngx-ode-ui/src/lib/components/lightbox-confirm/lightbox-confirm.component.scss
+[14:38:21] Including      : /Users/clement/www/ode/ngx-ode-libs/projects/ngx-ode-ui/src/lib/components/list/list.component.ts
+[14:38:21] Including      : /Users/clement/www/ode/ngx-ode-libs/projects/ngx-ode-ui/src/lib/components/lightbox-confirm/lightbox-confirm.component.ts
+[14:38:21] Including      : /Users/clement/www/ode/ngx-ode-libs/projects/ngx-ode-ui/src/lib/components/dropdown/dropdown.component.html
+[14:38:21] Including      : /Users/clement/www/ode/ngx-ode-libs/projects/ngx-ode-ui/src/lib/components/dropdown/dropdown.component.scss
+[14:38:21] Ignoring       : /Users/clement/www/ode/ngx-ode-libs/projects/ngx-ode-ui/src/lib/components/dropdown/dropdown.component.spec.ts
+[14:38:21] Including      : /Users/clement/www/ode/ngx-ode-libs/projects/ngx-ode-ui/src/lib/components/dropdown/dropdown.stories.ts
+[14:38:21] Including      : /Users/clement/www/ode/ngx-ode-libs/projects/ngx-ode-ui/src/lib/components/message-sticker/message-sticker.component.scss
+[14:38:21] Including      : /Users/clement/www/ode/ngx-ode-libs/projects/ngx-ode-ui/src/lib/components/dropdown/dropdown.component.ts
+[14:38:21] Including      : /Users/clement/www/ode/ngx-ode-libs/projects/ngx-ode-ui/src/lib/components/message-sticker/message-sticker.component.ts
+[14:38:21] Including      : /Users/clement/www/ode/ngx-ode-libs/projects/ngx-ode-ui/src/lib/components/message-box/message-box.component.scss
+[14:38:21] Including      : /Users/clement/www/ode/ngx-ode-libs/projects/ngx-ode-ui/src/lib/components/message-box/message-box.component.html
+[14:38:21] Including      : /Users/clement/www/ode/ngx-ode-libs/projects/ngx-ode-ui/src/lib/components/message-box/message-box.component.ts
+[14:38:21] Including      : /Users/clement/www/ode/ngx-ode-libs/projects/ngx-ode-ui/src/lib/components/mono-select/mono-select.component.html
+[14:38:21] Ignoring       : /Users/clement/www/ode/ngx-ode-libs/projects/ngx-ode-ui/src/lib/components/mono-select/mono-select.component.spec.ts
+[14:38:21] Including      : /Users/clement/www/ode/ngx-ode-libs/projects/ngx-ode-ui/src/lib/components/mono-select/mono-select.component.ts
+[14:38:21] Including      : /Users/clement/www/ode/ngx-ode-libs/projects/ngx-ode-ui/src/lib/components/message-sticker/message-sticker.component.html
+[14:38:21] Including      : /Users/clement/www/ode/ngx-ode-libs/projects/ngx-ode-ui/src/lib/components/panel-section/panel-section.component.scss
+[14:38:21] Including      : /Users/clement/www/ode/ngx-ode-libs/projects/ngx-ode-ui/src/lib/components/panel-section/panel-section.component.ts
+[14:38:21] Including      : /Users/clement/www/ode/ngx-ode-libs/projects/ngx-ode-ui/src/lib/components/panel-section/panel-section.component.html
+[14:38:21] Including      : /Users/clement/www/ode/ngx-ode-libs/projects/ngx-ode-ui/src/lib/components/form-field/form-field.component.scss
+[14:38:21] Including      : /Users/clement/www/ode/ngx-ode-libs/projects/ngx-ode-ui/src/lib/components/form-field/form-field.component.ts
+[14:38:21] Including      : /Users/clement/www/ode/ngx-ode-libs/projects/ngx-ode-ui/src/lib/components/item-tree/item-tree.component.html
+[14:38:21] Including      : /Users/clement/www/ode/ngx-ode-libs/projects/ngx-ode-ui/src/lib/components/item-tree/item-tree.component.ts
+[14:38:21] Including      : /Users/clement/www/ode/ngx-ode-libs/projects/ngx-ode-ui/src/lib/components/multi-combo/multi-combo.component.html
+[14:38:21] Including      : /Users/clement/www/ode/ngx-ode-libs/projects/ngx-ode-ui/src/lib/components/form-field/form-field.component.html
+[14:38:21] Including      : /Users/clement/www/ode/ngx-ode-libs/projects/ngx-ode-ui/src/lib/components/multi-combo/multi-combo.component.scss
+[14:38:21] Including      : /Users/clement/www/ode/ngx-ode-libs/projects/ngx-ode-ui/src/lib/components/multi-combo/multi-combo.component.ts
+[14:38:21] Including      : /Users/clement/www/ode/ngx-ode-libs/projects/ngx-ode-ui/src/lib/components/multi-select/multi-select.component.html
+[14:38:21] Including      : /Users/clement/www/ode/ngx-ode-libs/projects/ngx-ode-ui/src/lib/components/multi-select/multi-select.component.scss
+[14:38:21] Ignoring       : /Users/clement/www/ode/ngx-ode-libs/projects/ngx-ode-ui/src/lib/components/multi-select/multi-select.component.spec.ts
+[14:38:21] Including      : /Users/clement/www/ode/ngx-ode-libs/projects/ngx-ode-ui/src/lib/components/multi-select/multi-select.component.ts
+[14:38:21] Including      : /Users/clement/www/ode/ngx-ode-libs/projects/ngx-ode-ui/src/lib/components/list-checkable/list-checkable.component.ts
+[14:38:21] Including      : /Users/clement/www/ode/ngx-ode-libs/projects/ngx-ode-ui/src/lib/components/list-checkable/list-checkable.component.scss
+[14:38:21] Including      : /Users/clement/www/ode/ngx-ode-libs/projects/ngx-ode-ui/src/lib/components/search-input/search-input.component.scss
+[14:38:21] Including      : /Users/clement/www/ode/ngx-ode-libs/projects/ngx-ode-ui/src/lib/components/search-input/search-input.component.html
+[14:38:21] Including      : /Users/clement/www/ode/ngx-ode-libs/projects/ngx-ode-ui/src/lib/components/search-input/search-input.component.ts
+[14:38:21] Including      : /Users/clement/www/ode/ngx-ode-libs/projects/ngx-ode-ui/src/lib/components/portal/portal.component.html
+[14:38:21] Including      : /Users/clement/www/ode/ngx-ode-libs/projects/ngx-ode-ui/src/lib/components/portal/portal.component.ts
+[14:38:21] Including      : /Users/clement/www/ode/ngx-ode-libs/projects/ngx-ode-ui/src/lib/components/portal/portal.component.scss
+[14:38:21] Including      : /Users/clement/www/ode/ngx-ode-libs/projects/ngx-ode-ui/src/lib/components/push-panel/push-panel.component.ts
+[14:38:21] Including      : /Users/clement/www/ode/ngx-ode-libs/projects/ngx-ode-ui/src/lib/components/push-panel/push-panel.component.html
+[14:38:21] Including      : /Users/clement/www/ode/ngx-ode-libs/projects/ngx-ode-ui/src/lib/components/push-panel/push-panel.component.scss
+[14:38:21] Including      : /Users/clement/www/ode/ngx-ode-libs/projects/ngx-ode-ui/src/lib/components/list-checkable/list-checkable.component.html
+[14:38:21] Including      : /Users/clement/www/ode/ngx-ode-libs/projects/ngx-ode-ui/src/lib/components/side-layout/side-layout.component.html
+[14:38:21] Including      : /Users/clement/www/ode/ngx-ode-libs/projects/ngx-ode-ui/src/lib/components/side-layout/side-layout.component.ts
+[14:38:21] Including      : /Users/clement/www/ode/ngx-ode-libs/projects/ngx-ode-ui/src/lib/components/side-layout/side-layout.component.scss
+[14:38:21] Including      : /Users/clement/www/ode/ngx-ode-libs/projects/ngx-ode-ui/src/lib/components/spinner-cube/spinner-cube.component.html
+[14:38:21] Including      : /Users/clement/www/ode/ngx-ode-libs/projects/ngx-ode-ui/src/lib/components/spinner-cube/spinner-cube.component.scss
+[14:38:21] Including      : /Users/clement/www/ode/ngx-ode-libs/projects/ngx-ode-ui/src/lib/components/spinner-cube/spinner-cube.component.ts
+[14:38:21] Including      : /Users/clement/www/ode/ngx-ode-libs/projects/ngx-ode-ui/src/lib/components/side-panel/side-panel.component.html
+[14:38:21] Including      : /Users/clement/www/ode/ngx-ode-libs/projects/ngx-ode-ui/src/lib/components/side-panel/side-panel.component.scss
+[14:38:21] Including      : /Users/clement/www/ode/ngx-ode-libs/projects/ngx-ode-ui/src/lib/components/side-panel/side-panel.component.ts
+[14:38:21] Including      : /Users/clement/www/ode/ngx-ode-libs/projects/ngx-ode-ui/src/lib/components/tooltip/tooltip.component.scss
+[14:38:21] Including      : /Users/clement/www/ode/ngx-ode-libs/projects/ngx-ode-ui/src/lib/components/tooltip/tooltip.component.ts
+[14:38:21] Including      : /Users/clement/www/ode/ngx-ode-libs/projects/ngx-ode-ui/src/lib/components/value-editable/simple-select.component.html
+[14:38:21] Including      : /Users/clement/www/ode/ngx-ode-libs/projects/ngx-ode-ui/src/lib/components/value-editable/simple-select.component.ts
+[14:38:21] Including      : /Users/clement/www/ode/ngx-ode-libs/projects/ngx-ode-ui/src/lib/components/upload-files/upload-files.component.html
+[14:38:21] Including      : /Users/clement/www/ode/ngx-ode-libs/projects/ngx-ode-ui/src/lib/components/upload-files/upload-files.component.scss
+[14:38:21] Ignoring       : /Users/clement/www/ode/ngx-ode-libs/projects/ngx-ode-ui/src/lib/components/upload-files/upload-files.component.spec.ts
+[14:38:21] Including      : /Users/clement/www/ode/ngx-ode-libs/projects/ngx-ode-ui/src/lib/components/upload-files/upload-files.component.ts
+[14:38:21] Including      : /Users/clement/www/ode/ngx-ode-libs/projects/ngx-ode-ui/src/lib/components/wizard/wizard.component.ts
+[14:38:21] Including      : /Users/clement/www/ode/ngx-ode-libs/projects/ngx-ode-ui/src/lib/components/table/pager.component.html
+[14:38:21] Including      : /Users/clement/www/ode/ngx-ode-libs/projects/ngx-ode-ui/src/lib/components/table/pager.component.ts
+[14:38:21] Including      : /Users/clement/www/ode/ngx-ode-libs/projects/ngx-ode-ui/src/lib/directives/dynamic-component/dynamic-component.directive.ts
+[14:38:21] Including      : /Users/clement/www/ode/ngx-ode-libs/projects/ngx-ode-ui/src/lib/directives/dynamic-component/component-descriptor.model.ts
+[14:38:21] Searching package.json file
+[14:38:21] package.json file found
+[14:38:21] Processing package.json dependencies
+[14:38:21] Searching README.md, CHANGELOG.md, CONTRIBUTING.md, LICENSE.md, TODO.md files
+[14:38:21] README.md file found
+[14:38:21] Error during /Users/clement/www/ode/ngx-ode-libs/CHANGELOG read
+[14:38:21] Continuing without CHANGELOG.md file
+[14:38:21] Error during /Users/clement/www/ode/ngx-ode-libs/CONTRIBUTING read
+[14:38:21] Continuing without CONTRIBUTING.md file
+[14:38:21] Error during /Users/clement/www/ode/ngx-ode-libs/LICENSE read
+[14:38:21] Continuing without LICENSE.md file
+[14:38:21] Error during /Users/clement/www/ode/ngx-ode-libs/TODO read
+[14:38:21] Continuing without TODO.md file
+[14:38:21] Get dependencies data
+[14:38:23] parsing        : /Users/clement/www/ode/ngx-ode-libs/stories/Button.stories.ts
+[14:38:23] found          : Template
+[14:38:23] found          : Primary
+[14:38:23] found          : Secondary
+[14:38:23] found          : Large
+[14:38:23] found          : Small
+[14:38:23] parsing        : /Users/clement/www/ode/ngx-ode-libs/stories/Header.stories.ts
+[14:38:23] found          : Template
+[14:38:23] found          : LoggedIn
+[14:38:23] found          : LoggedOut
+[14:38:23] parsing        : /Users/clement/www/ode/ngx-ode-libs/stories/Page.stories.ts
+[14:38:23] found          : Template
+[14:38:23] found          : LoggedOut
+[14:38:23] found          : LoggedIn
+[14:38:23] parsing        : /Users/clement/www/ode/ngx-ode-libs/stories/User.ts
+[14:38:23] found          : User
+[14:38:23] parsing        : /Users/clement/www/ode/ngx-ode-libs/stories/button.component.ts
+[14:38:23] found          : ButtonComponent
+[14:38:23] parsing        : /Users/clement/www/ode/ngx-ode-libs/stories/header.component.ts
+[14:38:23] found          : HeaderComponent
+[14:38:23] parsing        : /Users/clement/www/ode/ngx-ode-libs/stories/page.component.ts
+[14:38:23] found          : PageComponent
+[14:38:23] parsing        : /Users/clement/www/ode/ngx-ode-libs/stories/dropdown/dropdown.component.ts
+[14:38:23] found          : DropdownComponent
+[14:38:23] parsing        : /Users/clement/www/ode/ngx-ode-libs/projects/ngx-ode-core/src/test.ts
+[14:38:23] found          : require
+[14:38:23] found          : context
+[14:38:23] parsing        : /Users/clement/www/ode/ngx-ode-libs/projects/ngx-ode-core/src/public-api.ts
+[14:38:23] parsing        : /Users/clement/www/ode/ngx-ode-libs/projects/ngx-ode-sijil/src/public-api.ts
+[14:38:23] parsing        : /Users/clement/www/ode/ngx-ode-libs/projects/ngx-ode-sijil/src/test.ts
+[14:38:23] found          : require
+[14:38:23] found          : context
+[14:38:23] parsing        : /Users/clement/www/ode/ngx-ode-libs/projects/ngx-ode-ui/src/public-api.ts
+[14:38:23] parsing        : /Users/clement/www/ode/ngx-ode-libs/projects/ngx-ode-ui/src/test.ts
+[14:38:23] found          : require
+[14:38:23] found          : context
+[14:38:23] parsing        : /Users/clement/www/ode/ngx-ode-libs/projects/ngx-ode-core/src/lib/ngx-ode-core.module.ts
+[14:38:23] found          : NgxOdeCoreModule
+[14:38:23]                : - exports:
+[14:38:23]                : 	- OdeComponent
+[14:38:23]                : - declarations:
+[14:38:23]                : 	- OdeComponent
+[14:38:23]                : - providers:
+[14:38:23]                : 	- { provide: COMPONENT_LIFECYCLE_DEBUG_MODE, useValue:  }
+[14:38:23] parsing        : /Users/clement/www/ode/ngx-ode-libs/projects/ngx-ode-sijil/src/lib/ngx-ode-sijil.module.ts
+[14:38:23] found          : NgxOdeSijilModule
+[14:38:23]                : - imports:
+[14:38:23]                : 	- HttpClientModule
+[14:38:23]                : - exports:
+[14:38:23]                : 	- S5lComponent
+[14:38:23]                : 	- TranslatePipe
+[14:38:23]                : - declarations:
+[14:38:23]                : 	- S5lComponent
+[14:38:23]                : 	- TranslatePipe
+[14:38:23] parsing        : /Users/clement/www/ode/ngx-ode-libs/projects/ngx-ode-ui/src/lib/ngx-ode-ui.module.ts
+[14:38:23] found          : NgxOdeUiModule
+[14:38:23]                : - imports:
+[14:38:23]                : 	- CommonModule
+[14:38:23]                : 	- FormsModule
+[14:38:23]                : 	- NgxOdeSijilModule
+[14:38:23]                : 	- InfiniteScrollModule
+[14:38:23]                : - exports:
+[14:38:23]                : 	- DatepickerComponent
+[14:38:23]                : 	- FormErrorsComponent
+[14:38:23]                : 	- FormFieldComponent
+[14:38:23]                : 	- ItemTreeComponent
+[14:38:23]                : 	- LightBoxComponent
+[14:38:23]                : 	- LightboxConfirmComponent
+[14:38:23]                : 	- ListComponent
+[14:38:23]                : 	- ListCheckableComponent
+[14:38:23]                : 	- MonoSelectComponent
+[14:38:23]                : 	- MultiSelectComponent
+[14:38:23]                : 	- MultiComboComponent
+[14:38:23]                : 	- PanelSectionComponent
+[14:38:23]                : 	- PortalComponent
+[14:38:23]                : 	- PushPanelComponent
+[14:38:23]                : 	- SearchInputComponent
+[14:38:23]                : 	- SideLayoutComponent
+[14:38:23]                : 	- SidePanelComponent
+[14:38:23]                : 	- StepComponent
+[14:38:23]                : 	- TooltipComponent
+[14:38:23]                : 	- WizardComponent
+[14:38:23]                : 	- SimpleSelectComponent
+[14:38:23]                : 	- MessageStickerComponent
+[14:38:23]                : 	- MessageBoxComponent
+[14:38:23]                : 	- UploadFilesComponent
+[14:38:23]                : 	- SpinnerCubeComponent
+[14:38:23]                : 	- PagerComponent
+[14:38:23]                : 	- EllipsisComponent
+[14:38:23]                : 	- DropdownComponent
+[14:38:23]                : 	- AnchorDirective
+[14:38:23]                : 	- DynamicTemplateDirective
+[14:38:23]                : 	- DynamicComponentDirective
+[14:38:23]                : 	- DragAndDropFilesDirective
+[14:38:23]                : 	- ObjectURLDirective
+[14:38:23]                : 	- FilterPipe
+[14:38:23]                : 	- FlattenObjectArrayPipe
+[14:38:23]                : 	- LimitPipe
+[14:38:23]                : 	- OrderPipe
+[14:38:23]                : 	- StorePipe
+[14:38:23]                : 	- LocalizedDatePipe
+[14:38:23]                : 	- BytesPipe
+[14:38:23]                : 	- KeysPipe
+[14:38:23]                : 	- LengthPipe
+[14:38:23]                : - declarations:
+[14:38:23]                : 	- DatepickerComponent
+[14:38:23]                : 	- FormErrorsComponent
+[14:38:23]                : 	- FormFieldComponent
+[14:38:23]                : 	- ItemTreeComponent
+[14:38:23]                : 	- LightBoxComponent
+[14:38:23]                : 	- LightboxConfirmComponent
+[14:38:23]                : 	- ListComponent
+[14:38:23]                : 	- ListCheckableComponent
+[14:38:23]                : 	- MonoSelectComponent
+[14:38:23]                : 	- MultiSelectComponent
+[14:38:23]                : 	- MultiComboComponent
+[14:38:23]                : 	- PanelSectionComponent
+[14:38:23]                : 	- PortalComponent
+[14:38:23]                : 	- PushPanelComponent
+[14:38:23]                : 	- SearchInputComponent
+[14:38:23]                : 	- SideLayoutComponent
+[14:38:23]                : 	- SidePanelComponent
+[14:38:23]                : 	- StepComponent
+[14:38:23]                : 	- TooltipComponent
+[14:38:23]                : 	- WizardComponent
+[14:38:23]                : 	- SimpleSelectComponent
+[14:38:23]                : 	- MessageStickerComponent
+[14:38:23]                : 	- MessageBoxComponent
+[14:38:23]                : 	- UploadFilesComponent
+[14:38:23]                : 	- SpinnerCubeComponent
+[14:38:23]                : 	- PagerComponent
+[14:38:23]                : 	- EllipsisComponent
+[14:38:23]                : 	- AnchorDirective
+[14:38:23]                : 	- DynamicTemplateDirective
+[14:38:23]                : 	- DynamicComponentDirective
+[14:38:23]                : 	- DragAndDropFilesDirective
+[14:38:23]                : 	- ObjectURLDirective
+[14:38:23]                : 	- FilterPipe
+[14:38:23]                : 	- FlattenObjectArrayPipe
+[14:38:23]                : 	- LimitPipe
+[14:38:23]                : 	- OrderPipe
+[14:38:23]                : 	- StorePipe
+[14:38:23]                : 	- LocalizedDatePipe
+[14:38:23]                : 	- BytesPipe
+[14:38:23]                : 	- KeysPipe
+[14:38:23]                : 	- LengthPipe
+[14:38:23]                : 	- DropdownComponent
+[14:38:23]                : - providers:
+[14:38:23]                : 	- InputFileService
+[14:38:23]                : 	- OrderPipe
+[14:38:23] parsing        : /Users/clement/www/ode/ngx-ode-libs/projects/ngx-ode-core/src/lib/component/ode.component.ts
+[14:38:23] found          : COMPONENT_LIFECYCLE_DEBUG_MODE
+[14:38:23] found          : OdeComponent
+[14:38:23] parsing        : /Users/clement/www/ode/ngx-ode-libs/projects/ngx-ode-core/src/lib/utils/Logger.ts
+[14:38:23] found          : Logger
+[14:38:23] parsing        : /Users/clement/www/ode/ngx-ode-libs/projects/ngx-ode-sijil/src/lib/components/s5l.component.ts
+[14:38:23] found          : S5lComponent
+[14:38:23] parsing        : /Users/clement/www/ode/ngx-ode-libs/projects/ngx-ode-sijil/src/lib/pipes/translate.pipe.ts
+[14:38:23] found          : TranslatePipe
+[14:38:23] parsing        : /Users/clement/www/ode/ngx-ode-libs/projects/ngx-ode-sijil/src/lib/services/bundles.service.ts
+[14:38:23] found          : BundlesService
+[14:38:23] parsing        : /Users/clement/www/ode/ngx-ode-libs/projects/ngx-ode-sijil/src/lib/services/sijil.opts.ts
+[14:38:23] found          : SijilOpts
+[14:38:23] found          : defaultSijilOpts
+[14:38:23] parsing        : /Users/clement/www/ode/ngx-ode-libs/projects/ngx-ode-ui/src/lib/directives/drag-and-drop-files.directive.ts
+[14:38:23] found          : DragAndDropFilesDirective
+[14:38:23] parsing        : /Users/clement/www/ode/ngx-ode-libs/projects/ngx-ode-ui/src/lib/helpers/accents.helper.ts
+[14:38:23] found          : defaultDiacriticsRemovalMap
+[14:38:23] found          : removeAccents
+[14:38:23] parsing        : /Users/clement/www/ode/ngx-ode-libs/projects/ngx-ode-ui/src/lib/directives/anchor.directive.ts
+[14:38:23] found          : AnchorDirective
+[14:38:23] parsing        : /Users/clement/www/ode/ngx-ode-libs/projects/ngx-ode-ui/src/lib/directives/dynamictemplate.directive.ts
+[14:38:23] found          : DynamicTemplateDirective
+[14:38:23] parsing        : /Users/clement/www/ode/ngx-ode-libs/projects/ngx-ode-ui/src/lib/pipes/bytes.pipe.ts
+[14:38:23] found          : BytesPipe
+[14:38:23] parsing        : /Users/clement/www/ode/ngx-ode-libs/projects/ngx-ode-ui/src/lib/directives/object-url.directive.ts
+[14:38:23] found          : ObjectURLDirective
+[14:38:23] parsing        : /Users/clement/www/ode/ngx-ode-libs/projects/ngx-ode-ui/src/lib/pipes/filter.pipe.ts
+[14:38:23] found          : FilterPipe
+[14:38:23] parsing        : /Users/clement/www/ode/ngx-ode-libs/projects/ngx-ode-ui/src/lib/pipes/flattenObjArray.pipe.ts
+[14:38:23] found          : FlattenObjectArrayPipe
+[14:38:23] parsing        : /Users/clement/www/ode/ngx-ode-libs/projects/ngx-ode-ui/src/lib/pipes/length.pipe.ts
+[14:38:23] found          : LengthPipe
+[14:38:23] parsing        : /Users/clement/www/ode/ngx-ode-libs/projects/ngx-ode-ui/src/lib/pipes/keys.pipe.ts
+[14:38:23] found          : KeysPipe
+[14:38:23] parsing        : /Users/clement/www/ode/ngx-ode-libs/projects/ngx-ode-ui/src/lib/pipes/limit.pipe.ts
+[14:38:23] found          : LimitPipe
+[14:38:23] parsing        : /Users/clement/www/ode/ngx-ode-libs/projects/ngx-ode-ui/src/lib/pipes/localizedDate.pipe.ts
+[14:38:23] found          : LocalizedDatePipe
+[14:38:23] parsing        : /Users/clement/www/ode/ngx-ode-libs/projects/ngx-ode-ui/src/lib/pipes/orderBy.pipe.ts
+[14:38:23] found          : OrderPipe
+[14:38:23] parsing        : /Users/clement/www/ode/ngx-ode-libs/projects/ngx-ode-ui/src/lib/pipes/replace.pipe.ts
+[14:38:23] found          : ReplacePipe
+[14:38:23] parsing        : /Users/clement/www/ode/ngx-ode-libs/projects/ngx-ode-ui/src/lib/pipes/store.pipe.ts
+[14:38:23] found          : StorePipe
+[14:38:23] parsing        : /Users/clement/www/ode/ngx-ode-libs/projects/ngx-ode-ui/src/lib/services/dynamicModuleImports.service.ts
+[14:38:23] found          : DynamicModuleImportsService
+[14:38:23] parsing        : /Users/clement/www/ode/ngx-ode-libs/projects/ngx-ode-ui/src/lib/services/inputFile.service.ts
+[14:38:23] found          : InputFileService
+[14:38:23] parsing        : /Users/clement/www/ode/ngx-ode-libs/projects/ngx-ode-ui/src/lib/services/labels.service.ts
+[14:38:23] found          : LabelsService
+[14:38:23] parsing        : /Users/clement/www/ode/ngx-ode-libs/projects/ngx-ode-ui/src/lib/services/spinner.service.ts
+[14:38:23] found          : SpinnerService
+[14:38:23] parsing        : /Users/clement/www/ode/ngx-ode-libs/projects/ngx-ode-ui/src/lib/utils/math.ts
+[14:38:23] found          : Unit
+[14:38:23] found          : UNITS
+[14:38:23] found          : toDecimal
+[14:38:23] found          : getUnit
+[14:38:23] parsing        : /Users/clement/www/ode/ngx-ode-libs/projects/ngx-ode-ui/src/lib/utils/testing.ts
+[14:38:23] found          : getText
+[14:38:23] found          : clickOn
+[14:38:23] parsing        : /Users/clement/www/ode/ngx-ode-libs/projects/ngx-ode-ui/src/lib/utils/string.ts
+[14:38:23] found          : trim
+[14:38:23] found          : standardise
+[14:38:23] found          : removeAccents
+[14:38:23] parsing        : /Users/clement/www/ode/ngx-ode-libs/projects/ngx-ode-sijil/src/lib/services/parser/parser.interface.ts
+[14:38:23] found          : ParserError
+[14:38:23] found          : ParserCallback
+[14:38:23] found          : Parser
+[14:38:23] parsing        : /Users/clement/www/ode/ngx-ode-libs/projects/ngx-ode-sijil/src/lib/services/require/httprequire.service.ts
+[14:38:23] found          : HttpRequireService
+[14:38:23] parsing        : /Users/clement/www/ode/ngx-ode-libs/projects/ngx-ode-sijil/src/lib/services/parser/fragments.parser.ts
+[14:38:23] found          : FragmentsParser
+[14:38:23] parsing        : /Users/clement/www/ode/ngx-ode-libs/projects/ngx-ode-sijil/src/lib/services/require/require.interface.ts
+[14:38:23] found          : RequireService
+[14:38:23] parsing        : /Users/clement/www/ode/ngx-ode-libs/projects/ngx-ode-sijil/src/lib/services/require/xhrrequire.service.ts
+[14:38:23] found          : XHRRequire
+[14:38:23] parsing        : /Users/clement/www/ode/ngx-ode-libs/projects/ngx-ode-ui/src/lib/components/form-errors/form-errors.component.ts
+[14:38:23] found          : FormErrorsComponent
+[14:38:23] parsing        : /Users/clement/www/ode/ngx-ode-libs/projects/ngx-ode-ui/src/lib/components/ellipsis/ellipsis.component.ts
+[14:38:23] found          : EllipsisBehavior
+[14:38:23] found          : EllipsisComponent
+[14:38:23] parsing        : /Users/clement/www/ode/ngx-ode-libs/projects/ngx-ode-ui/src/lib/components/datepicker/datepicker.component.ts
+[14:38:23] found          : NOOP
+[14:38:23] found          : CUSTOM_INPUT_CONTROL_VALUE_ACCESSOR
+[14:38:23] found          : DatepickerComponent
+[14:38:23]                : - providers:
+[14:38:23]                : 	- CUSTOM_INPUT_CONTROL_VALUE_ACCESSOR
+[14:38:23] parsing        : /Users/clement/www/ode/ngx-ode-libs/projects/ngx-ode-ui/src/lib/components/lightbox/lightbox.component.ts
+[14:38:23] found          : LightBoxComponent
+[14:38:23] parsing        : /Users/clement/www/ode/ngx-ode-libs/projects/ngx-ode-ui/src/lib/components/list/list.stories.ts
+[14:38:23] found          : DefaultList
+[14:38:23] found          : EmptyList
+[14:38:23] found          : LoadingList
+[14:38:23] parsing        : /Users/clement/www/ode/ngx-ode-libs/projects/ngx-ode-ui/src/lib/components/list/list.component.ts
+[14:38:23] found          : ListComponent
+[14:38:23] parsing        : /Users/clement/www/ode/ngx-ode-libs/projects/ngx-ode-ui/src/lib/components/lightbox-confirm/lightbox-confirm.component.ts
+[14:38:23] found          : LightboxConfirmComponent
+[14:38:23] parsing        : /Users/clement/www/ode/ngx-ode-libs/projects/ngx-ode-ui/src/lib/components/dropdown/dropdown.stories.ts
+[14:38:23] found          : actionsData
+[14:38:23] found          : Default
+[14:38:23] found          : Open
+[14:38:23] parsing        : /Users/clement/www/ode/ngx-ode-libs/projects/ngx-ode-ui/src/lib/components/dropdown/dropdown.component.ts
+[14:38:23] found          : DropdownComponent
+[14:38:23] parsing        : /Users/clement/www/ode/ngx-ode-libs/projects/ngx-ode-ui/src/lib/components/message-sticker/message-sticker.component.ts
+[14:38:23] found          : MessageStickerComponent
+[14:38:23] parsing        : /Users/clement/www/ode/ngx-ode-libs/projects/ngx-ode-ui/src/lib/components/message-box/message-box.component.ts
+[14:38:23] found          : MessageType
+[14:38:23] found          : icons
+[14:38:23] found          : MessageBoxComponent
+[14:38:23] parsing        : /Users/clement/www/ode/ngx-ode-libs/projects/ngx-ode-ui/src/lib/components/mono-select/mono-select.component.ts
+[14:38:23] found          : MonoSelectComponent
+[14:38:23]                : - providers:
+[14:38:23]                : 	- {
+    provide: NG_VALUE_ACCESSOR, useExisting: forwardRef(() => MonoSelectComponent), multi: true
+}
+[14:38:23] parsing        : /Users/clement/www/ode/ngx-ode-libs/projects/ngx-ode-ui/src/lib/components/panel-section/panel-section.component.ts
+[14:38:23] found          : PanelSectionComponent
+[14:38:23] parsing        : /Users/clement/www/ode/ngx-ode-libs/projects/ngx-ode-ui/src/lib/components/form-field/form-field.component.ts
+[14:38:23] found          : FormFieldComponent
+[14:38:23] parsing        : /Users/clement/www/ode/ngx-ode-libs/projects/ngx-ode-ui/src/lib/components/item-tree/item-tree.component.ts
+[14:38:23] found          : ItemTreeComponent
+[14:38:23] parsing        : /Users/clement/www/ode/ngx-ode-libs/projects/ngx-ode-ui/src/lib/components/multi-combo/multi-combo.component.ts
+[14:38:23] found          : MultiComboComponent
+[14:38:23] parsing        : /Users/clement/www/ode/ngx-ode-libs/projects/ngx-ode-ui/src/lib/components/multi-select/multi-select.component.ts
+[14:38:23] found          : SelectOption
+[14:38:23] found          : MultiSelectComponent
+[14:38:23]                : - providers:
+[14:38:23]                : 	- {
+    provide: NG_VALUE_ACCESSOR, useExisting: forwardRef(() => MultiSelectComponent), multi: true
+}
+[14:38:23] parsing        : /Users/clement/www/ode/ngx-ode-libs/projects/ngx-ode-ui/src/lib/components/list-checkable/list-checkable.component.ts
+[14:38:23] found          : OnCheckData
+[14:38:23] found          : ListCheckableComponent
+[14:38:23] parsing        : /Users/clement/www/ode/ngx-ode-libs/projects/ngx-ode-ui/src/lib/components/search-input/search-input.component.ts
+[14:38:23] found          : SearchInputComponent
+[14:38:23] parsing        : /Users/clement/www/ode/ngx-ode-libs/projects/ngx-ode-ui/src/lib/components/portal/portal.component.ts
+[14:38:23] found          : PortalComponent
+[14:38:23] parsing        : /Users/clement/www/ode/ngx-ode-libs/projects/ngx-ode-ui/src/lib/components/push-panel/push-panel.component.ts
+[14:38:23] found          : PushPanelComponent
+[14:38:23] parsing        : /Users/clement/www/ode/ngx-ode-libs/projects/ngx-ode-ui/src/lib/components/side-layout/side-layout.component.ts
+[14:38:23] found          : SideLayoutComponent
+[14:38:23] parsing        : /Users/clement/www/ode/ngx-ode-libs/projects/ngx-ode-ui/src/lib/components/spinner-cube/spinner-cube.component.ts
+[14:38:23] found          : SpinnerCubeComponent
+[14:38:23] parsing        : /Users/clement/www/ode/ngx-ode-libs/projects/ngx-ode-ui/src/lib/components/side-panel/side-panel.component.ts
+[14:38:23] found          : SidePanelComponent
+[14:38:23] parsing        : /Users/clement/www/ode/ngx-ode-libs/projects/ngx-ode-ui/src/lib/components/tooltip/tooltip.component.ts
+[14:38:23] found          : TooltipComponent
+[14:38:23] parsing        : /Users/clement/www/ode/ngx-ode-libs/projects/ngx-ode-ui/src/lib/components/value-editable/simple-select.component.ts
+[14:38:23] found          : Option
+[14:38:23] found          : SimpleSelectComponent
+[14:38:23] parsing        : /Users/clement/www/ode/ngx-ode-libs/projects/ngx-ode-ui/src/lib/components/upload-files/upload-files.component.ts
+[14:38:23] found          : UploadFilesComponent
+[14:38:23] parsing        : /Users/clement/www/ode/ngx-ode-libs/projects/ngx-ode-ui/src/lib/components/wizard/wizard.component.ts
+[14:38:23] found          : StepComponent
+[14:38:23] found          : WizardComponent
+[14:38:23] parsing        : /Users/clement/www/ode/ngx-ode-libs/projects/ngx-ode-ui/src/lib/components/table/pager.component.ts
+[14:38:23] found          : PagerComponent
+[14:38:23] parsing        : /Users/clement/www/ode/ngx-ode-libs/projects/ngx-ode-ui/src/lib/directives/dynamic-component/dynamic-component.directive.ts
+[14:38:23] found          : DynamicComponentDirective
+[14:38:23] parsing        : /Users/clement/www/ode/ngx-ode-libs/projects/ngx-ode-ui/src/lib/directives/dynamic-component/component-descriptor.model.ts
+[14:38:23] found          : ComponentDescriptor
+[14:38:23] -------------------
+[14:38:23] Project statistics 
+[14:38:23] - files      : 441
+[14:38:23] - module     : 3
+[14:38:23] - component  : 34
+[14:38:23] - directive  : 5
+[14:38:23] - injectable : 6
+[14:38:23] - pipe       : 11
+[14:38:23] - class      : 8
+[14:38:23] - interface  : 4
+[14:38:23] -------------------
+[14:38:23] Prepare components
+[14:38:23]  ButtonComponent has styleUrls, include them
+[14:38:23]  DatepickerComponent has a templateUrl, include it
+[14:38:23]  DropdownComponent has a templateUrl, include it
+[14:38:23]  DropdownComponent has styleUrls, include them
+[14:38:23]  DropdownComponent has a templateUrl, include it
+[14:38:23]  DropdownComponent has styleUrls, include them
+[14:38:23]  EllipsisComponent has styleUrls, include them
+[14:38:23]  FormErrorsComponent has a templateUrl, include it
+[14:38:23]  FormErrorsComponent has styleUrls, include them
+[14:38:23]  FormFieldComponent has a templateUrl, include it
+[14:38:23]  FormFieldComponent has styleUrls, include them
+[14:38:23]  HeaderComponent has styleUrls, include them
+[14:38:23]  ItemTreeComponent has a templateUrl, include it
+[14:38:23]  LightBoxComponent has a templateUrl, include it
+[14:38:23]  LightBoxComponent has styleUrls, include them
+[14:38:23]  LightboxConfirmComponent has a templateUrl, include it
+[14:38:23]  LightboxConfirmComponent has styleUrls, include them
+[14:38:23]  ListCheckableComponent has a templateUrl, include it
+[14:38:23]  ListCheckableComponent has styleUrls, include them
+[14:38:23]  ListComponent has a templateUrl, include it
+[14:38:23]  ListComponent has styleUrls, include them
+[14:38:23]  MessageBoxComponent has a templateUrl, include it
+[14:38:23]  MessageBoxComponent has styleUrls, include them
+[14:38:23]  MessageStickerComponent has a templateUrl, include it
+[14:38:23]  MessageStickerComponent has styleUrls, include them
+[14:38:23]  MonoSelectComponent has a templateUrl, include it
+[14:38:23]  MultiComboComponent has a templateUrl, include it
+[14:38:23]  MultiComboComponent has styleUrls, include them
+[14:38:23]  MultiSelectComponent has a templateUrl, include it
+[14:38:23]  MultiSelectComponent has styleUrls, include them
+[14:38:23]  PageComponent has styleUrls, include them
+[14:38:23]  PagerComponent has a templateUrl, include it
+[14:38:23]  PagerComponent has styles, include them
+[14:38:23]  PanelSectionComponent has a templateUrl, include it
+[14:38:23]  PanelSectionComponent has styleUrls, include them
+[14:38:23]  PortalComponent has a templateUrl, include it
+[14:38:23]  PortalComponent has styleUrls, include them
+[14:38:23]  PushPanelComponent has a templateUrl, include it
+[14:38:23]  PushPanelComponent has styleUrls, include them
+[14:38:24]  SearchInputComponent has a templateUrl, include it
+[14:38:24]  SearchInputComponent has styleUrls, include them
+[14:38:24]  SideLayoutComponent has a templateUrl, include it
+[14:38:24]  SideLayoutComponent has styleUrls, include them
+[14:38:24]  SidePanelComponent has a templateUrl, include it
+[14:38:24]  SidePanelComponent has styleUrls, include them
+[14:38:24]  SimpleSelectComponent has a templateUrl, include it
+[14:38:24]  SpinnerCubeComponent has a templateUrl, include it
+[14:38:24]  SpinnerCubeComponent has styleUrls, include them
+[14:38:24]  StepComponent has styles, include them
+[14:38:24]  TooltipComponent has styleUrls, include them
+[14:38:24]  UploadFilesComponent has a templateUrl, include it
+[14:38:24]  UploadFilesComponent has styleUrls, include them
+[14:38:24]  WizardComponent has styles, include them
+[14:38:24] Prepare modules
+[14:38:24] Prepare directives
+[14:38:24] Prepare injectables
+[14:38:24] Prepare pipes
+[14:38:24] Prepare classes
+[14:38:24] Prepare interfaces
+[14:38:24] Prepare miscellaneous
+[14:38:24] Process documentation coverage report
+[14:38:24] Generating documentation in export format json
+[14:38:24] Documentation generated in ./ in 2.787 seconds
+info @storybook/angular v6.4.19
+info 
+info => Cleaning outputDir: /var/folders/8f/83_h329j7hg1p1ngx07lgn980000gn/T/chromatic--56961-H5jCg5Kky1Ug
+info => Loading presets
+info => Compiling manager..
+info => Compiling preview..
+info => Using implicit CSS loaders
+info => Loading angular-cli config for angular >= 13.0.0
+info => Using angular project with "tsConfig:/Users/clement/www/ode/ngx-ode-libs/.storybook/tsconfig.json"
+WARN Your Storybook startup uses a solution that will not be supported in version 7.0. 
+WARN You must use angular builder to have an explicit configuration on the project used in angular.json
+WARN Read more at:
+WARN - https://github.com/storybookjs/storybook/blob/next/MIGRATION.md#sb-angular-builder)
+WARN - https://github.com/storybookjs/storybook/blob/next/MIGRATION.md#angular13)
+info => Using angular project "ngx-ode-sijil:build" for configuring Storybook
+info => Using default Webpack5 setup
+<s> [webpack.Progress] 0% 
+
+<s> [webpack.Progress] 1% setup initialize
+<s> [webpack.Progress] 1% setup initialize HtmlWebpackPlugin
+<s> [webpack.Progress] 1% setup initialize
+<s> [webpack.Progress] 2% setup before run
+<s> [webpack.Progress] 2% setup before run NodeEnvironmentPlugin
+<s> [webpack.Progress] 2% setup before run
+<s> [webpack.Progress] 3% setup run
+<s> [webpack.Progress] 3% setup run
+<s> [webpack.Progress] 4% setup normal module factory
+<s> [webpack.Progress] 4% setup normal module factory CaseSensitivePathsPlugin
+<s> [webpack.Progress] 4% setup normal module factory
+<s> [webpack.Progress] 5% setup context module factory
+<s> [webpack.Progress] 5% setup context module factory
+<s> [webpack.Progress] 6% setup before compile
+<s> [webpack.Progress] 6% setup before compile angular-compiler
+[33mWarning:[0m Entry point 'ngx-ode-ui' contains deep imports into '/Users/clement/www/ode/ngx-ode-libs/node_modules/flatpickr/dist/l10n/fr.js'. This is probably not a problem, but may cause the compilation of entry points to be out of order.
+<s> [webpack.Progress] 6% setup before compile ProgressPlugin
+<s> [webpack.Progress] 6% setup before compile
+<s> [webpack.Progress] 7% setup compile
+<s> [webpack.Progress] 7% setup compile ExternalsPlugin
+<s> [webpack.Progress] 7% setup compile
+<s> [webpack.Progress] 8% setup compilation
+<s> [webpack.Progress] 8% setup compilation angular-compiler
+<s> [webpack.Progress] 8% setup compilation mini-css-extract-plugin
+<s> [webpack.Progress] 8% setup compilation ArrayPushCallbackChunkFormatPlugin
+<s> [webpack.Progress] 8% setup compilation JsonpChunkLoadingPlugin
+<s> [webpack.Progress] 8% setup compilation StartupChunkDependenciesPlugin
+<s> [webpack.Progress] 8% setup compilation ImportScriptsChunkLoadingPlugin
+<s> [webpack.Progress] 8% setup compilation FetchCompileWasmPlugin
+<s> [webpack.Progress] 8% setup compilation FetchCompileAsyncWasmPlugin
+<s> [webpack.Progress] 8% setup compilation WorkerPlugin
+<s> [webpack.Progress] 8% setup compilation SplitChunksPlugin
+<s> [webpack.Progress] 8% setup compilation RuntimeChunkPlugin
+<s> [webpack.Progress] 8% setup compilation ResolverCachePlugin
+<s> [webpack.Progress] 8% setup compilation HtmlWebpackPlugin
+<s> [webpack.Progress] 8% setup compilation
+<s> [webpack.Progress] 9% setup compilation
+<s> [webpack.Progress] 9% setup compilation named-chunks-plugin
+<s> [webpack.Progress] 9% setup compilation DedupeModuleResolvePlugin
+<s> [webpack.Progress] 9% setup compilation AnyComponentStyleBudgetChecker
+<s> [webpack.Progress] 9% setup compilation mini-css-extract-plugin
+<s> [webpack.Progress] 9% setup compilation SuppressExtractedTextChunks
+<s> [webpack.Progress] 9% setup compilation DefinePlugin
+<s> [webpack.Progress] 9% setup compilation ProvidePlugin
+<s> [webpack.Progress] 9% setup compilation ProgressPlugin
+<s> [webpack.Progress] 9% setup compilation ChunkPrefetchPreloadPlugin
+<s> [webpack.Progress] 9% setup compilation SourceMapDevToolPlugin
+<s> [webpack.Progress] 9% setup compilation JavascriptModulesPlugin
+<s> [webpack.Progress] 9% setup compilation JsonModulesPlugin
+<s> [webpack.Progress] 9% setup compilation AssetModulesPlugin
+<s> [webpack.Progress] 9% setup compilation EntryPlugin
+<s> [webpack.Progress] 9% setup compilation EntryPlugin
+<s> [webpack.Progress] 9% setup compilation EntryPlugin
+<s> [webpack.Progress] 9% setup compilation EntryPlugin
+<s> [webpack.Progress] 9% setup compilation EntryPlugin
+<s> [webpack.Progress] 9% setup compilation EntryPlugin
+<s> [webpack.Progress] 9% setup compilation EntryPlugin
+<s> [webpack.Progress] 9% setup compilation EntryPlugin
+<s> [webpack.Progress] 9% setup compilation EntryPlugin
+<s> [webpack.Progress] 9% setup compilation EntryPlugin
+<s> [webpack.Progress] 9% setup compilation EntryPlugin
+<s> [webpack.Progress] 9% setup compilation EntryPlugin
+<s> [webpack.Progress] 9% setup compilation EntryPlugin
+<s> [webpack.Progress] 9% setup compilation EntryPlugin
+<s> [webpack.Progress] 9% setup compilation EntryPlugin
+<s> [webpack.Progress] 9% setup compilation EntryPlugin
+<s> [webpack.Progress] 9% setup compilation EntryPlugin
+<s> [webpack.Progress] 9% setup compilation RuntimePlugin
+<s> [webpack.Progress] 9% setup compilation InferAsyncModulesPlugin
+<s> [webpack.Progress] 9% setup compilation DataUriPlugin
+<s> [webpack.Progress] 9% setup compilation FileUriPlugin
+<s> [webpack.Progress] 9% setup compilation CompatibilityPlugin
+<s> [webpack.Progress] 9% setup compilation HarmonyModulesPlugin
+<s> [webpack.Progress] 9% setup compilation AMDPlugin
+<s> [webpack.Progress] 9% setup compilation RequireJsStuffPlugin
+<s> [webpack.Progress] 9% setup compilation CommonJsPlugin
+<s> [webpack.Progress] 9% setup compilation LoaderPlugin
+<s> [webpack.Progress] 9% setup compilation LoaderPlugin
+<s> [webpack.Progress] 9% setup compilation NodeStuffPlugin
+<s> [webpack.Progress] 9% setup compilation APIPlugin
+<s> [webpack.Progress] 9% setup compilation ExportsInfoApiPlugin
+<s> [webpack.Progress] 9% setup compilation WebpackIsIncludedPlugin
+<s> [webpack.Progress] 9% setup compilation ConstPlugin
+<s> [webpack.Progress] 9% setup compilation UseStrictPlugin
+<s> [webpack.Progress] 9% setup compilation RequireIncludePlugin
+<s> [webpack.Progress] 9% setup compilation RequireEnsurePlugin
+<s> [webpack.Progress] 9% setup compilation RequireContextPlugin
+<s> [webpack.Progress] 9% setup compilation ImportPlugin
+<s> [webpack.Progress] 9% setup compilation SystemPlugin
+<s> [webpack.Progress] 9% setup compilation ImportMetaPlugin
+<s> [webpack.Progress] 9% setup compilation URLPlugin
+<s> [webpack.Progress] 9% setup compilation DefaultStatsFactoryPlugin
+<s> [webpack.Progress] 9% setup compilation DefaultStatsPresetPlugin
+<s> [webpack.Progress] 9% setup compilation DefaultStatsPrinterPlugin
+<s> [webpack.Progress] 9% setup compilation JavascriptMetaInfoPlugin
+<s> [webpack.Progress] 9% setup compilation EnsureChunkConditionsPlugin
+<s> [webpack.Progress] 9% setup compilation RemoveEmptyChunksPlugin
+<s> [webpack.Progress] 9% setup compilation MergeDuplicateChunksPlugin
+<s> [webpack.Progress] 9% setup compilation FlagIncludedChunksPlugin
+<s> [webpack.Progress] 9% setup compilation SideEffectsFlagPlugin
+<s> [webpack.Progress] 9% setup compilation FlagDependencyExportsPlugin
+<s> [webpack.Progress] 9% setup compilation FlagDependencyUsagePlugin
+<s> [webpack.Progress] 9% setup compilation InnerGraphPlugin
+<s> [webpack.Progress] 9% setup compilation MangleExportsPlugin
+<s> [webpack.Progress] 9% setup compilation ModuleConcatenationPlugin
+<s> [webpack.Progress] 9% setup compilation NoEmitOnErrorsPlugin
+<s> [webpack.Progress] 9% setup compilation RealContentHashPlugin
+<s> [webpack.Progress] 9% setup compilation WasmFinalizeExportsPlugin
+<s> [webpack.Progress] 9% setup compilation NamedModuleIdsPlugin
+<s> [webpack.Progress] 9% setup compilation DeterministicChunkIdsPlugin
+<s> [webpack.Progress] 9% setup compilation DefinePlugin
+<s> [webpack.Progress] 9% setup compilation TerserPlugin
+<s> [webpack.Progress] 9% setup compilation TemplatedPathPlugin
+<s> [webpack.Progress] 9% setup compilation RecordIdsPlugin
+<s> [webpack.Progress] 9% setup compilation WarnCaseSensitiveModulesPlugin
+<s> [webpack.Progress] 9% setup compilation IgnoreWarningsPlugin
+<s> [webpack.Progress] 9% setup compilation
+<s> [webpack.Progress] 10% building
+<s> [webpack.Progress] 10% building 0/1 entries 0/0 dependencies 0/0 modules
+<s> [webpack.Progress] 10% building import loader ./node_modules/@angular-devkit/build-angular/src/babel/webpack-loader.js
+<s> [webpack.Progress] 10% building import loader ./node_modules/babel-loader/lib/index.js
+<s> [webpack.Progress] 10% building 0/17 entries 4/26 dependencies 0/4 modules
+<s> [webpack.Progress] 10% building 0/17 entries 26/27 dependencies 0/26 modules
+<s> [webpack.Progress] 10% building 0/17 entries 294/338 dependencies 10/154 modules
+<s> [webpack.Progress] 10% building 0/17 entries 553/767 dependencies 39/207 modules
+<s> [webpack.Progress] 13% building 1/17 entries 798/1010 dependencies 66/252 modules
+<s> [webpack.Progress] 13% building import loader ./node_modules/@ngtools/webpack/src/ivy/index.js
+<s> [webpack.Progress] 13% building import loader ./node_modules/@storybook/source-loader/dist/cjs/index.js
+<s> [webpack.Progress] 13% building 1/17 entries 930/1010 dependencies 98/278 modules
+<s> [webpack.Progress] 13% building 1/17 entries 1012/1200 dependencies 105/314 modules
+[BABEL] Note: The code generator has deoptimised the styling of /Users/clement/www/ode/ngx-ode-libs/node_modules/prettier/standalone.js as it exceeds the max of 500KB.
+<s> [webpack.Progress] 13% building 1/17 entries 1530/1648 dependencies 200/371 modules
+<s> [webpack.Progress] 16% building 2/17 entries 1530/1648 dependencies 219/371 modules
+<s> [webpack.Progress] 16% building 2/17 entries 1600/1659 dependencies 222/377 modules
+<s> [webpack.Progress] 16% building 2/17 entries 1605/1700 dependencies 226/379 modules
+<s> [webpack.Progress] 16% building 2/17 entries 1900/2041 dependencies 248/418 modules
+<s> [webpack.Progress] 16% building 2/17 entries 2200/2519 dependencies 283/511 modules
+<s> [webpack.Progress] 16% building 2/17 entries 2298/2532 dependencies 289/600 modules
+<s> [webpack.Progress] 16% building import loader ./node_modules/postcss-loader/dist/cjs.js
+<s> [webpack.Progress] 16% building import loader ./node_modules/resolve-url-loader/index.js
+<s> [webpack.Progress] 16% building import loader ./node_modules/sass-loader/dist/cjs.js
+<s> [webpack.Progress] 16% building 2/17 entries 2511/2532 dependencies 308/731 modules
+<s> [webpack.Progress] 16% building 2/17 entries 2800/2918 dependencies 354/746 modules
+<s> [webpack.Progress] 16% building 2/17 entries 3297/3400 dependencies 478/815 modules
+<s> [webpack.Progress] 16% building 2/17 entries 3787/3834 dependencies 600/900 modules
+<s> [webpack.Progress] 17% building 2/17 entries 4000/4065 dependencies 669/936 modules
+<s> [webpack.Progress] 18% building 2/17 entries 4500/4554 dependencies 780/1020 modules
+<s> [webpack.Progress] 18% building 2/17 entries 4740/4800 dependencies 818/1104 modules
+<s> [webpack.Progress] 19% building 2/17 entries 5072/5137 dependencies 883/1200 modules
+<s> [webpack.Progress] 22% building 2/17 entries 5770/5800 dependencies 1146/1357 modules
+<s> [webpack.Progress] 23% building 2/17 entries 6000/6067 dependencies 1247/1416 modules
+<s> [webpack.Progress] 24% building 3/17 entries 6167/6187 dependencies 1305/1451 modules
+<s> [webpack.Progress] 24% building 4/17 entries 6167/6187 dependencies 1306/1451 modules
+<s> [webpack.Progress] 26% building 5/17 entries 6167/6187 dependencies 1307/1451 modules
+<s> [webpack.Progress] 29% building 6/17 entries 6167/6187 dependencies 1308/1451 modules
+<s> [webpack.Progress] 32% building 7/17 entries 6167/6187 dependencies 1309/1451 modules
+<s> [webpack.Progress] 35% building 8/17 entries 6167/6187 dependencies 1310/1451 modules
+<s> [webpack.Progress] 39% building 9/17 entries 6167/6187 dependencies 1311/1451 modules
+<s> [webpack.Progress] 42% building 10/17 entries 6167/6187 dependencies 1312/1451 modules
+<s> [webpack.Progress] 45% building 11/17 entries 6167/6187 dependencies 1313/1451 modules
+<s> [webpack.Progress] 48% building 12/17 entries 6167/6187 dependencies 1316/1451 modules
+<s> [webpack.Progress] 52% building 13/17 entries 6167/6187 dependencies 1323/1451 modules
+<s> [webpack.Progress] 52% building 13/17 entries 6500/6518 dependencies 1448/1511 modules
+<s> [webpack.Progress] 55% building 14/17 entries 6570/6571 dependencies 1497/1535 modules
+<s> [webpack.Progress] 58% building 15/17 entries 6571/6572 dependencies 1522/1535 modules
+<s> [webpack.Progress] 61% building 16/17 entries 6584/6584 dependencies 1542/1543 modules
+<s> [webpack.Progress] 65% building 17/17 entries 6584/6584 dependencies 1543/1543 modules
+<s> [webpack.Progress] 65% building
+<s> [webpack.Progress] 69% building finish
+<s> [webpack.Progress] 69% building finish
+<s> [webpack.Progress] 70% sealing finish module graph
+<s> [webpack.Progress] 70% sealing finish module graph angular-compiler
+<s> [webpack.Progress] 70% sealing finish module graph ResolverCachePlugin
+<s> [webpack.Progress] 70% sealing finish module graph InferAsyncModulesPlugin
+<s> [webpack.Progress] 70% sealing finish module graph FlagDependencyExportsPlugin
+<s> [webpack.Progress] 70% sealing finish module graph InnerGraphPlugin
+<s> [webpack.Progress] 70% sealing finish module graph WasmFinalizeExportsPlugin
+<s> [webpack.Progress] 70% sealing finish module graph
+<s> [webpack.Progress] 70% sealing plugins
+<s> [webpack.Progress] 70% sealing plugins WarnCaseSensitiveModulesPlugin
+<s> [webpack.Progress] 70% sealing plugins
+<s> [webpack.Progress] 71% sealing dependencies optimization
+<s> [webpack.Progress] 71% sealing dependencies optimization SideEffectsFlagPlugin
+<s> [webpack.Progress] 71% sealing dependencies optimization FlagDependencyUsagePlugin
+<s> [webpack.Progress] 71% sealing dependencies optimization
+<s> [webpack.Progress] 71% sealing after dependencies optimization
+<s> [webpack.Progress] 71% sealing after dependencies optimization
+<s> [webpack.Progress] 72% sealing chunk graph
+<s> [webpack.Progress] 72% sealing chunk graph
+<s> [webpack.Progress] 73% sealing after chunk graph
+<s> [webpack.Progress] 73% sealing after chunk graph
+<s> [webpack.Progress] 73% sealing optimizing
+<s> [webpack.Progress] 73% sealing optimizing
+<s> [webpack.Progress] 74% sealing module optimization
+<s> [webpack.Progress] 74% sealing module optimization
+<s> [webpack.Progress] 75% sealing after module optimization
+<s> [webpack.Progress] 75% sealing after module optimization
+<s> [webpack.Progress] 75% sealing chunk optimization
+<s> [webpack.Progress] 75% sealing chunk optimization EnsureChunkConditionsPlugin
+<s> [webpack.Progress] 75% sealing chunk optimization RemoveEmptyChunksPlugin
+<s> [webpack.Progress] 75% sealing chunk optimization MergeDuplicateChunksPlugin
+<s> [webpack.Progress] 75% sealing chunk optimization SplitChunksPlugin
+<s> [webpack.Progress] 75% sealing chunk optimization RemoveEmptyChunksPlugin
+<s> [webpack.Progress] 75% sealing chunk optimization
+<s> [webpack.Progress] 76% sealing after chunk optimization
+<s> [webpack.Progress] 76% sealing after chunk optimization
+<s> [webpack.Progress] 77% sealing module and chunk tree optimization
+<s> [webpack.Progress] 77% sealing module and chunk tree optimization PersistentChildCompilerSingletonPlugin
+<s> [webpack.Progress] 77% sealing module and chunk tree optimization
+<s> [webpack.Progress] 77% sealing after module and chunk tree optimization
+<s> [webpack.Progress] 77% sealing after module and chunk tree optimization
+<s> [webpack.Progress] 78% sealing chunk modules optimization
+<s> [webpack.Progress] 78% sealing chunk modules optimization ModuleConcatenationPlugin
+<s> [webpack.Progress] 78% sealing chunk modules optimization
+<s> [webpack.Progress] 78% sealing after chunk modules optimization
+<s> [webpack.Progress] 78% sealing after chunk modules optimization
+<s> [webpack.Progress] 79% sealing module reviving
+<s> [webpack.Progress] 79% sealing module reviving RecordIdsPlugin
+<s> [webpack.Progress] 79% sealing module reviving
+<s> [webpack.Progress] 80% sealing before module ids
+<s> [webpack.Progress] 80% sealing before module ids
+<s> [webpack.Progress] 80% sealing module ids
+<s> [webpack.Progress] 80% sealing module ids NamedModuleIdsPlugin
+<s> [webpack.Progress] 80% sealing module ids
+<s> [webpack.Progress] 81% sealing module id optimization
+<s> [webpack.Progress] 81% sealing module id optimization
+<s> [webpack.Progress] 82% sealing module id optimization
+<s> [webpack.Progress] 82% sealing module id optimization
+<s> [webpack.Progress] 82% sealing chunk reviving
+<s> [webpack.Progress] 82% sealing chunk reviving RecordIdsPlugin
+<s> [webpack.Progress] 82% sealing chunk reviving
+<s> [webpack.Progress] 83% sealing before chunk ids
+<s> [webpack.Progress] 83% sealing before chunk ids
+<s> [webpack.Progress] 84% sealing chunk ids
+<s> [webpack.Progress] 84% sealing chunk ids DeterministicChunkIdsPlugin
+<s> [webpack.Progress] 84% sealing chunk ids
+<s> [webpack.Progress] 84% sealing chunk id optimization
+<s> [webpack.Progress] 84% sealing chunk id optimization FlagIncludedChunksPlugin
+<s> [webpack.Progress] 84% sealing chunk id optimization
+<s> [webpack.Progress] 85% sealing after chunk id optimization
+<s> [webpack.Progress] 85% sealing after chunk id optimization
+<s> [webpack.Progress] 86% sealing record modules
+<s> [webpack.Progress] 86% sealing record modules RecordIdsPlugin
+<s> [webpack.Progress] 86% sealing record modules
+<s> [webpack.Progress] 86% sealing record chunks
+<s> [webpack.Progress] 86% sealing record chunks RecordIdsPlugin
+<s> [webpack.Progress] 86% sealing record chunks
+<s> [webpack.Progress] 87% sealing module hashing
+<s> [webpack.Progress] 87% sealing module hashing
+<s> [webpack.Progress] 87% sealing code generation
+<s> [webpack.Progress] 87% sealing code generation
+<s> [webpack.Progress] 88% sealing runtime requirements
+<s> [webpack.Progress] 88% sealing runtime requirements
+<s> [webpack.Progress] 89% sealing hashing
+<s> [webpack.Progress] 89% sealing hashing
+<s> [webpack.Progress] 89% sealing after hashing
+<s> [webpack.Progress] 89% sealing after hashing
+<s> [webpack.Progress] 90% sealing record hash
+<s> [webpack.Progress] 90% sealing record hash
+<s> [webpack.Progress] 91% sealing module assets processing
+<s> [webpack.Progress] 91% sealing module assets processing
+<s> [webpack.Progress] 91% sealing chunk assets processing
+<s> [webpack.Progress] 91% sealing chunk assets processing
+<s> [webpack.Progress] 92% sealing asset processing
+<s> [webpack.Progress] 92% sealing asset processing PersistentChildCompilerSingletonPlugin
+<s> [webpack.Progress] 92% sealing asset processing TerserPlugin
+info => Manager built (53 s)
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin main.03daadf0.iframe.bundle.js generate SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin main.03daadf0.iframe.bundle.js generated SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin runtime~main.0ddee768.iframe.bundle.js generate SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin runtime~main.0ddee768.iframe.bundle.js generated SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin 747.8d0aeafa.iframe.bundle.js generate SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin 747.8d0aeafa.iframe.bundle.js generated SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin 433.c9ed1745.iframe.bundle.js generate SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin 433.c9ed1745.iframe.bundle.js generated SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin 895.866a97b2.iframe.bundle.js generate SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin 895.866a97b2.iframe.bundle.js generated SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin 459.df1c6f09.iframe.bundle.js generate SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin 459.df1c6f09.iframe.bundle.js generated SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin 551.d32b0bd2.iframe.bundle.js generate SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin 551.d32b0bd2.iframe.bundle.js generated SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin 299.35173d02.iframe.bundle.js generate SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin 299.35173d02.iframe.bundle.js generated SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin 273.0565fc28.iframe.bundle.js generate SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin 273.0565fc28.iframe.bundle.js generated SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin 722.2168c756.iframe.bundle.js generate SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin 722.2168c756.iframe.bundle.js generated SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin 899.ef18df09.iframe.bundle.js generate SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin 899.ef18df09.iframe.bundle.js generated SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin 291.a0c0b340.iframe.bundle.js generate SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin 291.a0c0b340.iframe.bundle.js generated SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin 637.71c8e7e1.iframe.bundle.js generate SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin 637.71c8e7e1.iframe.bundle.js generated SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin resolve sources
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin
+<s> [webpack.Progress] 92% sealing asset processing HtmlWebpackPlugin
+<s> [webpack.Progress] 92% sealing asset processing HtmlWebpackPlugin
+<s> [webpack.Progress] 92% sealing asset processing HtmlWebpackPlugin resolve sources
+<s> [webpack.Progress] 92% sealing asset processing HtmlWebpackPlugin
+<s> [webpack.Progress] 92% sealing asset processing RealContentHashPlugin
+<s> [webpack.Progress] 92% sealing asset processing RealContentHashPlugin
+<s> [webpack.Progress] 92% sealing asset processing RealContentHashPlugin main.d9f7d138.iframe.bundle.js generate SourceMap
+<s> [webpack.Progress] 92% sealing asset processing RealContentHashPlugin main.d9f7d138.iframe.bundle.js generated SourceMap
+<s> [webpack.Progress] 92% sealing asset processing RealContentHashPlugin runtime~main.d21cbb0f.iframe.bundle.js generate SourceMap
+<s> [webpack.Progress] 92% sealing asset processing RealContentHashPlugin runtime~main.d21cbb0f.iframe.bundle.js generated SourceMap
+<s> [webpack.Progress] 92% sealing asset processing RealContentHashPlugin 747.81bffae9.iframe.bundle.js generate SourceMap
+<s> [webpack.Progress] 92% sealing asset processing RealContentHashPlugin 747.81bffae9.iframe.bundle.js generated SourceMap
+<s> [webpack.Progress] 92% sealing asset processing RealContentHashPlugin 299.17b87810.iframe.bundle.js generate SourceMap
+<s> [webpack.Progress] 92% sealing asset processing RealContentHashPlugin 299.17b87810.iframe.bundle.js generated SourceMap
+<s> [webpack.Progress] 92% sealing asset processing RealContentHashPlugin 273.57f50918.iframe.bundle.js generate SourceMap
+<s> [webpack.Progress] 92% sealing asset processing RealContentHashPlugin 273.57f50918.iframe.bundle.js generated SourceMap
+<s> [webpack.Progress] 92% sealing asset processing RealContentHashPlugin 722.158e4fac.iframe.bundle.js generate SourceMap
+<s> [webpack.Progress] 92% sealing asset processing RealContentHashPlugin 722.158e4fac.iframe.bundle.js generated SourceMap
+<s> [webpack.Progress] 92% sealing asset processing RealContentHashPlugin 433.c7f77f1f.iframe.bundle.js generate SourceMap
+<s> [webpack.Progress] 92% sealing asset processing RealContentHashPlugin 433.c7f77f1f.iframe.bundle.js generated SourceMap
+<s> [webpack.Progress] 92% sealing asset processing RealContentHashPlugin 895.915a4e10.iframe.bundle.js generate SourceMap
+<s> [webpack.Progress] 92% sealing asset processing RealContentHashPlugin 895.915a4e10.iframe.bundle.js generated SourceMap
+<s> [webpack.Progress] 92% sealing asset processing RealContentHashPlugin 459.11e605dc.iframe.bundle.js generate SourceMap
+<s> [webpack.Progress] 92% sealing asset processing RealContentHashPlugin 459.11e605dc.iframe.bundle.js generated SourceMap
+<s> [webpack.Progress] 92% sealing asset processing RealContentHashPlugin 551.ac625d51.iframe.bundle.js generate SourceMap
+<s> [webpack.Progress] 92% sealing asset processing RealContentHashPlugin 551.ac625d51.iframe.bundle.js generated SourceMap
+<s> [webpack.Progress] 92% sealing asset processing RealContentHashPlugin 899.47f0a116.iframe.bundle.js generate SourceMap
+<s> [webpack.Progress] 92% sealing asset processing RealContentHashPlugin 899.47f0a116.iframe.bundle.js generated SourceMap
+<s> [webpack.Progress] 92% sealing asset processing RealContentHashPlugin 291.6df2d1c9.iframe.bundle.js generate SourceMap
+<s> [webpack.Progress] 92% sealing asset processing RealContentHashPlugin 291.6df2d1c9.iframe.bundle.js generated SourceMap
+<s> [webpack.Progress] 92% sealing asset processing RealContentHashPlugin 637.1dc741b3.iframe.bundle.js generate SourceMap
+<s> [webpack.Progress] 92% sealing asset processing RealContentHashPlugin 637.1dc741b3.iframe.bundle.js generated SourceMap
+<s> [webpack.Progress] 92% sealing asset processing RealContentHashPlugin resolve sources
+<s> [webpack.Progress] 92% sealing asset processing RealContentHashPlugin
+<s> [webpack.Progress] 92% sealing asset processing AnyComponentStyleBudgetChecker
+<s> [webpack.Progress] 92% sealing asset processing
+<s> [webpack.Progress] 93% sealing after asset optimization
+<s> [webpack.Progress] 93% sealing after asset optimization
+<s> [webpack.Progress] 93% sealing recording
+<s> [webpack.Progress] 93% sealing recording
+<s> [webpack.Progress] 94% sealing after seal
+<s> [webpack.Progress] 94% sealing after seal
+<s> [webpack.Progress] 95% emitting emit
+<s> [webpack.Progress] 95% emitting emit
+<s> [webpack.Progress] 98% emitting after emit
+<s> [webpack.Progress] 98% emitting after emit SizeLimitsPlugin
+<s> [webpack.Progress] 98% emitting after emit
+<s> [webpack.Progress] 99% done plugins
+<s> [webpack.Progress] 99% done plugins CaseSensitivePathsPlugin
+<s> [webpack.Progress] 99% done plugins
+<s> [webpack.Progress] 99% 
+
+<s> [webpack.Progress] 99% cache store build dependencies
+<s> [webpack.Progress] 99% cache store build dependencies
+<s> [webpack.Progress] 99% cache begin idle
+<s> [webpack.Progress] 99% cache begin idle
+<s> [webpack.Progress] 100% 
+
+info => Preview built (59 s)
+WARN /Users/clement/www/ode/ngx-ode-libs/projects/ngx-ode-core/src/lib/ngx-ode-core.module.ts is part of the TypeScript compilation but it's unused.
+WARN Add only entry points to the 'files' or 'include' properties in your tsconfig.
+WARN /Users/clement/www/ode/ngx-ode-libs/projects/ngx-ode-core/src/public-api.ts is part of the TypeScript compilation but it's unused.
+WARN Add only entry points to the 'files' or 'include' properties in your tsconfig.
+WARN /Users/clement/www/ode/ngx-ode-libs/projects/ngx-ode-core/src/test.ts is part of the TypeScript compilation but it's unused.
+WARN Add only entry points to the 'files' or 'include' properties in your tsconfig.
+WARN /Users/clement/www/ode/ngx-ode-libs/projects/ngx-ode-sijil/src/lib/components/s5l.component.ts is part of the TypeScript compilation but it's unused.
+WARN Add only entry points to the 'files' or 'include' properties in your tsconfig.
+WARN /Users/clement/www/ode/ngx-ode-libs/projects/ngx-ode-sijil/src/lib/ngx-ode-sijil.module.ts is part of the TypeScript compilation but it's unused.
+WARN Add only entry points to the 'files' or 'include' properties in your tsconfig.
+WARN /Users/clement/www/ode/ngx-ode-libs/projects/ngx-ode-sijil/src/lib/pipes/translate.pipe.ts is part of the TypeScript compilation but it's unused.
+WARN Add only entry points to the 'files' or 'include' properties in your tsconfig.
+WARN /Users/clement/www/ode/ngx-ode-libs/projects/ngx-ode-sijil/src/lib/services/bundles.service.ts is part of the TypeScript compilation but it's unused.
+WARN Add only entry points to the 'files' or 'include' properties in your tsconfig.
+WARN /Users/clement/www/ode/ngx-ode-libs/projects/ngx-ode-sijil/src/lib/services/parser/fragments.parser.ts is part of the TypeScript compilation but it's unused.
+WARN Add only entry points to the 'files' or 'include' properties in your tsconfig.
+WARN /Users/clement/www/ode/ngx-ode-libs/projects/ngx-ode-sijil/src/lib/services/parser/parser.interface.ts is part of the TypeScript compilation but it's unused.
+WARN Add only entry points to the 'files' or 'include' properties in your tsconfig.
+WARN /Users/clement/www/ode/ngx-ode-libs/projects/ngx-ode-sijil/src/lib/services/require/httprequire.service.ts is part of the TypeScript compilation but it's unused.
+WARN Add only entry points to the 'files' or 'include' properties in your tsconfig.
+WARN /Users/clement/www/ode/ngx-ode-libs/projects/ngx-ode-sijil/src/lib/services/require/require.interface.ts is part of the TypeScript compilation but it's unused.
+WARN Add only entry points to the 'files' or 'include' properties in your tsconfig.
+WARN /Users/clement/www/ode/ngx-ode-libs/projects/ngx-ode-sijil/src/lib/services/require/xhrrequire.service.ts is part of the TypeScript compilation but it's unused.
+WARN Add only entry points to the 'files' or 'include' properties in your tsconfig.
+WARN /Users/clement/www/ode/ngx-ode-libs/projects/ngx-ode-sijil/src/lib/services/sijil.opts.ts is part of the TypeScript compilation but it's unused.
+WARN Add only entry points to the 'files' or 'include' properties in your tsconfig.
+WARN /Users/clement/www/ode/ngx-ode-libs/projects/ngx-ode-sijil/src/public-api.ts is part of the TypeScript compilation but it's unused.
+WARN Add only entry points to the 'files' or 'include' properties in your tsconfig.
+WARN /Users/clement/www/ode/ngx-ode-libs/projects/ngx-ode-sijil/src/test.ts is part of the TypeScript compilation but it's unused.
+WARN Add only entry points to the 'files' or 'include' properties in your tsconfig.
+WARN /Users/clement/www/ode/ngx-ode-libs/projects/ngx-ode-ui/src/lib/components/datepicker/datepicker.component.ts is part of the TypeScript compilation but it's unused.
+WARN Add only entry points to the 'files' or 'include' properties in your tsconfig.
+WARN /Users/clement/www/ode/ngx-ode-libs/projects/ngx-ode-ui/src/lib/components/ellipsis/ellipsis.component.ts is part of the TypeScript compilation but it's unused.
+WARN Add only entry points to the 'files' or 'include' properties in your tsconfig.
+WARN /Users/clement/www/ode/ngx-ode-libs/projects/ngx-ode-ui/src/lib/components/form-errors/form-errors.component.ts is part of the TypeScript compilation but it's unused.
+WARN Add only entry points to the 'files' or 'include' properties in your tsconfig.
+WARN /Users/clement/www/ode/ngx-ode-libs/projects/ngx-ode-ui/src/lib/components/form-field/form-field.component.ts is part of the TypeScript compilation but it's unused.
+WARN Add only entry points to the 'files' or 'include' properties in your tsconfig.
+WARN /Users/clement/www/ode/ngx-ode-libs/projects/ngx-ode-ui/src/lib/components/item-tree/item-tree.component.ts is part of the TypeScript compilation but it's unused.
+WARN Add only entry points to the 'files' or 'include' properties in your tsconfig.
+WARN /Users/clement/www/ode/ngx-ode-libs/projects/ngx-ode-ui/src/lib/components/lightbox-confirm/lightbox-confirm.component.ts is part of the TypeScript compilation but it's unused.
+WARN Add only entry points to the 'files' or 'include' properties in your tsconfig.
+WARN /Users/clement/www/ode/ngx-ode-libs/projects/ngx-ode-ui/src/lib/components/lightbox/lightbox.component.ts is part of the TypeScript compilation but it's unused.
+WARN Add only entry points to the 'files' or 'include' properties in your tsconfig.
+WARN /Users/clement/www/ode/ngx-ode-libs/projects/ngx-ode-ui/src/lib/components/list-checkable/list-checkable.component.ts is part of the TypeScript compilation but it's unused.
+WARN Add only entry points to the 'files' or 'include' properties in your tsconfig.
+WARN /Users/clement/www/ode/ngx-ode-libs/projects/ngx-ode-ui/src/lib/components/message-box/message-box.component.ts is part of the TypeScript compilation but it's unused.
+WARN Add only entry points to the 'files' or 'include' properties in your tsconfig.
+WARN /Users/clement/www/ode/ngx-ode-libs/projects/ngx-ode-ui/src/lib/components/message-sticker/message-sticker.component.ts is part of the TypeScript compilation but it's unused.
+WARN Add only entry points to the 'files' or 'include' properties in your tsconfig.
+WARN /Users/clement/www/ode/ngx-ode-libs/projects/ngx-ode-ui/src/lib/components/mono-select/mono-select.component.ts is part of the TypeScript compilation but it's unused.
+WARN Add only entry points to the 'files' or 'include' properties in your tsconfig.
+WARN /Users/clement/www/ode/ngx-ode-libs/projects/ngx-ode-ui/src/lib/components/multi-combo/multi-combo.component.ts is part of the TypeScript compilation but it's unused.
+WARN Add only entry points to the 'files' or 'include' properties in your tsconfig.
+WARN /Users/clement/www/ode/ngx-ode-libs/projects/ngx-ode-ui/src/lib/components/multi-select/multi-select.component.ts is part of the TypeScript compilation but it's unused.
+WARN Add only entry points to the 'files' or 'include' properties in your tsconfig.
+WARN /Users/clement/www/ode/ngx-ode-libs/projects/ngx-ode-ui/src/lib/components/panel-section/panel-section.component.ts is part of the TypeScript compilation but it's unused.
+WARN Add only entry points to the 'files' or 'include' properties in your tsconfig.
+WARN /Users/clement/www/ode/ngx-ode-libs/projects/ngx-ode-ui/src/lib/components/portal/portal.component.ts is part of the TypeScript compilation but it's unused.
+WARN Add only entry points to the 'files' or 'include' properties in your tsconfig.
+WARN /Users/clement/www/ode/ngx-ode-libs/projects/ngx-ode-ui/src/lib/components/push-panel/push-panel.component.ts is part of the TypeScript compilation but it's unused.
+WARN Add only entry points to the 'files' or 'include' properties in your tsconfig.
+WARN /Users/clement/www/ode/ngx-ode-libs/projects/ngx-ode-ui/src/lib/components/side-layout/side-layout.component.ts is part of the TypeScript compilation but it's unused.
+WARN Add only entry points to the 'files' or 'include' properties in your tsconfig.
+WARN /Users/clement/www/ode/ngx-ode-libs/projects/ngx-ode-ui/src/lib/components/side-panel/side-panel.component.ts is part of the TypeScript compilation but it's unused.
+WARN Add only entry points to the 'files' or 'include' properties in your tsconfig.
+WARN /Users/clement/www/ode/ngx-ode-libs/projects/ngx-ode-ui/src/lib/components/spinner-cube/spinner-cube.component.ts is part of the TypeScript compilation but it's unused.
+WARN Add only entry points to the 'files' or 'include' properties in your tsconfig.
+WARN /Users/clement/www/ode/ngx-ode-libs/projects/ngx-ode-ui/src/lib/components/table/pager.component.ts is part of the TypeScript compilation but it's unused.
+WARN Add only entry points to the 'files' or 'include' properties in your tsconfig.
+WARN /Users/clement/www/ode/ngx-ode-libs/projects/ngx-ode-ui/src/lib/components/tooltip/tooltip.component.ts is part of the TypeScript compilation but it's unused.
+WARN Add only entry points to the 'files' or 'include' properties in your tsconfig.
+WARN /Users/clement/www/ode/ngx-ode-libs/projects/ngx-ode-ui/src/lib/components/upload-files/upload-files.component.ts is part of the TypeScript compilation but it's unused.
+WARN Add only entry points to the 'files' or 'include' properties in your tsconfig.
+WARN /Users/clement/www/ode/ngx-ode-libs/projects/ngx-ode-ui/src/lib/components/value-editable/simple-select.component.ts is part of the TypeScript compilation but it's unused.
+WARN Add only entry points to the 'files' or 'include' properties in your tsconfig.
+WARN /Users/clement/www/ode/ngx-ode-libs/projects/ngx-ode-ui/src/lib/components/wizard/wizard.component.ts is part of the TypeScript compilation but it's unused.
+WARN Add only entry points to the 'files' or 'include' properties in your tsconfig.
+WARN /Users/clement/www/ode/ngx-ode-libs/projects/ngx-ode-ui/src/lib/directives/anchor.directive.ts is part of the TypeScript compilation but it's unused.
+WARN Add only entry points to the 'files' or 'include' properties in your tsconfig.
+WARN /Users/clement/www/ode/ngx-ode-libs/projects/ngx-ode-ui/src/lib/directives/drag-and-drop-files.directive.ts is part of the TypeScript compilation but it's unused.
+WARN Add only entry points to the 'files' or 'include' properties in your tsconfig.
+WARN /Users/clement/www/ode/ngx-ode-libs/projects/ngx-ode-ui/src/lib/directives/dynamic-component/component-descriptor.model.ts is part of the TypeScript compilation but it's unused.
+WARN Add only entry points to the 'files' or 'include' properties in your tsconfig.
+WARN /Users/clement/www/ode/ngx-ode-libs/projects/ngx-ode-ui/src/lib/directives/dynamic-component/dynamic-component.directive.ts is part of the TypeScript compilation but it's unused.
+WARN Add only entry points to the 'files' or 'include' properties in your tsconfig.
+WARN /Users/clement/www/ode/ngx-ode-libs/projects/ngx-ode-ui/src/lib/directives/dynamictemplate.directive.ts is part of the TypeScript compilation but it's unused.
+WARN Add only entry points to the 'files' or 'include' properties in your tsconfig.
+WARN /Users/clement/www/ode/ngx-ode-libs/projects/ngx-ode-ui/src/lib/directives/object-url.directive.ts is part of the TypeScript compilation but it's unused.
+WARN Add only entry points to the 'files' or 'include' properties in your tsconfig.
+WARN /Users/clement/www/ode/ngx-ode-libs/projects/ngx-ode-ui/src/lib/helpers/accents.helper.ts is part of the TypeScript compilation but it's unused.
+WARN Add only entry points to the 'files' or 'include' properties in your tsconfig.
+WARN /Users/clement/www/ode/ngx-ode-libs/projects/ngx-ode-ui/src/lib/ngx-ode-ui.module.ts is part of the TypeScript compilation but it's unused.
+WARN Add only entry points to the 'files' or 'include' properties in your tsconfig.
+WARN /Users/clement/www/ode/ngx-ode-libs/projects/ngx-ode-ui/src/lib/pipes/bytes.pipe.ts is part of the TypeScript compilation but it's unused.
+WARN Add only entry points to the 'files' or 'include' properties in your tsconfig.
+WARN /Users/clement/www/ode/ngx-ode-libs/projects/ngx-ode-ui/src/lib/pipes/filter.pipe.ts is part of the TypeScript compilation but it's unused.
+WARN Add only entry points to the 'files' or 'include' properties in your tsconfig.
+WARN /Users/clement/www/ode/ngx-ode-libs/projects/ngx-ode-ui/src/lib/pipes/flattenObjArray.pipe.ts is part of the TypeScript compilation but it's unused.
+WARN Add only entry points to the 'files' or 'include' properties in your tsconfig.
+WARN /Users/clement/www/ode/ngx-ode-libs/projects/ngx-ode-ui/src/lib/pipes/keys.pipe.ts is part of the TypeScript compilation but it's unused.
+WARN Add only entry points to the 'files' or 'include' properties in your tsconfig.
+WARN /Users/clement/www/ode/ngx-ode-libs/projects/ngx-ode-ui/src/lib/pipes/length.pipe.ts is part of the TypeScript compilation but it's unused.
+WARN Add only entry points to the 'files' or 'include' properties in your tsconfig.
+WARN /Users/clement/www/ode/ngx-ode-libs/projects/ngx-ode-ui/src/lib/pipes/limit.pipe.ts is part of the TypeScript compilation but it's unused.
+WARN Add only entry points to the 'files' or 'include' properties in your tsconfig.
+WARN /Users/clement/www/ode/ngx-ode-libs/projects/ngx-ode-ui/src/lib/pipes/localizedDate.pipe.ts is part of the TypeScript compilation but it's unused.
+WARN Add only entry points to the 'files' or 'include' properties in your tsconfig.
+WARN /Users/clement/www/ode/ngx-ode-libs/projects/ngx-ode-ui/src/lib/pipes/orderBy.pipe.ts is part of the TypeScript compilation but it's unused.
+WARN Add only entry points to the 'files' or 'include' properties in your tsconfig.
+WARN /Users/clement/www/ode/ngx-ode-libs/projects/ngx-ode-ui/src/lib/pipes/replace.pipe.ts is part of the TypeScript compilation but it's unused.
+WARN Add only entry points to the 'files' or 'include' properties in your tsconfig.
+WARN /Users/clement/www/ode/ngx-ode-libs/projects/ngx-ode-ui/src/lib/pipes/store.pipe.ts is part of the TypeScript compilation but it's unused.
+WARN Add only entry points to the 'files' or 'include' properties in your tsconfig.
+WARN /Users/clement/www/ode/ngx-ode-libs/projects/ngx-ode-ui/src/lib/services/dynamicModuleImports.service.ts is part of the TypeScript compilation but it's unused.
+WARN Add only entry points to the 'files' or 'include' properties in your tsconfig.
+WARN /Users/clement/www/ode/ngx-ode-libs/projects/ngx-ode-ui/src/lib/services/inputFile.service.ts is part of the TypeScript compilation but it's unused.
+WARN Add only entry points to the 'files' or 'include' properties in your tsconfig.
+WARN /Users/clement/www/ode/ngx-ode-libs/projects/ngx-ode-ui/src/lib/services/labels.service.ts is part of the TypeScript compilation but it's unused.
+WARN Add only entry points to the 'files' or 'include' properties in your tsconfig.
+WARN /Users/clement/www/ode/ngx-ode-libs/projects/ngx-ode-ui/src/lib/services/spinner.service.ts is part of the TypeScript compilation but it's unused.
+WARN Add only entry points to the 'files' or 'include' properties in your tsconfig.
+WARN /Users/clement/www/ode/ngx-ode-libs/projects/ngx-ode-ui/src/lib/utils/math.ts is part of the TypeScript compilation but it's unused.
+WARN Add only entry points to the 'files' or 'include' properties in your tsconfig.
+WARN /Users/clement/www/ode/ngx-ode-libs/projects/ngx-ode-ui/src/lib/utils/string.ts is part of the TypeScript compilation but it's unused.
+WARN Add only entry points to the 'files' or 'include' properties in your tsconfig.
+WARN /Users/clement/www/ode/ngx-ode-libs/projects/ngx-ode-ui/src/lib/utils/testing.ts is part of the TypeScript compilation but it's unused.
+WARN Add only entry points to the 'files' or 'include' properties in your tsconfig.
+WARN /Users/clement/www/ode/ngx-ode-libs/projects/ngx-ode-ui/src/public-api.ts is part of the TypeScript compilation but it's unused.
+WARN Add only entry points to the 'files' or 'include' properties in your tsconfig.
+WARN /Users/clement/www/ode/ngx-ode-libs/projects/ngx-ode-ui/src/test.ts is part of the TypeScript compilation but it's unused.
+WARN Add only entry points to the 'files' or 'include' properties in your tsconfig.
+WARN /Users/clement/www/ode/ngx-ode-libs/stories/Button.stories.ts is part of the TypeScript compilation but it's unused.
+WARN Add only entry points to the 'files' or 'include' properties in your tsconfig.
+WARN /Users/clement/www/ode/ngx-ode-libs/stories/Header.stories.ts is part of the TypeScript compilation but it's unused.
+WARN Add only entry points to the 'files' or 'include' properties in your tsconfig.
+WARN /Users/clement/www/ode/ngx-ode-libs/stories/Page.stories.ts is part of the TypeScript compilation but it's unused.
+WARN Add only entry points to the 'files' or 'include' properties in your tsconfig.
+WARN /Users/clement/www/ode/ngx-ode-libs/stories/User.ts is part of the TypeScript compilation but it's unused.
+WARN Add only entry points to the 'files' or 'include' properties in your tsconfig.
+WARN /Users/clement/www/ode/ngx-ode-libs/stories/button.component.ts is part of the TypeScript compilation but it's unused.
+WARN Add only entry points to the 'files' or 'include' properties in your tsconfig.
+WARN /Users/clement/www/ode/ngx-ode-libs/stories/dropdown/dropdown.component.ts is part of the TypeScript compilation but it's unused.
+WARN Add only entry points to the 'files' or 'include' properties in your tsconfig.
+WARN /Users/clement/www/ode/ngx-ode-libs/stories/header.component.ts is part of the TypeScript compilation but it's unused.
+WARN Add only entry points to the 'files' or 'include' properties in your tsconfig.
+WARN /Users/clement/www/ode/ngx-ode-libs/stories/page.component.ts is part of the TypeScript compilation but it's unused.
+WARN Add only entry points to the 'files' or 'include' properties in your tsconfig.
+WARN asset size limit: The following asset(s) exceed the recommended size limit (244 KiB).
+WARN This can impact web performance.
+WARN Assets: 
+WARN   main.d9f7d138.iframe.bundle.js (564 KiB)
+WARN   433.c7f77f1f.iframe.bundle.js (636 KiB)
+WARN   459.11e605dc.iframe.bundle.js (662 KiB)
+WARN   637.1dc741b3.iframe.bundle.js (2.58 MiB)
+WARN entrypoint size limit: The following entrypoint(s) combined asset size exceeds the recommended limit (244 KiB). This can impact web performance.
+WARN Entrypoints:
+WARN   main (3.14 MiB)
+WARN       runtime~main.d21cbb0f.iframe.bundle.js
+WARN       637.1dc741b3.iframe.bundle.js
+WARN       main.d9f7d138.iframe.bundle.js
+WARN 
+<s> [webpack.Progress] 99% cache shutdown
+<s> [webpack.Progress] 99% cache shutdown
+<s> [webpack.Progress] 100% 
+
+info => Output directory: /var/folders/8f/83_h329j7hg1p1ngx07lgn980000gn/T/chromatic--56961-H5jCg5Kky1Ug
