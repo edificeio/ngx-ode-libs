@@ -11,36 +11,22 @@
     "moduleResolution": "node",
     "importHelpers": true,
     "target": "es2015",
-    "typeRoots": [
-      "node_modules/@types"
-    ],
-    "lib": [
-      "es2018",
-      "dom"
-    ],
+    "strictPropertyInitialization": false,
+    "typeRoots": ["node_modules/@types"],
+    "lib": ["es2018", "dom"],
     "paths": {
-      "ngx-ode-sijil": [
-        "dist/ngx-ode-sijil"
-      ],
-      "ngx-ode-sijil/*": [
-        "dist/ngx-ode-sijil/*"
-      ],
-      "ngx-ode-ui": [
-        "dist/ngx-ode-ui"
-      ],
-      "ngx-ode-ui/*": [
-        "dist/ngx-ode-ui/*"
-      ],
-      "ngx-ode-core": [
-        "dist/ngx-ode-core"
-      ],
-      "ngx-ode-core/*": [
-        "dist/ngx-ode-core/*"
-      ]
+      "ngx-ode-sijil": ["dist/ngx-ode-sijil"],
+      "ngx-ode-sijil/*": ["dist/ngx-ode-sijil/*"],
+      "ngx-ode-ui": ["dist/ngx-ode-ui"],
+      "ngx-ode-ui/*": ["dist/ngx-ode-ui/*"],
+      "ngx-ode-core": ["dist/ngx-ode-core"],
+      "ngx-ode-core/*": ["dist/ngx-ode-core/*"],
+      "@angular/*": ["./node_modules/@angular/*"]
     }
   },
   "angularCompilerOptions": {
     "fullTemplateTypeCheck": true,
-    "strictInjectionParameters": true
+    "strictInjectionParameters": true,
+    "strictPropertyInitialization": false
   }
 }
