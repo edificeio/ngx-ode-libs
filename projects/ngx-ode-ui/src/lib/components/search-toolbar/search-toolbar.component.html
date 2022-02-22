@@ -1,0 +1,18 @@
+<div class="search-toolbar">
+  <div class="search-toolbar-label">
+    <s5l>{{ label }}</s5l>
+    <button
+      *ngFor="let searchType of searchTypes"
+      class="button has-left-margin-5"
+      [ngClass]="{
+        'is-selected': searchType.value === selectedSearchTypeValue
+      }"
+      (click)="handleSearchTypeClick(searchType.value)"
+    >
+      <s5l>{{ searchType.label }}</s5l>
+    </button>
+  </div>
+  <div>
+    <strong class="badge">{{ nbItem }} <s5l>{{ nbItemLabel }}</s5l></strong>
+  </div>
+</div>

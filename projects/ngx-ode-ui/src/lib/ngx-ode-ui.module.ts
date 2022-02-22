@@ -47,6 +47,7 @@ import { KeysPipe } from './pipes/keys.pipe';
 import { ObjectURLDirective } from './directives/object-url.directive';
 import { LengthPipe } from './pipes/length.pipe';
 import { DropdownComponent } from './components/dropdown/dropdown.component';
+import { SearchToolbarComponent } from './components/search-toolbar/search-toolbar.component';
 
 @NgModule({
   declarations: [
@@ -94,7 +95,8 @@ import { DropdownComponent } from './components/dropdown/dropdown.component';
     BytesPipe,
     KeysPipe,
     LengthPipe,
-    DropdownComponent
+    DropdownComponent,
+    SearchToolbarComponent
   ],
   imports: [
     CommonModule,
@@ -132,6 +134,7 @@ import { DropdownComponent } from './components/dropdown/dropdown.component';
     PagerComponent,
     EllipsisComponent,
     DropdownComponent,
+    SearchToolbarComponent,
     // directives
     AnchorDirective,
     DynamicTemplateDirective,
