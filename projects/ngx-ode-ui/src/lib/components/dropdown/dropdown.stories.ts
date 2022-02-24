@@ -51,7 +51,7 @@ export const Default: Story<DropdownComponent> = (args: DropdownComponent) => ({
       args.isDropdownOpened = true;
       alert(args.isDropdownOpened);
     },
-  } /* 
+  },
   template: `
   <ode-dropdown 
   name="${args.name}"
@@ -64,9 +64,9 @@ export const Default: Story<DropdownComponent> = (args: DropdownComponent) => ({
       </ng-template>
     </ode-list>
   </ode-dropdown>
-  `, */,
+  `,
 });
-/* Default.args = {
+Default.args = {
   model: [
     { id: "1", title: "Task 1" },
     { id: "2", title: "Task 2" },
@@ -76,7 +76,7 @@ export const Default: Story<DropdownComponent> = (args: DropdownComponent) => ({
     { id: "6", title: "Task 6" },
   ],
   // isDropdownOpened: false,
-}; */
+};
 
 export const Open: Story<DropdownComponent> = (args: DropdownComponent) => ({
   props: args,
@@ -95,5 +95,20 @@ export const Open: Story<DropdownComponent> = (args: DropdownComponent) => ({
 });
 Open.args = {
   ...Default.args,
+  isDropdownOpened: true,
+};
+
+export const Closed: Story<DropdownComponent> = (args: DropdownComponent) => ({
+  props: args,
+  template: `
+  <ode-dropdown 
+    name="${args.name}"
+    [isDropdownOpened]="${args.isDropdownOpened}">
+    </ode-dropdown>
+`,
+});
+Closed.args = {
+  ...Default.args,
+  ...ListComponentStories.DefaultList.args,
   isDropdownOpened: true,
 };

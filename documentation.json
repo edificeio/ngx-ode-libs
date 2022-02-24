@@ -21286,6 +21286,16 @@
                 "defaultValue": "{\n  onDropdown: action(\"onDropdown\"),\n}"
             },
             {
+                "name": "Closed",
+                "ctype": "miscellaneous",
+                "subtype": "variable",
+                "file": "projects/ngx-ode-ui/src/lib/components/dropdown/dropdown.stories.ts",
+                "deprecated": false,
+                "deprecationMessage": "",
+                "type": "Story<DropdownComponent>",
+                "defaultValue": "(args: DropdownComponent) => ({\n  props: args,\n  template: `\n  <ode-dropdown \n    name=\"${args.name}\"\n    [isDropdownOpened]=\"${args.isDropdownOpened}\">\n    </ode-dropdown>\n`,\n})"
+            },
+            {
                 "name": "COMPONENT_LIFECYCLE_DEBUG_MODE",
                 "ctype": "miscellaneous",
                 "subtype": "variable",
@@ -21309,7 +21319,7 @@
                 "name": "context",
                 "ctype": "miscellaneous",
                 "subtype": "variable",
-                "file": "projects/ngx-ode-sijil/src/test.ts",
+                "file": "projects/ngx-ode-ui/src/test.ts",
                 "deprecated": false,
                 "deprecationMessage": "",
                 "type": "",
@@ -21319,7 +21329,7 @@
                 "name": "context",
                 "ctype": "miscellaneous",
                 "subtype": "variable",
-                "file": "projects/ngx-ode-ui/src/test.ts",
+                "file": "projects/ngx-ode-sijil/src/test.ts",
                 "deprecated": false,
                 "deprecationMessage": "",
                 "type": "",
@@ -21518,7 +21528,7 @@
                 "name": "require",
                 "ctype": "miscellaneous",
                 "subtype": "variable",
-                "file": "projects/ngx-ode-sijil/src/test.ts",
+                "file": "projects/ngx-ode-ui/src/test.ts",
                 "deprecated": false,
                 "deprecationMessage": "",
                 "type": "any"
@@ -21527,7 +21537,7 @@
                 "name": "require",
                 "ctype": "miscellaneous",
                 "subtype": "variable",
-                "file": "projects/ngx-ode-ui/src/test.ts",
+                "file": "projects/ngx-ode-sijil/src/test.ts",
                 "deprecated": false,
                 "deprecationMessage": "",
                 "type": "any"
@@ -21844,6 +21854,16 @@
                     "defaultValue": "{\n  onDropdown: action(\"onDropdown\"),\n}"
                 },
                 {
+                    "name": "Closed",
+                    "ctype": "miscellaneous",
+                    "subtype": "variable",
+                    "file": "projects/ngx-ode-ui/src/lib/components/dropdown/dropdown.stories.ts",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "type": "Story<DropdownComponent>",
+                    "defaultValue": "(args: DropdownComponent) => ({\n  props: args,\n  template: `\n  <ode-dropdown \n    name=\"${args.name}\"\n    [isDropdownOpened]=\"${args.isDropdownOpened}\">\n    </ode-dropdown>\n`,\n})"
+                },
+                {
                     "name": "Default",
                     "ctype": "miscellaneous",
                     "subtype": "variable",
@@ -21897,27 +21917,6 @@
                     "type": "any"
                 }
             ],
-            "projects/ngx-ode-sijil/src/test.ts": [
-                {
-                    "name": "context",
-                    "ctype": "miscellaneous",
-                    "subtype": "variable",
-                    "file": "projects/ngx-ode-sijil/src/test.ts",
-                    "deprecated": false,
-                    "deprecationMessage": "",
-                    "type": "",
-                    "defaultValue": "require.context('./', true, /\\.spec\\.ts$/)"
-                },
-                {
-                    "name": "require",
-                    "ctype": "miscellaneous",
-                    "subtype": "variable",
-                    "file": "projects/ngx-ode-sijil/src/test.ts",
-                    "deprecated": false,
-                    "deprecationMessage": "",
-                    "type": "any"
-                }
-            ],
             "projects/ngx-ode-ui/src/test.ts": [
                 {
                     "name": "context",
@@ -21934,6 +21933,27 @@
                     "ctype": "miscellaneous",
                     "subtype": "variable",
                     "file": "projects/ngx-ode-ui/src/test.ts",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "type": "any"
+                }
+            ],
+            "projects/ngx-ode-sijil/src/test.ts": [
+                {
+                    "name": "context",
+                    "ctype": "miscellaneous",
+                    "subtype": "variable",
+                    "file": "projects/ngx-ode-sijil/src/test.ts",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "type": "",
+                    "defaultValue": "require.context('./', true, /\\.spec\\.ts$/)"
+                },
+                {
+                    "name": "require",
+                    "ctype": "miscellaneous",
+                    "subtype": "variable",
+                    "file": "projects/ngx-ode-sijil/src/test.ts",
                     "deprecated": false,
                     "deprecationMessage": "",
                     "type": "any"
@@ -22650,6 +22670,16 @@
                 "linktype": "miscellaneous",
                 "linksubtype": "variable",
                 "name": "actionsData",
+                "coveragePercent": 0,
+                "coverageCount": "0/1",
+                "status": "low"
+            },
+            {
+                "filePath": "projects/ngx-ode-ui/src/lib/components/dropdown/dropdown.stories.ts",
+                "type": "variable",
+                "linktype": "miscellaneous",
+                "linksubtype": "variable",
+                "name": "Closed",
                 "coveragePercent": 0,
                 "coverageCount": "0/1",
                 "status": "low"
