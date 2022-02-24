@@ -5,7 +5,14 @@
   padding: 15px;
 
   .search-toolbar-label {
-    font-size: .9em;
+    font-size: 0.85rem;
+
+    .button {
+      padding: 4px 12px;
+      border-radius: 20px;
+      font-size: 12px;
+      border-width: 2px;
+      border-color: #ff8d2e;
+    }
   }
 }
-
