@@ -30,6 +30,7 @@ export class ListComponent extends OdeComponent {
     @Input() noResultsLabel = 'list.results.no.items';
     @Input() placeholder = 'list.placeholder';
     @Input() isSearchActive = true;
+    @Input() isSearchButtonDisabled: boolean = false;
     @Input() searchInput: boolean = false;
     @Input() searchSubmit: () => void;
 

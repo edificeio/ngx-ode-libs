@@ -1,5 +1,6 @@
 <ode-search-input
   *ngIf="isSearchActive"
+  [isSearchButtonDisabled]="isSearchButtonDisabled"
   [searchInput]="searchInput"
   [searchSubmit]="searchSubmit"
   [attr.placeholder]="searchPlaceholder | translate"

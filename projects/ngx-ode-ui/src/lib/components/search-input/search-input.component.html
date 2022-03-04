@@ -7,7 +7,7 @@
         name="searchTerm"
         type="search"
         (input)="search(searchBox.value)" />
-    <button class="search-button" *ngIf="searchInput">
+    <button class="search-button" *ngIf="searchInput" [attr.disabled]="isSearchButtonDisabled ? true : null">
         <i class="fa fa-search is-size-4 search-icon"></i>
     </button>
 </form>
