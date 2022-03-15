@@ -32,6 +32,7 @@ export class ListComponent extends OdeComponent {
     @Input() isSearchActive = true;
     @Input() isSearchButtonDisabled: boolean = false;
     @Input() searchInput: boolean = false;
+    @Input() searchDelay: number;
     @Input() searchSubmit: () => void;
 
     @Output() inputChange: EventEmitter<string> = new EventEmitter<string>();
