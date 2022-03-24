@@ -1,6 +1,6 @@
 {
   "name": "ngx-ode-sijil",
-  "version": "4.3.0-feat-produit.0",
+  "version": "4.4.0-feat-produit.0",
   "peerDependencies": {
     "@angular/common": "^8.2.14",
     "@angular/core": "^8.2.14"
