@@ -20,6 +20,7 @@ export const CUSTOM_INPUT_CONTROL_VALUE_ACCESSOR: any = {
 @Component({
     selector: 'ode-date-picker',
     templateUrl: './datepicker.component.html',
+    styleUrls: ['./datepicker.component.scss'],
     providers: [ CUSTOM_INPUT_CONTROL_VALUE_ACCESSOR ]
 })
 export class DatepickerComponent extends OdeComponent implements OnDestroy, AfterViewInit, ControlValueAccessor {
@@ -67,6 +68,20 @@ export class DatepickerComponent extends OdeComponent implements OnDestroy, Afte
     disabled = false;
 
     @Input()
+    set readonly( val:boolean ) {
+        this._readonly = val;
+        if( this.datePickerInst && this.datePickerInst.altInput ) {
+            // Apply the readonly attribute addition/removal to the visible input (wrapped)
+            if( val ) this.datePickerInst.altInput.setAttribute('readonly', "");
+            else      this.datePickerInst.altInput.removeAttribute('readonly');
+        }
+    }
+    get readonly():boolean {
+        return this._readonly;
+    }
+    _readonly = false;
+
+    @Input()
     enableTime = false;
 
     @Input()
@@ -109,12 +124,22 @@ export class DatepickerComponent extends OdeComponent implements OnDestroy, Afte
             enableTime: this.enableTime,
             minDate: this.minDate,
             maxDate: this.maxDate,
-            clickOpens: !this.disabled,
+            clickOpens: false,
             wrap: true, // to add input decoration (calendar icon and delete icon)
             locale: datePickerLocale
         };
 
         this.datePickerInst = new Flatpickr(this.datePickerElement.nativeElement, options);
+        if( !this.disabled ) {
+            this.datePickerInst.altInput.addEventListener('click', e => {
+                if( !this.readonly ) {
+                    this.datePickerInst.toggle();
+                }
+            });
+        }
+
+        // Force updating the date input readonly attribute :
+        this.readonly = this._readonly;
     }
 
     ngOnDestroy(): void {
