@@ -81,4 +81,9 @@ export class SearchInputComponent extends OdeComponent implements OnInit, OnDest
         this.$searchTerms.next(str);
     }
 
+    handleSubmit() {
+        this.searchSubmit();
+        this.searchBox.nativeElement.value = '';
+    }
+
 }
