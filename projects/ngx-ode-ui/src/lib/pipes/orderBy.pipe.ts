@@ -122,15 +122,17 @@ export class OrderPipe implements PipeTransform {
                     // Compare strings case-insensitively
                     value1 = value1.toLowerCase();
                     value2 = value2.toLowerCase();
+
+                    result = value1.localeCompare(value2);
                 } else if (type1 === 'object') {
                     // For basic objects, use the position of the object
                     // in the collection instead of the value
                     if (isObject(value1)) { value1 = v1.index; }
                     if (isObject(value2)) { value2 = v2.index; }
-                }
 
-                if (value1 !== value2) {
-                    result = value1 < value2 ? -1 : 1;
+                    if (value1 !== value2) {
+                      result = value1 < value2 ? -1 : 1;
+                    }
                 }
             } else {
                 result = type1 < type2 ? -1 : 1;
