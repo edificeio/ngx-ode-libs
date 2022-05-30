@@ -8,7 +8,7 @@ describe('InputFileService', () => {
         TestBed.configureTestingModule({
             providers: [InputFileService]
         });
-        inputFileService = TestBed.get(InputFileService);
+        inputFileService = TestBed.inject(InputFileService);
     });
 
     describe('validateFiles', () => {

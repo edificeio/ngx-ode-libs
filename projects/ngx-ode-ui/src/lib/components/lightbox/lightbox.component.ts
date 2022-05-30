@@ -53,8 +53,8 @@ export class LightBoxComponent extends OdeComponent {
 
     @Output() onClose = new EventEmitter<any>();
 
-    @ViewChild('section', { static: false }) section: ElementRef;
-    @ViewChild('overlay', { static: false }) overlay: ElementRef;
+    @ViewChild('section') section: ElementRef;
+    @ViewChild('overlay') overlay: ElementRef;
 
     private timer: number;
 

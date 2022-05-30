@@ -15,7 +15,12 @@
             "tsConfig": "projects/ngx-ode-sijil/tsconfig.lib.json",
             "project": "projects/ngx-ode-sijil/ng-package.json"
           }
-        },
+        ,          "configurations": {
+            "production": {
+              "tsConfig": "projects/ngx-ode-sijil/tsconfig.lib.prod.json"
+            }
+          }
+},
         "test": {
           "builder": "@angular-devkit/build-angular:karma",
           "options": {
@@ -50,7 +55,12 @@
             "tsConfig": "projects/ngx-ode-ui/tsconfig.lib.json",
             "project": "projects/ngx-ode-ui/ng-package.json"
           }
-        },
+        ,          "configurations": {
+            "production": {
+              "tsConfig": "projects/ngx-ode-ui/tsconfig.lib.prod.json"
+            }
+          }
+},
         "test": {
           "builder": "@angular-devkit/build-angular:karma",
           "options": {
@@ -85,7 +95,12 @@
             "tsConfig": "projects/ngx-ode-core/tsconfig.lib.json",
             "project": "projects/ngx-ode-core/ng-package.json"
           }
-        },
+        ,          "configurations": {
+            "production": {
+              "tsConfig": "projects/ngx-ode-core/tsconfig.lib.prod.json"
+            }
+          }
+},
         "test": {
           "builder": "@angular-devkit/build-angular:karma",
           "options": {

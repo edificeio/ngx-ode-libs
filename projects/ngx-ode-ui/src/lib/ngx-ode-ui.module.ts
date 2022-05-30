@@ -38,6 +38,7 @@ import { OrderPipe } from './pipes/orderBy.pipe';
 import { StorePipe } from './pipes/store.pipe';
 import { LocalizedDatePipe } from './pipes/localizedDate.pipe';
 import { BytesPipe } from './pipes/bytes.pipe';
+import { ReplacePipe } from "./pipes/replace.pipe";
 import { DynamicModuleImportsService } from './services/dynamicModuleImports.service';
 import { LabelsService } from './services/labels.service';
 import { SpinnerCubeComponent } from './components/spinner-cube/spinner-cube.component';
@@ -95,6 +96,7 @@ import { SearchToolbarComponent } from './components/search-toolbar/search-toolb
     BytesPipe,
     KeysPipe,
     LengthPipe,
+    ReplacePipe,
     DropdownComponent,
     SearchToolbarComponent
   ],
@@ -150,13 +152,13 @@ import { SearchToolbarComponent } from './components/search-toolbar/search-toolb
     LocalizedDatePipe,
     BytesPipe,
     KeysPipe,
-    LengthPipe
+    LengthPipe,
+    ReplacePipe
   ],
-  providers: [InputFileService, OrderPipe],
-  entryComponents: [SimpleSelectComponent, MessageBoxComponent]
+  providers: [InputFileService, OrderPipe]
 })
 export class NgxOdeUiModule {
-  static forRoot(labelsProvider: Provider): ModuleWithProviders {
+  static forRoot(labelsProvider: Provider): ModuleWithProviders<NgxOdeUiModule> {
     return {
       ngModule: NgxOdeUiModule,
       providers: [
@@ -166,7 +168,7 @@ export class NgxOdeUiModule {
     };
   }
 
-  static forChild(): ModuleWithProviders {
+  static forChild(): ModuleWithProviders<NgxOdeUiModule> {
     return {
         ngModule: NgxOdeUiModule,
         providers: []

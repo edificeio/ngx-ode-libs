@@ -56,7 +56,7 @@ export class ItemTreeComponent<T> extends OdeComponent implements OnInit {
 
     /**** View ****/
 
-    @ViewChild(ItemTreeComponent, { static: false }) childItemTree: ItemTreeComponent<T>;
+    @ViewChild(ItemTreeComponent) childItemTree: ItemTreeComponent<T>;
 
     /**** Internal Logic ****/
 

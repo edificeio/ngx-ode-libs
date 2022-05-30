@@ -52,16 +52,16 @@ export class DatepickerComponent extends OdeComponent implements OnDestroy, Afte
 
     private innerValue: any = '';
 
-    @ViewChild('datePickerElement', { static: false })
+    @ViewChild('datePickerElement')
     datePickerElement: ElementRef;
 
-    @ViewChild('inputRef', { static: false })
+    @ViewChild('inputRef')
     inputElement: ElementRef;
 
     // instance flatpickr
     private datePickerInst: Flatpickr;
 
-    @ViewChild(NgModel, { static: false })
+    @ViewChild(NgModel)
     model: NgModel;
 
     @Input()

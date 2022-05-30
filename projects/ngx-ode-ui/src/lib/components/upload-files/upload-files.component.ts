@@ -22,7 +22,7 @@ export class UploadFilesComponent extends OdeComponent implements OnInit {
     @Output()
     invalidUpload: EventEmitter<string> = new EventEmitter();
 
-    @ViewChild('inputFileRef', { static: false })
+    @ViewChild('inputFileRef')
     inputFileRef: ElementRef;
 
     public multiple: boolean;
