@@ -24,7 +24,7 @@ export class PushPanelComponent extends OdeComponent {
 
     @Output() private onClose = new EventEmitter<boolean>();
 
-    @ViewChild('inside', { static: false }) private inside: ElementRef;
+    @ViewChild('inside') private inside: ElementRef;
 
     public onClick(event) {
         const checkOpener = this.opener &&

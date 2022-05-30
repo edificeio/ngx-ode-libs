@@ -40,7 +40,7 @@ export class ListComponent extends OdeComponent {
     @Output() listChange: EventEmitter<any> = new EventEmitter();
     @Output() scrolledDown: EventEmitter<any> = new EventEmitter();
 
-    @ContentChild(TemplateRef, {static: false}) templateRef: TemplateRef<any>;
+    @ContentChild(TemplateRef) templateRef: TemplateRef<any>;
     @Input() isSelected = (arg?: any) => false;
     @Input() isDisabled = (arg?: any) => false;
     @Input() ngClass = (arg?: any) => ({});

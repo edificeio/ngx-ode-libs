@@ -39,7 +39,7 @@ export class SearchInputComponent extends OdeComponent implements OnInit, OnDest
 
     @Output() onChange: EventEmitter<string> = new EventEmitter<string>();
 
-    @ViewChild('searchBox', { static: false}) searchBox: ElementRef;
+    @ViewChild('searchBox') searchBox: ElementRef;
 
     /* Internal logic */
 
