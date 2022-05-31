@@ -18,8 +18,10 @@
         ,          "configurations": {
             "production": {
               "tsConfig": "projects/ngx-ode-sijil/tsconfig.lib.prod.json"
-            }
-          }
+            },
+            "development": {}
+          },
+          "defaultConfiguration": "production"
 },
         "test": {
           "builder": "@angular-devkit/build-angular:karma",
@@ -58,8 +60,10 @@
         ,          "configurations": {
             "production": {
               "tsConfig": "projects/ngx-ode-ui/tsconfig.lib.prod.json"
-            }
-          }
+            },
+            "development": {}
+          },
+          "defaultConfiguration": "production"
 },
         "test": {
           "builder": "@angular-devkit/build-angular:karma",
@@ -98,8 +102,10 @@
         ,          "configurations": {
             "production": {
               "tsConfig": "projects/ngx-ode-core/tsconfig.lib.prod.json"
-            }
-          }
+            },
+            "development": {}
+          },
+          "defaultConfiguration": "production"
 },
         "test": {
           "builder": "@angular-devkit/build-angular:karma",
