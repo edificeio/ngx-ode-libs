@@ -30,18 +30,6 @@
             "tsConfig": "projects/ngx-ode-sijil/tsconfig.spec.json",
             "karmaConfig": "projects/ngx-ode-sijil/karma.conf.js"
           }
-        },
-        "lint": {
-          "builder": "@angular-devkit/build-angular:tslint",
-          "options": {
-            "tsConfig": [
-              "projects/ngx-ode-sijil/tsconfig.lib.json",
-              "projects/ngx-ode-sijil/tsconfig.spec.json"
-            ],
-            "exclude": [
-              "**/node_modules/**"
-            ]
-          }
         }
       }
     },
@@ -72,18 +60,6 @@
             "tsConfig": "projects/ngx-ode-ui/tsconfig.spec.json",
             "karmaConfig": "projects/ngx-ode-ui/karma.conf.js"
           }
-        },
-        "lint": {
-          "builder": "@angular-devkit/build-angular:tslint",
-          "options": {
-            "tsConfig": [
-              "projects/ngx-ode-ui/tsconfig.lib.json",
-              "projects/ngx-ode-ui/tsconfig.spec.json"
-            ],
-            "exclude": [
-              "**/node_modules/**"
-            ]
-          }
         }
       }
     },
@@ -113,18 +89,6 @@
             "main": "projects/ngx-ode-core/src/test.ts",
             "tsConfig": "projects/ngx-ode-core/tsconfig.spec.json",
             "karmaConfig": "projects/ngx-ode-core/karma.conf.js"
-          }
-        },
-        "lint": {
-          "builder": "@angular-devkit/build-angular:tslint",
-          "options": {
-            "tsConfig": [
-              "projects/ngx-ode-core/tsconfig.lib.json",
-              "projects/ngx-ode-core/tsconfig.spec.json"
-            ],
-            "exclude": [
-              "**/node_modules/**"
-            ]
           }
         }
       }

@@ -33,6 +33,8 @@ export * from './lib/components/tooltip/tooltip.component';
 export * from './lib/components/upload-files/upload-files.component';
 export * from './lib/components/value-editable/simple-select.component';
 export * from './lib/components/wizard/wizard.component';
+export * from './lib/components/dropdown/dropdown.component';
+export * from './lib/components/search-toolbar/search-toolbar.component'
 
 export * from './lib/directives/dynamic-component/dynamic-component.directive';
 export * from './lib/directives/dynamic-component/component-descriptor.model';
@@ -50,6 +52,7 @@ export * from './lib/pipes/localizedDate.pipe';
 export * from './lib/pipes/orderBy.pipe';
 export * from './lib/pipes/store.pipe';
 export * from './lib/pipes/length.pipe';
+export * from './lib/pipes/replace.pipe';
 
 export * from './lib/utils/math';
 export * from './lib/utils/string';

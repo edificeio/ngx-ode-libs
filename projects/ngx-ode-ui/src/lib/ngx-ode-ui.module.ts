@@ -80,6 +80,8 @@ import { SearchToolbarComponent } from './components/search-toolbar/search-toolb
     SpinnerCubeComponent,
     PagerComponent,
     EllipsisComponent,
+    DropdownComponent,
+    SearchToolbarComponent,
     // directives
     AnchorDirective,
     DynamicTemplateDirective,
@@ -96,9 +98,7 @@ import { SearchToolbarComponent } from './components/search-toolbar/search-toolb
     BytesPipe,
     KeysPipe,
     LengthPipe,
-    ReplacePipe,
-    DropdownComponent,
-    SearchToolbarComponent
+    ReplacePipe
   ],
   imports: [
     CommonModule,
