@@ -83,7 +83,6 @@ export class SearchInputComponent extends OdeComponent implements OnInit, OnDest
 
     handleSubmit() {
         this.searchSubmit();
-        this.searchBox.nativeElement.value = '';
     }
 
 }
