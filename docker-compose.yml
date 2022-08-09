@@ -1,5 +1,5 @@
 node:
-  image: opendigitaleducation/node:12-alpine
+  image: node:lts-gallium
   working_dir: /home/node/app
   net: host
   volumes:
