@@ -1,6 +1,6 @@
 {
   "name": "ngx-ode-core",
-  "version": "4.8.0-dev-produit.1",
+  "version": "4.8.0-feat-produit.1",
   "peerDependencies": {
     "@angular/common": "^14.1.1",
     "@angular/core": "^14.1.1"
