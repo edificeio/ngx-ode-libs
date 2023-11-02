@@ -73,6 +73,7 @@ export class StepComponent {
     styles: [`
         .wizard {
             display: flex;
+            overflow: auto;
         }
         .wizard-menu {
             background: #5b6472;
@@ -103,6 +104,7 @@ export class StepComponent {
         .wizard-content {
             background: #fff;
             flex: auto;
+            overflow: auto;
         }
         .wizard-content-nav {
             text-align : right;
