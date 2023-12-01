@@ -1,10 +1,14 @@
-node:
-  image: node:lts-gallium
-  working_dir: /home/node/app
-  net: host
+version: "3"
+services:
+  node:
+    image: "opendigitaleducation/node:18-alpine-pnpm"
+    user: "node"
+    working_dir: /home/node/app
   volumes:
     - ./:/home/node/app
     - ~/.npm:/.npm
+    - ~/.pnpm:/.pnpm
+    - ~/.cache:/.cache
     - ../entcore:/home/node/entcore
     - ../crm:/home/node/crm
   environment:
