@@ -30,20 +30,20 @@ clean () {
 }
 
 init () {
-  docker-compose run --rm -u "$USER_UID:$GROUP_GID" node sh -c "npm rebuild node-sass --no-bin-links && npm install"
+  docker compose run --rm -u "$USER_UID:$GROUP_GID" node sh -c "npm rebuild node-sass --no-bin-links && npm install"
 }
 
 build () {
-  docker-compose run --rm -u "$USER_UID:$GROUP_GID" node sh -c "npm run build-$LIB"
+  docker compose run --rm -u "$USER_UID:$GROUP_GID" node sh -c "npm run build-$LIB"
 }
 
 buildAndCopy () {
-  docker-compose run --rm -u "$USER_UID:$GROUP_GID" node sh -c "npm run build-$LIB && cp -r dist/$LIB $COPY_DEST"
+  docker compose run --rm -u "$USER_UID:$GROUP_GID" node sh -c "npm run build-$LIB && cp -r dist/$LIB $COPY_DEST"
 }
 
 publish () {
   LOCAL_BRANCH=`echo $GIT_BRANCH | sed -e "s|origin/||g"`
-  docker-compose run --rm -u "$USER_UID:$GROUP_GID" node sh -c "cd dist/$LIB && npm publish --tag $LOCAL_BRANCH"
+  docker compose run --rm -u "$USER_UID:$GROUP_GID" node sh -c "cd dist/$LIB && npm publish --tag $LOCAL_BRANCH"
 }
 
 case $ACTION in
