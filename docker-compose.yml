@@ -1,11 +1,10 @@
-node:
-  image: node:lts-gallium
-  working_dir: /home/node/app
-  net: host
-  volumes:
+services:
+  node:
+    image: node:lts-gallium
+    working_dir: /home/node/app
+    volumes:
     - ./:/home/node/app
     - ~/.npm:/.npm
     - ../entcore:/home/node/entcore
-    - ../crm:/home/node/crm
-  environment:
+    environment:
     - NG_CLI_ANALYTICS=false
