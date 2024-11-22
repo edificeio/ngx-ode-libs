@@ -1,6 +1,6 @@
 {
   "name": "ngx-ode-libs",
-  "version": "",
+  "version": "4.7.1",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
