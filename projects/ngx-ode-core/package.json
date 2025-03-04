@@ -1,6 +1,6 @@
 {
   "name": "ngx-ode-core",
-  "version": "4.8.0-develop-wl.3",
+  "version": "4.8.0-develop-wl.4",
   "dependencies": {
     "tslib": "^2.0.0"
   },
