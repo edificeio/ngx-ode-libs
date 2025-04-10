@@ -1,6 +1,6 @@
 {
   "name": "ngx-ode-sijil",
-  "version": "4.8.0-objectstorage.2",
+  "version": "4.8.0-objectstorage.3",
   "dependencies": {
     "tslib": "^2.0.0"
   },
