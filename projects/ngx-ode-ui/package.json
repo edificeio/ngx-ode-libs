@@ -1,6 +1,6 @@
 {
   "name": "ngx-ode-ui",
-  "version": "4.8.0-dev.1",
+  "version": "4.8.0-dev.0develop-b2school.6",
   "dependencies": {
     "tslib": "^2.0.0"
   },
