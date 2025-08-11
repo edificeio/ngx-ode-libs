@@ -1,6 +1,13 @@
+# À propos d'ngx-ode-libs
+    
+* Licence : [AGPL v3](http://www.gnu.org/licenses/agpl.txt) - Copyright Edifice
+* Financeur(s) : Edifice
+* Développeur(s) : Edifice
+* Description : framework frontend Angular Edifice, utilisé principalement pour la console d'administration d'entcore.
+
 # NgxOdeLibs
 
-Angular mono-repository for ODE Angular libraries.
+Angular mono-repository for Edifice Angular libraries.
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.20.
 
