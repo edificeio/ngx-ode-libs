@@ -1,6 +1,6 @@
 {
   "name": "ngx-ode-sijil",
-  "version": "4.8.0-develop-pedago.4",
+  "version": "4.8.0-develop-pedago.5",
   "dependencies": {
     "tslib": "^2.0.0"
   },
