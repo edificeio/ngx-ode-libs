@@ -1,6 +1,6 @@
 {
   "name": "ngx-ode-libs",
-  "version": "4.8.0-dev.0develop-b2school.12",
+  "version": "4.8.0-dev.0develop-b2school.13",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
