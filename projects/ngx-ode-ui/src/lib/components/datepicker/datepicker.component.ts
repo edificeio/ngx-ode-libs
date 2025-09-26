@@ -103,6 +103,7 @@ export class DatepickerComponent extends OdeComponent implements OnDestroy, Afte
 
     private onChangeCallback: (_: any) => void = NOOP;
     private onTouchedCallback: () => void = NOOP;
+    private onInputChangeObserver = null;
     
     ngAfterViewInit(): void {
         super.ngAfterViewInit();
@@ -148,20 +149,21 @@ export class DatepickerComponent extends OdeComponent implements OnDestroy, Afte
                 if (!this.readonly) {
                     this.datePickerInst.toggle();
                 }
-                // Add input handler for manual entry with debounce
-                fromEvent(this.datePickerInst.altInput, 'input')
-                    .pipe(debounceTime(300))
-                    .subscribe(() => {
-                        // when user input a date manually, we try to parse it and set it as selected date
-                        const inputDate = this.datePickerInst.parseDate(
-                            this.datePickerInst.altInput.value,
-                            options.altFormat
-                        );
-                        if (inputDate) {
-                            this.datePickerInst.setDate(inputDate, true);
-                        }
-                    });
             });
+            
+            // Add input handler for manual entry with debounce
+            this.onInputChangeObserver = fromEvent(this.datePickerInst.altInput, 'input')
+                .pipe(debounceTime(300))
+                .subscribe(() => {
+                    // when user input a date manually, we try to parse it and set it as selected date
+                    const inputDate = this.datePickerInst.parseDate(
+                        this.datePickerInst.altInput.value,
+                        options.altFormat
+                    );
+                    if (inputDate) {
+                        this.datePickerInst.setDate(inputDate, true);
+                    }
+                });
         }
 
         // Force updating the date input readonly attribute
@@ -171,6 +173,9 @@ export class DatepickerComponent extends OdeComponent implements OnDestroy, Afte
     ngOnDestroy(): void {
         super.ngOnDestroy();
         this.datePickerInst.destroy();
+        if (this.onInputChangeObserver) {
+            this.onInputChangeObserver.unsubscribe();
+        }
     }
 
     writeValue(value: any): void {
