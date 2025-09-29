@@ -1,12 +1,15 @@
+import {
+    AfterViewInit, Component, ElementRef, EventEmitter, forwardRef,
+    Injector,
+    Input, OnDestroy, Output, Renderer2, ViewChild
+} from '@angular/core';
 import { OdeComponent } from 'ngx-ode-core';
-import { AfterViewInit, Component, ElementRef, EventEmitter, forwardRef,
-  Input, OnDestroy, Output, Renderer2, ViewChild, Injector } from '@angular/core';
 
 import { ControlValueAccessor, NG_VALUE_ACCESSOR, NgModel } from '@angular/forms';
 
-import {LabelsService} from '../../services/labels.service';
 import Flatpickr from 'flatpickr';
 import French from 'flatpickr/dist/l10n/fr.js';
+import { LabelsService } from '../../services/labels.service';
 
 // access ngmodel
 const NOOP = () => {
@@ -98,7 +101,9 @@ export class DatepickerComponent extends OdeComponent implements OnDestroy, Afte
 
     private onChangeCallback: (_: any) => void = NOOP;
     private onTouchedCallback: () => void = NOOP;
-
+    private onInputChangeObserver = null;
+    private debounceTimer: any = null;
+    
     ngAfterViewInit(): void {
         super.ngAfterViewInit();
         // add attr data-input, mandatory for the picker to work in wrap mode
@@ -120,25 +125,44 @@ export class DatepickerComponent extends OdeComponent implements OnDestroy, Afte
             altInput: !this.disabled,
             altFormat: 'd/m/Y', // date format displayed to user
             dateFormat: 'Y-m-d', // date format sent to server
-            allowInput: false,
+            allowInput: true, // Allow manual input
             enableTime: this.enableTime,
             minDate: this.minDate,
             maxDate: this.maxDate,
             clickOpens: false,
             wrap: true, // to add input decoration (calendar icon and delete icon)
-            locale: datePickerLocale
+            locale: datePickerLocale,
+            onChange: (selectedDates, dateStr) => {
+                this.value = dateStr;
+            },
+            onClose: () => {
+                this.onTouchedCallback();
+            }
         };
 
         this.datePickerInst = new Flatpickr(this.datePickerElement.nativeElement, options);
-        if( !this.disabled ) {
+        
+        if (!this.disabled) {
+            // Add click handler for the alt input
             this.datePickerInst.altInput.addEventListener('click', e => {
-                if( !this.readonly ) {
+                if (!this.readonly) {
                     this.datePickerInst.toggle();
+                }
+            });
+
+            // Add blur handler for manual entry
+            this.datePickerInst.altInput.addEventListener('blur', e => {
+                const inputDate = this.datePickerInst.parseDate(
+                    this.datePickerInst.altInput.value,
+                    options.altFormat
+                );
+                if (inputDate) {
+                    this.datePickerInst.setDate(inputDate, true);
                 }
             });
         }
 
-        // Force updating the date input readonly attribute :
+        // Force updating the date input readonly attribute
         this.readonly = this._readonly;
     }
 
