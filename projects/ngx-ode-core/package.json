@@ -1,6 +1,6 @@
 {
   "name": "ngx-ode-core",
-  "version": "4.8.0-develop-pedago.6",
+  "version": "4.8.0-develop-pedago.7",
   "dependencies": {
     "tslib": "^2.0.0"
   },
