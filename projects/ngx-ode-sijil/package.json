@@ -1,6 +1,6 @@
 {
   "name": "ngx-ode-sijil",
-  "version": "4.8.0-dev.2",
+  "version": "4.8.0-dev.2develop-b2school.1",
   "dependencies": {
     "tslib": "^2.0.0"
   },
