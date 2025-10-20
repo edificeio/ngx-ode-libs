@@ -1,6 +1,6 @@
 {
   "name": "ngx-ode-core",
-  "version": "4.8.0-dev.2develop-b2school.1",
+  "version": "4.8.0-dev.2develop-b2school.2",
   "dependencies": {
     "tslib": "^2.0.0"
   },
