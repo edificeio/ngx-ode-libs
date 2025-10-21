@@ -1,13 +1,13 @@
 {
   "name": "ngx-ode-ui",
-  "version": "4.8.0-dev.2",
+  "version": "4.7.2",
   "dependencies": {
     "tslib": "^2.0.0"
   },
   "peerDependencies": {
     "@angular/common": "^14.1.1",
     "@angular/core": "^14.1.1",
-    "ngx-ode-core": "~4.8.0-dev.1",
+    "ngx-ode-core": "4.7.2",
     "ngx-ode-sijil": "~4.8.0-dev.1"
   }
 }
