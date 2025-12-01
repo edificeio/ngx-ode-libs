@@ -8,6 +8,8 @@
     "build-ngx-ode-core": "ng build ngx-ode-core",
     "build-ngx-ode-sijil": "ng build ngx-ode-sijil",
     "build-ngx-ode-ui": "ng build ngx-ode-ui",
+    "sync-versions": "node scripts/sync-versions.js",
+    "prebuild": "npm run sync-versions",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e"
