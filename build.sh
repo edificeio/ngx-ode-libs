@@ -33,11 +33,19 @@ init () {
   docker compose run --rm -u "$USER_UID:$GROUP_GID" node sh -c "npm rebuild node-sass --no-bin-links && npm install"
 }
 
+syncUiPeerDeps () {
+  if [ "$LIB" = "ngx-ode-ui" ]; then
+    docker compose run --rm -u "$USER_UID:$GROUP_GID" node sh -c "node scripts/sync-ngx-ode-ui-peer-deps.js"
+  fi
+}
+
 build () {
+  syncUiPeerDeps
   docker compose run --rm -u "$USER_UID:$GROUP_GID" node sh -c "npm run build-$LIB"
 }
 
 buildAndCopy () {
+  syncUiPeerDeps
   docker compose run --rm -u "$USER_UID:$GROUP_GID" node sh -c "npm run build-$LIB && cp -r dist/$LIB $COPY_DEST"
 }
 
